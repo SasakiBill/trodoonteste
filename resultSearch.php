@@ -483,7 +483,7 @@ include 'header.php';
             echo "<div class='hierarquicoddzt-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Ciência da Computação -> Eixo 2 - Desenvolvimento de Sistemas -> Competência dos dos Eixos II -></h3>
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -504,6 +504,20 @@ include 'header.php';
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=154'>Teoria dos Grafos</a><br>
             <hr width = “2” size = “100”>
+            </div>";
+            break;
+          case 18:
+            echo "<div class='hierarquicoddzt-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
+            <hr width = “2” size = “100”>
+
             </div>";
             break;
         }
