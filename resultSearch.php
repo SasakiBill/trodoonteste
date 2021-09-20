@@ -302,8 +302,8 @@ include 'header.php';
             echo "<div class='hierarquicodnove-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos (Você está aqui) -></h3>
+            <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
@@ -324,6 +324,58 @@ include 'header.php';
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
+            </div>";
+            break;
+          case 11:
+            echo "<div class='hierarquicodonze-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos  (Você está aqui) -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+          case 12:
+            echo "<div class='hierarquicodoze-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=147'>Sistemas de Tempo Real</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=135'>Programação Imperativa</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=111'>Interação Humano-Computador</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=146'>Sistemas Concorrentes</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=114'>Lógica de Programação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=134'>Programação Funcional</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=85'>Banco de Dados</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=136'>Programação Orientada a Objetos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=148'>Processamento Distribuído</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=129'>Processamento Paralelo</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=149'>Sistemas Embarcados</a><br>
+            <hr width = “2” size = “100”>
+            
             </div>";
             break;
         }
