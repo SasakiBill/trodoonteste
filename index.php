@@ -59,6 +59,10 @@ header('Content-Type: text/html; charset=UTF-8');
         </div>
   </div>
 
+  <div class="pacman-container">
+    <img src="./view/img/wordcloud4.png"/>
+  </div>
+
   <footer class="index-fundo-container">
     Sistema web desenvolvido como objetivo de obtenção de nota na disciplina de Trabalho de Conclusão de Curso no curso de Ciência da Computação - Universidade Estadual do Centro-Oeste.
   </footer>

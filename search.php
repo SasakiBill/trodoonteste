@@ -28,8 +28,8 @@
 
 <div class ="resultado-container">
     <div class="resultadores-container">
+    <a id="top"></a>
     <?php
-
         if (isset($_POST['submit-search'])){
             $search = mysqli_real_escape_string($conn, $_POST['search']);
             $sql = "SELECT * FROM conceito WHERE prefLabel LIKE '%$search%'
@@ -52,7 +52,6 @@
                         <hr width = “2” size = “100”>
                         <h3>Nome do Conceito: </h3><a href=". $url. ">". $title."</a> 
                         <br>
-                        
                     </div>";
                 }
             } else {
@@ -60,6 +59,7 @@
             }
         }
     ?>
+    
     </div>
 </div>
 

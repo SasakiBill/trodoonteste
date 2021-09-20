@@ -44,7 +44,7 @@ body{
     height: 60px;
 }
 
-img{
+.topnav img{
     float: left;
     width: 175px;
 }
@@ -84,6 +84,15 @@ img{
     height: fit-content;
     width: 870px;
     
+}
+
+.pacman-container{
+    margin-left: 900px;
+    margin-top: -900px;
+}
+
+.pacman-container img{
+    width: 880px;
 }
 
 
@@ -295,7 +304,7 @@ p {
 }
 
 .index-fundo-container{
-    top: -65px;
+    top: 35px;
 }
 
 .fundo-tutorial-container{
@@ -358,7 +367,6 @@ p {
     position: relative;
     left: 950px;
     top: -885px;
-    font-weight: lighter;
 }
 
 .sobre-hierarquico-container{
@@ -389,14 +397,15 @@ p {
 }
 
 .nivel-container {
-    position: absolute;
+    position: relative;
     background-color: #BF1313;
     border-radius: 8px;
     border-style: groove;
     border-color: #fff;
     border-width: 6px;
     border-color: #9E0000;
-    width: 500px;
+    width: 600px;
+    height: 150px;
 }
 
 .nivel-container h3{
@@ -404,6 +413,10 @@ p {
     font-size: 30px;
     font-weight: lighter;
 }
+
+
+
+
 
 footer {
     font-family: Apple Chancery, cursive;
