@@ -657,6 +657,25 @@ h6{
     width: 750px;
 }
 
+.hierarquicoddzs-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1399px;
+    width: 750px;
+}
+
+.hierarquicoddzt-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1455px;
+    width: 750px;
+}
+
+
 .niveld-container {
     background-color: #fff;
     border-radius: 8px;

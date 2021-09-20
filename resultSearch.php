@@ -455,7 +455,55 @@ include 'header.php';
             
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
-
+            <a href='resultSearch.php?threadid=108'>Inglês Instrumental</a><br>
+            <hr width = “2” size = “100”>
+            </div>";
+            break;
+          case 16:
+            echo "<div class='hierarquicoddzs-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=88'>Comportamento Humano nas Organizações</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=104'>Gerenciamento de Projetos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=157'>Ética em Computação</a><br>
+            <hr width = “2” size = “100”>
+            </div>";
+            break;
+          case 17:
+            echo "<div class='hierarquicoddzt-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=116'>Matemática Discreta</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=115'>Lógica Matemática</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=82'>Automação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=80'>Arquitetura e Organização de Computadores</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=79'>Algoritmos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=153'>Teoria da Computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=154'>Teoria dos Grafos</a><br>
+            <hr width = “2” size = “100”>
             </div>";
             break;
         }
