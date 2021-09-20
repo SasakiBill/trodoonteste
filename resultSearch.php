@@ -296,10 +296,36 @@ include 'header.php';
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=148'>Sistemas Distribuídos</a><br>
             <hr width = “2” size = “100”>
-
             </div>";
             break;
-
+          case 10:
+            echo "<div class='hierarquicodnove-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=3'>C.1.1 - Identificar problemas que tenham solução algorítmica</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=4'>C.1.2 - Conhecer os limites da computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=5'>C.1.3 - Resolver problemas usando ambientes de programação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=6'>C.1.4 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=7'>C.1.5 - Reconhecer a importância do pensamento computacional no cotidiano e sua aplicação em circunstâncias apropriadas e em domínios diversos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
+            <hr width = “2” size = “100”>
+            </div>";
+            break;
         }
       }
 
