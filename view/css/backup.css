@@ -723,6 +723,83 @@ h6{
     color: black;
 }
 
+.hierarquicoddztt-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1395px;
+    width: 750px;
+}
+
+.hierarquicoddztt-container h1{
+    color: black;
+}
+
+.hierarquicoddzn-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1425px;
+    width: 750px;
+}
+
+.hierarquicoddzn-container h1{
+    color: black;
+}
+
+.hierarquicodvin-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1453px;
+    width: 750px;
+}
+
+.hierarquicodvin-container h1{
+    color: black;
+}
+
+.hierarquicodvini-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1485px;
+    width: 750px;
+}
+
+.hierarquicodvini-container h1{
+    color: black;
+}
+
+.hierarquicodvint-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1715px;
+    width: 750px;
+}
+
+.hierarquicodvint-container h1{
+    color: black;
+}
+
+.hierarquicodvind-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1835px;
+    width: 750px;
+}
+
+.hierarquicodvind-container h1{
+    color: black;
+}
 
 .niveld-container {
     background-color: #fff;
