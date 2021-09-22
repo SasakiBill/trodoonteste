@@ -801,6 +801,71 @@ h6{
     color: black;
 }
 
+.hierarquicodvinc-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1395px;
+    width: 750px;
+}
+
+.hierarquicodvinc-container h1{
+    color: black;
+}
+
+.hierarquicodvseis-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1455px;
+    width: 750px;
+}
+
+.hierarquicodvseis-container h1{
+    color: black;
+}
+
+.hierarquicodvsete-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1338px;
+    width: 750px;
+}
+
+.hierarquicodvsete-container h1{
+    color: black;
+}
+
+.hierarquicodvnove-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1367px;
+    width: 750px;
+}
+
+.hierarquicodvnove-container h1{
+    color: black;
+}
+
+.hierarquicodtrinta-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1395px;
+    width: 750px;
+}
+
+.hierarquicodtrinta-container h1{
+    color: black;
+}
+
 .niveld-container {
     background-color: #fff;
     border-radius: 8px;
@@ -831,5 +896,21 @@ h6{
     border-radius: 8px;
     -webkit-transition: 0.5s;
     color: #BF1313;
+}
+
+.footer-final{
+    font-family: Apple Chancery, cursive;
+    position: absolute;
+    bottom: -5px;
+    background-color: #9E0000;
+    color: #FFF;
+    font-size: 20px;
+    width: 99%;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    border-style: groove;
+    border-color: #000000;
 }
 
