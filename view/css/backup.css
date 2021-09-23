@@ -1027,7 +1027,7 @@ h6{
     color: rgb(0, 0, 0);
     position: absolute;
     left: 755px;
-    margin-top: -1426px;
+    margin-top: -1435px;
     width: 750px;
 }
 
@@ -1047,6 +1047,46 @@ h6{
 .hierarquicodqdcinco-container h1{
     color: black;
 }
+
+.hierarquicodqdsete-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1595px;
+    width: 750px;
+}
+
+.hierarquicodqdsete-container h1{
+    color: black;
+}
+
+.hierarquicodqdoito-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1336px;
+    width: 750px;
+}
+
+.hierarquicodqdoito-container h1{
+    color: black;
+}
+
+.hierarquicodcm-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1515px;
+    width: 750px;
+}
+
+.hierarquicodcm-container h1{
+    color: black;
+}
+
 
 .niveld-container {
     background-color: #fff;
