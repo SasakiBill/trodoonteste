@@ -885,8 +885,8 @@ include 'header.php';
             echo "<div class='hierarquicodtseis-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos (Você está aqui) -></h3>
+            <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
@@ -1000,6 +1000,143 @@ include 'header.php';
 
             </div>";
             break;
+          case 41:
+            echo "<div class='hierarquicodqdois-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=84'>Avaliação de Desempenho</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=120'>Modelagem de Sistemas</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+          case 42:
+            echo "<div class='hierarquicodqdois-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=108'>Inglês Instrumental</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+          case 43:
+            echo "<div class='hierarquicodqtres-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=92'>Comunicação Profissional</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=88'>Comportamento Humano nas Organizações</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=92'>Comunicação Profissional</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=101'>Fundamentos de Administração</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=157'>Ética em Computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=101'>Fundamentos de Administração</a><br>
+            <hr width = “2” size = “100”>
+            </div>";
+            break;
+          case 44:
+            echo "<div class='hierarquicodqtres-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=139'>Propriedade Intelectual</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=120'>Modelagem de Sistemas</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=139'>Propriedade Intelectual</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=107'>História da Computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=125'>Privacidade e Direitos Civis</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=102'>Fundamentos de Economia</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=145'>Simulação de Sistemas</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=152'>Sustentabilidade</a><br>
+            <hr width = “2” size = “100”>
+            
+            </div>";
+            break;
+          case 45:
+            echo "<div class='hierarquicodqdquatro-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos  (Você está aqui) -></h3>
+            <h3>Competência Derivada  -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=98'>Engenharia de Software</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+          case 46:
+            echo "<div class='hierarquicodqdcinco-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=38'>C.4.1 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das carac</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=39'>C.4.2 - Compreender e explicar as dimensões quantitativas de um problema/a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=40'>C.4.3 - Preparar e apresentar seus trabalhos e problemas técnicos e suas soluções para audiências diversas, em formatos apropriados (oral e escrito) </a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=41'>C.4.4 - Avaliar criticamente projetos de sistemas de computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=42'>C.4.5 - Ler texxtos técnicos na língua inglesa </a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=43'>C.4.6 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=44'>C.4.7 - Conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=46'>C.4.8 - Empregar metodologias que visem garantir critérios de qualidade ao longo de todas as etapas de desenvolvimento de uma solução computacional</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+          case 47:
+
         }
       }
 
