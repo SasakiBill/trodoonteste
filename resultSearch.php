@@ -784,7 +784,7 @@ include 'header.php';
             </div>";
             break;
           case 31:
-            echo "<div class='hierarquicodtrinta-container'>
+            echo "<div class='hierarquicodtri-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -794,16 +794,108 @@ include 'header.php';
             <h1>Sinônimos/Conceitos Relacinados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
-            <a href='resultSearch.php?threadid=92'>Comunicação Profissional</a><br>
+            <a href='resultSearch.php?threadid=92'>Ética em Computação</a><br>
             <hr width = “2” size = “100”>
-            <a href='resultSearch.php?threadid=104'>Gerenciamento de Projetos</a><br>
+            <a href='resultSearch.php?threadid=104'>Algoritmos</a><br>
             <hr width = “2” size = “100”>
-            <a href='resultSearch.php?threadid=88'>Comportamento Humano nas Organizações</a><br>
+            <a href='resultSearch.php?threadid=153'>Teoria da Computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=89'>Computação e Sociedade</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=100'>Estruturas de Dados</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=154'>Teoria dos Grafos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=115'>Lógica Matemática</a><br>
             <hr width = “2” size = “100”>
 
             </div>";
             break;
+          case 32:
+            echo "<div class='hierarquicodtrd-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=104'>Gerenciamento de Projetos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=98'>Engenharia de Software</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=121'>Métodos Formais</a><br>
+            <hr width = “2” size = “100”>
+            
+            </div>";
+            break;
+          case 33:
+            echo "<div class='hierarquicodtrt-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=36'>Engenharia de Software</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=36'>Gerenciamento de Projetos</a><br>
+            <hr width = “2” size = “100”>
 
+            </div>";
+            break;
+          case 34:
+            echo "<div class='hierarquicodtrq-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=104'>Gerenciamento de Projetos</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+          case 35:
+            echo "<div class='hierarquicodtrc-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=104'>Gerenciamento de Projetos</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+          case 36:
+            echo "<div class='hierarquicodtrc-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=36'>C.3.1 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
+            <hr width = “2” size = “100”>
+            </div>";
+            break;
         }
       }
 

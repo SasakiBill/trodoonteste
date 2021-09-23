@@ -866,6 +866,71 @@ h6{
     color: black;
 }
 
+.hierarquicodtri-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1452px;
+    width: 750px;
+}
+
+.hierarquicodtri-container h1{
+    color: black;
+}
+
+.hierarquicodtrd-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1397px;
+    width: 750px;
+}
+
+.hierarquicodtrd-container h1{
+    color: black;
+}
+
+.hierarquicodtrt-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1425px;
+    width: 750px;
+}
+
+.hierarquicodtrt-container h1{
+    color: black;
+}
+
+.hierarquicodtrq-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1365px;
+    width: 750px;
+}
+
+.hierarquicodtrq-container h1{
+    color: black;
+}
+
+.hierarquicodtrc-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1483px;
+    width: 750px;
+}
+
+.hierarquicodtrc-container h1{
+    color: black;
+}
+
 .niveld-container {
     background-color: #fff;
     border-radius: 8px;
