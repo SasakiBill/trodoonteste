@@ -1178,6 +1178,122 @@ h6{
     color: black;
 }
 
+.hierarquicodcnove-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1955px;
+    width: 750px;
+}
+
+.hierarquicodcnove-container h1{
+    color: black;
+}
+
+.hierarquicodqcdez-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1865px;
+    width: 750px;
+}
+
+.hierarquicodqcdez-container h1{
+    color: black;
+}
+
+.hierarquicodqsum-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1396px;
+    width: 750px;
+}
+
+.hierarquicodqsum-container h1{
+    color: black;
+}
+
+.hierarquicodqsdois-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1455px;
+    width: 750px;
+}
+
+.hierarquicodqsdois-container h1{
+    color: black;
+}
+
+.hierarquicodqstres-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1335px;
+    width: 750px;
+}
+
+.hierarquicodqstres-container h1{
+    color: black;
+}
+
+.hierarquicodqsquatro-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1396px;
+    width: 750px;
+}
+
+.hierarquicodqsquatro-container h1{
+    color: black;
+}
+
+.hierarquicodqsquinto-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1455px;
+    width: 750px;
+}
+
+.hierarquicodqsquinto-container h1{
+    color: black;
+}
+
+.hierarquicodqsseis-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1425px;
+    width: 750px;
+}
+
+.hierarquicodqsseis-container h1{
+    color: black;
+}
+
+.hierarquicodqssete-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -2193px;
+    width: 750px;
+}
+
+.hierarquicodqssete-container h1{
+    color: black;
+}
 
 .niveld-container {
     background-color: #fff;
