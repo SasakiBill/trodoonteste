@@ -1356,7 +1356,105 @@ include 'header.php';
 
             </div>";
             break;
+          case 57:
+            echo "<div class='hierarquicodcsete-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=125'>Privacidade e Direitos Civis</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=104'>Gerenciamento de Projetos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=157'>Ética em Computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=139'>Propriedade Intelectual</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=111'>Interação Humano-Computador</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=145'>Simulação de Sistemas</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=107'>História da Computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=152'>Sustentabilidade</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=118'>Meio Ambiente em Programação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=120'>Modelagem de Sistemas</a><br>
+            <hr width = “2” size = “100”>
 
+            </div>";
+            break;
+          case 58:
+            echo "<div class='hierarquicodcoito-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=150'>Sistemas Multimídia</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=148'>Sistemas Distribuídos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=142'>Redes de Computadores</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=127'>Processamento de Imagens</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=141'>Recuperação da Informação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=93'>Criptografia</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=85'>Banco de Dados</a><br>
+            <hr width = “2” size = “100”>
+            
+            </div>";
+            break;
+          case 59:
+            echo "<div class='hierarquicodcnove-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos  (Você está aqui) -></h3>
+            <h3>Competência Derivada  -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=48'>C.5.1 - Resolver problemas usando ambientes de programação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=49'>C.5.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientais decorrentes</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=50'>C.5.3 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=51'>C.5.4 - Avaliar criticamente projetos de sistemas de computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=52'>C.5.5 - Ler textos técnicos na língua Inglesa</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=53'>C.5.6 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=54'>C.5.7 - Identificar e gerenciar os riscos que podem estar envolvidos na opração de equipamentos de computação (incluindo os aspectos de dependabilidade e segurança)</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=55'>C.5.8 - Identificar e analisar requisitos e especificações para problemas específicos e planejar estratégias para suas soluções</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=56'>C.5.9 - Especificar, projetar, implementar, manter e avaliar sistemas de computação, empregando teorias, práticas e ferramentas adequadas</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=57'>C.5.10 - Conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores envolvidos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=58'>C.5.11 - Aplicar os princípios de gerência, organização e recuperação da informação de vários tipos, incluindo texto imagem som e vídeo</a><br>
+            <hr width = “2” size = “100”>
+            
+
+            </div>";
+            break;
         }
       }
 

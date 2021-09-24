@@ -1144,13 +1144,40 @@ h6{
     color: rgb(0, 0, 0);
     position: absolute;
     left: 755px;
-    margin-top: -1455px;
+    margin-top: -1425px;
     width: 750px;
 }
 
 .hierarquicodcseis-container h1{
     color: black;
 }
+
+.hierarquicodcsete-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1396px;
+    width: 750px;
+}
+
+.hierarquicodcsete-container h1{
+    color: black;
+}
+
+.hierarquicodcoito-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1455px;
+    width: 750px;
+}
+
+.hierarquicodcoito-container h1{
+    color: black;
+}
+
 
 .niveld-container {
     background-color: #fff;
