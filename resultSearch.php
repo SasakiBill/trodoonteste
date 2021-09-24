@@ -1204,7 +1204,7 @@ include 'header.php';
             </div>";
             break;
           case 50:
-            echo "<div class='hierarquicodcm-container'>
+            echo "<div class='hierarquicodcdois-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
@@ -1220,6 +1220,56 @@ include 'header.php';
             <hr width = “2” size = “100”>
             </div>";
             break;
+          case 51:
+            echo "<div class='hierarquicodctres-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=84'>Avaliação de Desempenho</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=87'>Complexidade de Algoritmos</a><br>
+            <hr width = “2” size = “100”>
+            
+
+            </div>";
+            break;
+          case 52:
+            echo "<div class='hierarquicodctres-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=108'>Inglês Instrumental</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+          case 53:
+            echo "<div class='hierarquicodctres-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+         
         }
       }
 
