@@ -1256,7 +1256,7 @@ include 'header.php';
             </div>";
             break;
           case 53:
-            echo "<div class='hierarquicodctres-container'>
+            echo "<div class='hierarquicodcquatro-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
@@ -1266,10 +1266,97 @@ include 'header.php';
             <h1>Sinônimos/Conceitos Relacinados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=157'>Ética em Computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=101'>Fundamentos de Administração</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=104'>Gerenciametno de Projetos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=92'>Comunicação Profissional</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=88'>Comportamento Humano nas Organizações</a><br>
+            <hr width = “2” size = “100”>
 
             </div>";
             break;
-         
+          case 54:
+            echo "<div class='hierarquicodcquinto-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=96'>Dependabilidade</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=144'>Segurança e Sistemas Computacionais</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=99'>Ergonomia</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+          case 55:
+            echo "<div class='hierarquicodcquatro-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=138'>Projeto de Sistemas Computacionais</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=98'>Engenharia de Software</a><br>
+            <hr width = “2” size = “100”>
+
+            </div>";
+            break;
+          case 56:
+            echo "<div class='hierarquicodcseis-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=148'>Sistemas Distribuídos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=138'>Projeto de Sistema Computacionais</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=129'>Processamento Paralelo</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=112'>Internet das Coisas (IoT)</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=147'>Sistemas de Tempo Real</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=151'>Sistemas Operacionais</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=149'>Sistemas Embarcados</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=85'>Banco de Dados</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=142'>Redes de Computadores</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=84'>Avaliação de Desempenho</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=129'>Processamento Paralelo</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=90'>Computação em Nuvem</a><br>
+            <hr width = “2” size = “100”>
+            
+
+            </div>";
+            break;
+
         }
       }
 
