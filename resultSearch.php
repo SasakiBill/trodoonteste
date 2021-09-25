@@ -1876,7 +1876,7 @@ include 'header.php';
             </div>";
             break;
           case 80:
-            echo "<div class='hierarquicodqssetenove-container'>
+            echo "<div class='hierarquicodqssoitenta-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -1884,16 +1884,164 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
-            <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
+            <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching)...</a><br>
             <hr width = “2” size = “100”>
-            <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientais decorrentes</a><br>
+            <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware...</a><br>
             <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=17'>C.2.6 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=38'>C.4.1 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=49'>C.5.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=66'>C.6.6 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=158'>C.7.3 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=73'>C.7.5 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=76'>C.7.8 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching)...</a><br>
+            <hr width = “2” size = “100”>
+            <h1>Vídeo Recomendado</h1>
+            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/4IROmEjGXpU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
+            </div>";
+            break;
+          case 81:
+            echo "<div class='hierarquicodqssoitenta-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching)...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realiar trabalho cooperativo e etender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=76'>C.7.8 - C.7.8 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching)...</a><br>
+            <hr width = “2” size = “100”>
+            <h1>Vídeo Recomendado</h1>
+            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/glhacfJ8wes' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
+
+            </div>";
+            break;
+          case 82:
+            echo "<div class='hierarquicodauto-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
             <a href='resultSearch.php?threadid=17'>C.2.6 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
             <hr width = “2” size = “100”>
 
             </div>";
             break;
+          case 83:
+            echo "<div class='hierarquicodqssoitentatres-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=61'>C.6.1 - Gerir a sua própria aprendizagem e desenvolvimento, incluindo a gestão de tempo e competências organizacionais</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            </div>";
+            break;
+          case 84:
+            echo "<div class='hierarquicodqssoitentaquatro-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=14'>C.2.3 - Avaliar criticamente projetos de sistemas de computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=25'>C.3.1 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=41'>C.4.4 - Avaliar criticamente projetos de sistemas de computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=51'>C.5.4 - Avaliar criticamente projetos de sistemas de computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=56'>C.5.9 - Especificar, projetar, implementar, manter e avaliar sistemas de computação, empregando teorias, práticas e ferramentas adequadas</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=72'>C.7.4 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
+            <hr width = “2” size = “100”>
+            
+            <h1>Vídeo Recomendado</h1>
+            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/HJirZ2sHWgM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
+            </div>";
+            break;
+          case 85:
+            echo "<div class='hierarquicodqssoitentacinco-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching)...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=21'>C.2.10 - Aplicar os princípios de gerência, organização e recuperação da informação de vários tipos, incluindo texto imagem som e vídeo</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=38'>C.4.1 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=49'>C.5.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware...</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=56'>C.5.9 - Especificar, projetar, implementar, manter e avaliar sistemas de computação, empregando teorias, práticas e ferramentas adequadas</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=58'>C.5.11 - Aplicar os princípios de gerência, organização e recuperação da informação de vários tipos, incluindo texto imagem som e vídeo</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=158'>C.7.3 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware</a><br>
+            <hr width = “2” size = “100”>
 
+            <h1>Vídeo Recomendado</h1>
+            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/XfO3TRvESBo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
+
+            </div>";
+            break;
+          case 86:
+            echo "<div class='hierarquicodqssoitentaseis-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=5'>C.1.3 - Resolver problemas usando ambientes de programação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=73'>C.6.5 - C.7.5 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações</a><br>
+            <hr width = “2” size = “100”>
+
+            <h1>Vídeo Recomendado</h1>
+            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/afUiVvDUIRA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
+            </div>";
+            break;
           case 158:
             echo "<div class='hierarquiumcincooito-container'>
             <h1>Atual Nível Hierárquico:</h1> 

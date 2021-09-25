@@ -1464,6 +1464,88 @@ h6{
     color: black;
 }
 
+.hierarquicodqssoitenta-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1595px;
+    width: 750px;
+}
+
+.hierarquicodqssoitenta-container h1{
+    color: black;
+}
+
+.hierarquicodqssoitenta-container h5{
+    left: 1000px;
+}
+
+.hierarquicodauto-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 455px;
+    margin-top: -1057px;
+    width: 750px;
+}
+
+.hierarquicodauto-container h1{
+    color: black;
+}
+
+.hierarquicodqssoitentatres-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1475px;
+    width: 750px;
+}
+
+.hierarquicodqssoitentatres-container h1{
+    color: black;
+}
+
+.hierarquicodqssoitentaquatro-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1685px;
+    width: 750px;
+}
+
+.hierarquicodqssoitentaquatro-container h1{
+    color: black;
+}
+
+.hierarquicodqssoitentacinco-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1655px;
+    width: 750px;
+}
+
+.hierarquicodqssoitentacinco-container h1{
+    color: black;
+}
+
+.hierarquicodqssoitentaseis-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1686px;
+    width: 750px;
+}
+
+.hierarquicodqssoitentaseis-container h1{
+    color: black;
+}
+
 .niveld-container {
     background-color: #fff;
     border-radius: 8px;
