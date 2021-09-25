@@ -1546,6 +1546,58 @@ h6{
     color: black;
 }
 
+.hierarquicodqssoitentasete-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1775px;
+    width: 750px;
+}
+
+.hierarquicodqssoitentasete-container h1{
+    color: black;
+}
+
+.hierarquicodqssnoventa-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1655px;
+    width: 750px;
+}
+
+.hierarquicodqssnoventa-container h1{
+    color: black;
+}
+
+.hierarquicodqssnoventaum-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1715px;
+    width: 750px;
+}
+
+.hierarquicodqssnoventaum-container h1{
+    color: black;
+}
+
+.hierarquicodqssnoventadois-container {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 755px;
+    margin-top: -1625px;
+    width: 750px;
+}
+
+.hierarquicodqssnoventadois-container h1{
+    color: black;
+}
+
 .niveld-container {
     background-color: #fff;
     border-radius: 8px;
