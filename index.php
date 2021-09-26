@@ -3,6 +3,10 @@ include 'header.php';
 header('Content-Type: text/html; charset=UTF-8');
 ?>
 
+<head>
+  <title>Trodoon - Página Inicial</title>
+</head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <body>
