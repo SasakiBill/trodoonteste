@@ -2699,10 +2699,132 @@ include 'header.php';
             
             
             <h1>Vídeo Recomendado</h1>
-            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/Ds1n6aHchRU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
+            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/tiARjzPh2pI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
             </div>";
             break;
-          
+          case 116:
+            echo "<div class='hierarquicodqssnoventadznt-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=3'>C.1.1 - Identificar problemas que tenham solução algorítmica</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=6'>C.1.4 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=17'>C.2.6 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=70'>C.7.1 - Identificar problemas que tenham solução algorítmica</a><br>
+            <hr width = “2” size = “100”>
+            
+            
+            <h1>Vídeo Recomendado</h1>
+            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/ib3F1c2oKpA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
+            </div>";
+            break;
+          case 118:
+            echo "<div class='hierarquicodqssnoventadzntt-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            
+            <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientes decorrentes</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=27'>C.3.3 - Avaliar criticamente projetos de sistemas de computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=38'>C.4.1 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das carac</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=57'>C.5.10 - Conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores envolvidos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=158'>C.7.3 - Conhecer os limites da computação</a><br>
+            <hr width = “2” size = “100”>
+            
+            </div>";
+            break;
+          case 119:
+            echo "<div class='hierarquicodqsscemum-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=3'>C.1.1 - Identificar problemas que tenham solução algorítmica</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=62'>C.6.2 - Preparar e apresentar seus trabalhos e problemas técnicos e suas soluções para audiências diversas, em formatos apropriados(oral e escrito)</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=63'>C.6.3 - Avaliar criticamente projetos de sistemas de computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=74'>C.7.6 - Identificar e analisar requisitos e especificações para problemas específicos e planejar estratégias para suas soluções</a><br>
+            <hr width = “2” size = “100”>
+            <h1>Vídeo Recomendado</h1>
+            <h5><iframe width='750' height='355' src='https://www.youtube.com/embed/7uFgLMqYMj0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></h5>
+            
+            </div>";
+            break;
+          case 120:
+            echo "<div class='hierarquicodqsscemdois-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=41'>C.4.4 - Avaliar criticamente projetos de sistemas de computação</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=44'>C.4.7 - Conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=57'>C.5.10 - Conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores envolvidos</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=67'>C.6.7 - Analisar quanto um sistema baseado em computadores atende os critérios definidos para seu uso corrente e futuro (adequabilidade)</a><br>
+            <hr width = “2” size = “100”>
+            
+            
+            </div>";
+            break;
+          case 121:
+            echo "<div class='hierarquicodqsscemdois-container'>
+            <h1>Atual Nível Hierárquico:</h1> 
+            <div class='niveld-container'>
+            <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
+            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            
+            <hr width = “2” size = “100”>
+            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=18'>C.2.7 - Identificar e analisar requisitos e especificações para problemas específicos e planejar estratégias para suas soluções</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=32'>C.3.8 - Identificar e analisar requisitos e especificações para problemas específicos e planejar estratégias para suas soluções</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=67'>C.6.7 - Analisar quanto um sistema baseado em computadores atende os critérios definidos para seu uso corrente e futuro (adequabilidade)</a><br>
+            <hr width = “2” size = “100”>
+            <a href='resultSearch.php?threadid=74'>C.7.6 - Identificar e analisar requisitos e especificações para problemas específicos e planejar estratégias para suas soluções</a><br>
+            <hr width = “2” size = “100”>
+            
+            </div>";
+            break;
+
           case 158:
             echo "<div class='hierarquiumcincooito-container'>
             <h1>Atual Nível Hierárquico:</h1> 
