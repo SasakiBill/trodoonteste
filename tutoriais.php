@@ -33,14 +33,12 @@
   <h3>Tutoriais Disponíveis:</h3>
       <ul style="list-style-type:disc">
         <li>
-          <a href="">Como criar um Tesauro?</a>
+          <a href="http://www.conexaorio.com/biti/tesauro/">Como criar um Tesauro?</a>
         </li>
         <li>
-          <a href="">Como trabalhar com Organização e Representação do Conhecimento?</a>
+          <a href="http://www.editora.ufpb.br/sistema/press5/index.php/UFPB/catalog/book/355">O que é organização e representação da informação e do conhecimento?</a>
         </li>
-        <li>
-          <a href="">Utilizando uma estrutura de Tesauro para organizar e representar dados de uma melhor forma.</a>
-        </li>
+        
       </ul>
   </div>
 

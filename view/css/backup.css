@@ -84,6 +84,7 @@ body{
     height: fit-content;
     width: 870px;
     
+    
 }
 
 .pacman-container{
@@ -282,7 +283,7 @@ p {
     width: fit-content;
     position: relative;
     left: 950px;
-    top: -390px;
+    top: -250px;
     font-weight: lighter;
 }
 
@@ -297,10 +298,19 @@ p {
 }
 
 .sobre-fundo-container{
-    bottom: -30px;
-   
-    font-size: 26px;
-    width: max-content;
+    font-family: Apple Chancery, cursive;
+    position: absolute;
+    bottom: -5px;
+    background-color: #9E0000;
+    color: #FFF;
+    font-size: 20px;
+    width: 99%;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    border-style: groove;
+    border-color: #000000;
 }
 
 .index-fundo-container{
@@ -330,9 +340,14 @@ p {
 
 .sobre-container {
     position: relative;
-    background-color: #b30000;
     width: auto;
     height: auto;
+    background-color: #BF1313;
+    color: white;
+    border-color: #9E0000;
+    border-radius: 8px;
+    border-style: groove;
+    border-width: 6px;
 }
 
 
@@ -340,8 +355,12 @@ p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     border-radius: 4px;
-    background-color: #b30000;
+    background-color: #BF1313;
     color: white;
+    border-color: #9E0000;
+    border-radius: 8px;
+    border-style: groove;
+    border-width: 6px;
 }
 
 .sobre-container h2{
@@ -350,7 +369,7 @@ p {
 
 .article-sobre-container h1{
     font-size: 30px;
-    text-decoration-line: underline;
+    
 
 }
 
@@ -358,6 +377,9 @@ p {
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: lighter;
+    background-color: #BF1313;
+    
+    
 }
 
 .hierarquico-container {
@@ -374,15 +396,20 @@ p {
     width: 650px;
     position: relative;
     left: 950px;
-    top: -1365px;
+    top: -1575px;
     font-weight: lighter;
+    
 }
 
 .sobre-hierarquico-container h1{
     background-color: #BF1313;
     border-radius: 8px;
-    border-color: black;
+    
     width: fit-content;
+    border-color: #9E0000;
+    border-radius: 8px;
+    border-style: groove;
+    border-width: 6px;
 }
 
 .hierarquico-container h1{

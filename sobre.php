@@ -37,6 +37,8 @@ header('Content-Type: text/html; charset=UTF-8');
     <h2>É um dicionário online e gratuíto estilo wiki, voltado para a área de computação. Se utilizando da teoria de tesauros, o site fornece uma forma eficiente de organizar e representar o conhecimento.</h2>
     <h1>Como posso começar a usar o site?</h1>
     <h2>Basta usar a ferramenta de pesquisa com a instrução "Busque aqui pelo tesauro...". Digite literalmente qualquer coisa, e caso exista algum resultado de sua pesquisa, o site lhe retornará. Você então poderá entrar em algum conceito clicando em qualquer resultado. Ao entrar na página de um conceito, você verá muitas informações a seu respeito, e outros links de acesso a conceitos que são relacionados ao que você está lendo no momento. Dessa forma, você estará navegando pela hierarquia do tesauro sem mesmo realizar uma nova pesquisa.</h2>
+    <h1>Onde posso conferir a referência bibliográfica do dicionário?</h1>
+    <h2>Através desse link:</h2>
     <h1>O que é um Tesauro?</h1>  
     <h2>Em termos mais específicos, é uma forma de representação de conhecimento que utiliza hierarquias, sintaxes e relações, para definir de forma precisa qualquer tipo de conceito. Em linhas gerais, é um dicionário de ideias.</h2>
     <h1>O que é um conceito?</h1>

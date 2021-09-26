@@ -56,7 +56,8 @@
                 }
             } else {
                 echo "<h3>Não há resultados para a pesquisa com base na sua pesquisa.</h3>";
-            }
+          }
+          
         }
     ?>
     

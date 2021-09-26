@@ -308,7 +308,7 @@ include 'header.php';
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
             
-            <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
+            <a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=3'>C.1.1 - Identificar problemas que tenham solução algorítmica</a><br>
             <hr width = “2” size = “100”>
@@ -335,10 +335,11 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
-            
+            <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
+            <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
             <hr width = “2” size = “100”>
-
+            
             </div>";
             break;
           case 12:
@@ -624,7 +625,7 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
-            <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
+            <a href='resultSearch.php?threadid=24'>Eixo 2 - Desenvolvimento de Sistemas</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
@@ -661,6 +662,8 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
+            <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
 
@@ -890,7 +893,7 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
-            <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
+            <a href='resultSearch.php?threadid=37'>Eixo 3 - Desenvolvimento de Projetos</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=25'>C.3.1 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
             <hr width = “2” size = “100”>
@@ -925,6 +928,9 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
+            <hr width = “2” size = “100”>
+
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
 
@@ -1114,7 +1120,7 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
-            <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
+            <a href='resultSearch.php?threadid=47'>Eixo 4 - Implementação de Sistemas</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=38'>C.4.1 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das carac</a><br>
             <hr width = “2” size = “100”>
@@ -1144,6 +1150,8 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
+            <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
             <hr width = “2” size = “100”>
             </div>";
@@ -1427,7 +1435,7 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
-            <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
+            <a href='resultSearch.php?threadid=60'>Eixo 5 - Gestão de Infraestrutura</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=48'>C.5.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
@@ -1464,6 +1472,8 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
+            <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             </div>";
@@ -1605,7 +1615,7 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
-            <a href='resultSearch.php?threadid=68'>Competências do Eixo VI</a><br>
+            <a href='resultSearch.php?threadid=69'>Eixo 6 - Aprendizado Contínuo e Autônomo</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=61'>C.6.1 - Gerir a sua própria aprendizagem e desenvolvimento, incluindo a gestão de tempo e competências organizacionais</a><br>
             <hr width = “2” size = “100”>
@@ -1634,6 +1644,8 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
+            <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=68'>Competências do Eixo VI</a><br>
             <hr width = “2” size = “100”>
             
@@ -1807,7 +1819,7 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
-            <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
+            <a href='resultSearch.php?threadid=78'>Eixo 7 - Ciência, Tecnologia e Inovação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=70'>C.7.1 - Identificar problemas que tenham solução algorítmica</a><br>
             <hr width = “2” size = “100”>
@@ -1839,6 +1851,8 @@ include 'header.php';
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
+            <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
             <hr width = “2” size = “100”>
 
