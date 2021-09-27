@@ -2111,7 +2111,7 @@ include 'header.php';
             </div>";
             break;
           case 89:
-            echo "<div class='hierarquicodauto-container'>
+            echo "<div class='hierarquicodqssoitentatrinta-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -2815,7 +2815,7 @@ include 'header.php';
             </div>";
             break;
           case 121:
-            echo "<div class='hierarquicodqsscemtres-container'>
+            echo "<div class='hierarquicodqsscemtreszes-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -3036,7 +3036,7 @@ include 'header.php';
             </div>";
             break;
           case 131:
-            echo "<div class='hierarquicodqsscemtreze-container'>
+            echo "<div class='hierarquicodqsscemtrezeweb-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -3186,7 +3186,7 @@ include 'header.php';
             </div>";
             break;
           case 139:
-            echo "<div class='hierarquicodauto-container'>
+            echo "<div class='hierarquicodqsscemtrintadoisprop-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
