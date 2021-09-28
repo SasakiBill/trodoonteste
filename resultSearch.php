@@ -45,21 +45,12 @@ include 'header.php';
         echo "<h5>Conceito do tipo: </h5> <h6>" . $row['tipoConceito'] . ".</h6>";
         echo "<h5>Pertence ao Tesauro de: </h5> <h6>" . $row['pertenceTesauro'] . ".</h6>";
 
-
-        /*
-        if ($id == 2){
-          echo "<a href='resultSearch.php?threadid=79'>Algoritmo</a>";
-          echo "teste";
-          <img src='foto1.jpg' style='float:right;width:42px;height:42px;'>
-            
-        }*/
-
         switch ($id) {
           case 2:
             echo "<div class='hierarquicod-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme (Você está aqui) -> Eixos -> Competência dos Eixos -></h3>
+            <h3><span class='red'> Concept Scheme </span>-> Eixos -> Competência dos Eixos -></h3>
             <h3>Competência Derivada -> Conteúdos</h3>
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -90,7 +81,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -112,7 +103,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -135,7 +126,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -167,7 +158,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -196,7 +187,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -226,7 +217,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -265,7 +256,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -302,7 +293,7 @@ include 'header.php';
             echo "<div class='hierarquicodnove-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos -> Competência dos Eixos (Você está aqui) -></h3>
+            <h3>Concept Scheme -> Eixos -><span class='red'> Competência dos Eixos </span> -></h3>
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -330,7 +321,7 @@ include 'header.php';
             echo "<div class='hierarquicodonze-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos  (Você está aqui) -> Competência dos Eixos -></h3>
+            <h3>Concept Scheme -><span class='red'> Eixos </span> -> Competência dos Eixos -></h3>
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -347,7 +338,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'>Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -384,7 +375,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -422,7 +413,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -449,7 +440,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'>Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -465,7 +456,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -485,7 +476,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Ciência da Computação -> Eixo 2 - Desenvolvimento de Sistemas -> Competência dos dos Eixos II -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -512,7 +503,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -530,7 +521,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -546,7 +537,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -562,7 +553,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -592,7 +583,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -620,7 +611,7 @@ include 'header.php';
             echo "<div class='hierarquicodvint-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos -> Competência dos Eixos (Você está aqui) -></h3>
+            <h3>Concept Scheme -> Eixos -><span class='red'> Competência dos Eixos </span> -></h3>
             <h3>Competência Derivada  -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -657,7 +648,7 @@ include 'header.php';
             echo "<div class='hierarquicodvind-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos (Você está aqui) -> Competência dos Eixos -></h3>
+            <h3>Concept Scheme -><span class='red'> Eixos </span>-> Competência dos Eixos -></h3>
             <h3>Competência Derivada  -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -674,7 +665,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'>Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -696,7 +687,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada  </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -714,7 +705,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -736,7 +727,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada  </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -752,7 +743,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -771,7 +762,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -791,7 +782,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -819,7 +810,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -839,7 +830,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -857,7 +848,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -873,7 +864,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -888,7 +879,7 @@ include 'header.php';
             echo "<div class='hierarquicodtseis-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos -> Competência dos Eixos (Você está aqui) -></h3>
+            <h3>Concept Scheme -> Eixos -><span class='red'> Competência dos Eixos </span> -></h3>
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -924,7 +915,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -941,7 +932,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -975,7 +966,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -993,7 +984,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada <span class='red'> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1011,7 +1002,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada <span class='red'> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1029,7 +1020,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1045,7 +1036,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1070,7 +1061,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1099,7 +1090,7 @@ include 'header.php';
             echo "<div class='hierarquicodqdquatro-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos -> Competência dos Eixos  (Você está aqui) -></h3>
+            <h3>Concept Scheme -> Eixos -> <span class='red'> Competência dos Eixos </span>-></h3>
             <h3>Competência Derivada  -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -1115,7 +1106,7 @@ include 'header.php';
             echo "<div class='hierarquicodqdcinco-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos -> Competência dos Eixos   (Você está aqui)  -></h3>
+            <h3>Concept Scheme -> Eixos -><span class='red'> Competência dos Eixos </span>-></h3>
             <h3>Competência Derivada-> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -1145,7 +1136,7 @@ include 'header.php';
             echo "<div class='hierarquicodqdsete-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos  (Você está aqui)  -> Competência dos Eixos -></h3>
+            <h3>Concept Scheme -><span class='red'> Eixos </span> -> Competência dos Eixos -></h3>
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -1161,7 +1152,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span>-> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1182,7 +1173,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1216,7 +1207,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1233,7 +1224,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1252,7 +1243,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1268,7 +1259,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1292,7 +1283,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1312,7 +1303,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1330,7 +1321,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1369,7 +1360,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1403,7 +1394,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1430,7 +1421,7 @@ include 'header.php';
             echo "<div class='hierarquicodcnove-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos -> Competência dos Eixos  (Você está aqui) -></h3>
+            <h3>Concept Scheme -> Eixos -><span class='red'> Competência dos Eixos </span> -></h3>
             <h3>Competência Derivada  -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -1468,7 +1459,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1483,7 +1474,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1502,7 +1493,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1522,7 +1513,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1538,7 +1529,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1554,7 +1545,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1570,7 +1561,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1590,7 +1581,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos  -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1610,7 +1601,7 @@ include 'header.php';
             echo "<div class='hierarquicodqssete-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos   -> Competência dos Eixos (Você está aqui) -></h3>
+            <h3>Concept Scheme -> Eixos   -><span class='red'> Competência dos Eixos </span>-></h3>
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -1639,7 +1630,7 @@ include 'header.php';
             echo "<div class='hierarquicodqsoito-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos (Você está aqui) -> Competência dos Eixos -></h3>
+            <h3>Concept Scheme -><span class='red'> Eixos </span> -> Competência dos Eixos -></h3>
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -1657,7 +1648,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos   -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1678,7 +1669,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos   -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1695,7 +1686,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos   -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1717,7 +1708,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos   -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1734,7 +1725,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos   -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1758,7 +1749,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos   -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1785,7 +1776,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos   -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'> Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1814,7 +1805,7 @@ include 'header.php';
             echo "<div class='hierarquicodqsquinze-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos   -> Competência dos Eixos (Você está aqui) -></h3>
+            <h3>Concept Scheme -> Eixos -><span class='red'> Competência dos Eixos </span> -></h3>
             <h3>Competência Derivada  -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -1846,7 +1837,7 @@ include 'header.php';
             echo "<div class='hierarquicodqsseteoito-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
-            <h3>Concept Scheme -> Eixos  (Você está aqui)  -> Competência dos Eixos -></h3>
+            <h3>Concept Scheme -><span class='red'> Eixos </span> -> Competência dos Eixos -></h3>
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
@@ -1863,7 +1854,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1894,7 +1885,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1927,7 +1918,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1947,7 +1938,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1963,7 +1954,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -1978,7 +1969,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2006,7 +1997,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2041,7 +2032,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2061,7 +2052,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2093,7 +2084,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2115,7 +2106,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2143,7 +2134,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2163,7 +2154,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2181,7 +2172,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2206,7 +2197,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2230,7 +2221,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2248,7 +2239,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2266,7 +2257,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2286,7 +2277,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2306,7 +2297,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2342,7 +2333,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2358,7 +2349,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2382,7 +2373,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2403,7 +2394,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2422,7 +2413,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2440,7 +2431,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2475,7 +2466,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2491,7 +2482,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2507,7 +2498,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2529,7 +2520,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2556,7 +2547,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2575,7 +2566,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2599,7 +2590,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2623,7 +2614,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2645,7 +2636,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2672,7 +2663,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2692,7 +2683,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2721,7 +2712,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2747,7 +2738,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2772,7 +2763,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2796,7 +2787,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2819,7 +2810,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2843,7 +2834,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2871,7 +2862,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2890,7 +2881,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2909,7 +2900,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2935,7 +2926,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2961,7 +2952,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2982,7 +2973,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -2998,7 +2989,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3020,7 +3011,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3040,7 +3031,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3060,7 +3051,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3077,7 +3068,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3094,7 +3085,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3111,7 +3102,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3129,7 +3120,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -><span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3150,7 +3141,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3167,7 +3158,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3190,7 +3181,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -><span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3212,7 +3203,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -><span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3230,7 +3221,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -><span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3248,7 +3239,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -><span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3279,7 +3270,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -><span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3312,7 +3303,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3345,7 +3336,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3366,7 +3357,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3385,7 +3376,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3417,7 +3408,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3437,7 +3428,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3457,7 +3448,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3486,7 +3477,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3508,7 +3499,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -><span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3532,7 +3523,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3551,7 +3542,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3569,7 +3560,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -><span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3587,7 +3578,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
+            <h3>Competência Derivada -> <span class='red'> Conteúdos </span></h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3625,7 +3616,7 @@ include 'header.php';
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos   -> Competência dos Eixos -></h3>
-            <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
+            <h3><span class='red'>Competência Derivada </span> -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
             <h1>Sinônimos/Conceitos Relacionados:</h1>
@@ -3665,8 +3656,4 @@ include 'header.php';
       ?>
     </div>
   </div>
-
-  <footer class="footer-final">
-    Sistema web desenvolvido como objetivo de obtenção de nota na disciplina de Trabalho de Conclusão de Curso 2021 no curso de Ciência da Computação - Universidade Estadual do Centro-Oeste.
-  </footer>
 </body>
