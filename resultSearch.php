@@ -6,7 +6,6 @@ include 'header.php';
 <body>
   <div class="topnav">
     <img src="./view/img/ultimate-removebg-preview.png" />
-    <a href="./sobre.php">Acessibilidade</a>
     <a href="./sobre.php">Sobre</a>
     <a href="./contribua.php">Contribua!</a>
     <a href="./tutoriais.php">Tutoriais</a>
@@ -290,7 +289,7 @@ include 'header.php';
             </div>";
             break;
           case 10:
-            echo "<div class='hierarquicodnove-container'>
+            echo "<div class='hierarquicoddez-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -><span class='red'> Competência dos Eixos </span> -></h3>
@@ -1914,7 +1913,7 @@ include 'header.php';
             </div>";
             break;
           case 81:
-            echo "<div class='hierarquicodqssoitenta-container'>
+            echo "<div class='hierarquicodqssoitentateste-container'>
             <h1>Atual Nível Hierárquico:</h1> 
             <div class='niveld-container'>
             <h3>Concept Scheme -> Eixos -> Competência dos Eixos -></h3>
@@ -3645,7 +3644,7 @@ include 'header.php';
             <a href='resultSearch.php?threadid=86'>Compiladores</a><br>
             <hr width = “2” size = “100”>
             </div>";
-
+            break;
         }
       }
 

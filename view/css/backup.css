@@ -1,6 +1,6 @@
 .red{
     color: #FF0000;
-    font-size: 28px;
+    font-size: 26px;
     text-decoration-line: underline;
 }
 
@@ -51,14 +51,14 @@
     }
 
     .topnav a {
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         float: right;
         display: block;
         color: rgb(255, 255, 255);
         text-align: right;
         padding: 14px 12px;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 28px;
         margin-right: 60px;
     }
 
@@ -90,11 +90,11 @@
 
     .pacman-container {
         margin-left: 900px;
-        margin-top: -900px;
+        margin-top: -850px;
     }
 
     .pacman-container img {
-        width: 880px;
+        width: 860px;
     }
 
 
@@ -110,7 +110,7 @@
     }
 
     h1 {
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 24px;
         color: white;
     }
@@ -181,11 +181,11 @@
     }
 
     h2 {
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     h3 {
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 20px;
         color: rgb(31, 30, 30);
         text-align: justify;
@@ -203,7 +203,7 @@
         border-style: groove;
         border-width: 6px;
         border-color: #9E0000;
-        width: 500px;
+        width: fit-content;
         height: 150px;
         bottom: -20px;
     }
@@ -218,7 +218,7 @@
 
     .tesauro-container a {
         color: rgb(255, 255, 255);
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 30px;
         text-decoration-line: none;
 
@@ -275,7 +275,7 @@
 
     .tutorial-container a {
         color: rgb(255, 255, 255);
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 30px;
         text-decoration-line: none;
 
@@ -289,13 +289,11 @@
     }
 
     .tutorial-hierarquico-container {
-
-
         color: #fff;
         width: fit-content;
         position: relative;
         left: 950px;
-        top: -256px;
+        top: -246px;
         font-weight: lighter;
     }
 
@@ -316,7 +314,7 @@
     }
 
     .sobre-fundo-container {
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: relative;
         bottom: 25px;
         background-color: #9E0000;
@@ -370,7 +368,7 @@
 
     .sobre-container a {
         color: rgb(19, 193, 241);
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 28px;
         text-decoration-line: none;
     }
@@ -421,7 +419,7 @@
         height: fit-content;
         position: relative;
         left: 950px;
-        top: -890px;
+        top: -840px;
     }
 
     .sobre-hierarquico-container {
@@ -430,7 +428,7 @@
         height: fit-content;
         position: relative;
         left: 950px;
-        top: -1850px;
+        top: -1880px;
 
     }
 
@@ -479,15 +477,10 @@
     }
 
     .resultado-container {
-        top: 3000px;
-        color: rgb(255, 255, 255);
-        background-color: beige;
-        background-color: transparent;
-        border-radius: 8px;
         border-style: groove;
-        border-width: 6px;
-        border-color: #000000;
-        font-size: 25px;
+        display: flex;
+        grid-template-columns: repeat(3,minmax(0,1fr));
+        grid-column-gap: 20px;
     }
 
 
@@ -499,7 +492,7 @@
     }
 
     .resultadores-container a {
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 
         color: rgb(0, 0, 0);
 
@@ -555,13 +548,13 @@
     }
 
     h5 {
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: #9E0000;
         color: rgb(255, 255, 255);
     }
 
     h6 {
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: transparent;
         color: rgb(0, 0, 0);
         font-size: 22px;
@@ -572,7 +565,7 @@
         color: #fff;
         position: absolute;
         left: 850px;
-        margin-top: -1757px;
+        margin-top: -1740px;
         width: 750px;
         height: fit-content;
     }
@@ -588,7 +581,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1350px;
+        margin-top: -1310px;
         width: 750px;
         height: fit-content;
     }
@@ -605,7 +598,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1335px;
+        margin-top: -1273px;
         width: 750px;
     }
 
@@ -671,13 +664,29 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1565px;
+        margin-top: -1571px;
         width: 750px;
     }
 
     .hierarquicodnove-container h1 {
         color: black;
     }
+
+    
+
+    .hierarquicoddez-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        left: 850px;
+        margin-top: -1565px;
+        width: 750px;
+    }
+
+    .hierarquicoddez-container h1 {
+        color: black;
+    }
+
 
     .hierarquicodonze-container {
         background-color: transparent;
@@ -697,7 +706,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1338px;
+        margin-top: -1333px;
         width: 750px;
     }
 
@@ -736,7 +745,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1399px;
+        margin-top: -1396px;
         width: 750px;
     }
 
@@ -866,7 +875,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1338px;
+        margin-top: -1334px;
         width: 750px;
     }
 
@@ -879,7 +888,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1367px;
+        margin-top: -1364px;
         width: 750px;
     }
 
@@ -996,7 +1005,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1515px;
+        margin-top: -1512px;
         width: 750px;
     }
 
@@ -1009,7 +1018,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1396px;
+        margin-top: -1393px;
         width: 750px;
     }
 
@@ -1022,7 +1031,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1455px;
+        margin-top: -1453px;
         width: 750px;
     }
 
@@ -1061,7 +1070,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1435px;
+        margin-top: -1424px;
         width: 750px;
     }
 
@@ -1074,7 +1083,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1620px;
+        margin-top: -1625px;
         width: 750px;
     }
 
@@ -1100,7 +1109,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1336px;
+        margin-top: -1333px;
         width: 750px;
     }
 
@@ -1347,7 +1356,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1335px;
+        margin-top: -1333px;
         width: 750px;
     }
 
@@ -1425,7 +1434,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1397px;
+        margin-top: -1395px;
         width: 750px;
     }
 
@@ -1503,7 +1512,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1566px;
+        margin-top: -1593px;
         width: 750px;
     }
 
@@ -1515,12 +1524,29 @@
         left: 1000px;
     }
 
+    .hierarquicodqssoitentateste-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        left: 850px;
+        margin-top: -1566px;
+        width: 750px;
+    }
+
+    .hierarquicodqssoitentateste-container h1 {
+        color: black;
+    }
+
+    .hierarquicodqssoitentateste-container h5 {
+        left: 1000px;
+    }
+
     .hierarquicodauto-container {
         background-color: transparent;
         color: rgb(0, 0, 0);
         position: absolute;
-        left: 455px;
-        margin-top: -1057px;
+        left: 655px;
+        margin-top: -1053px;
         width: 750px;
     }
 
@@ -1806,7 +1832,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -2700px;
+        margin-top: -2705px;
         width: 750px;
     }
 
@@ -1858,7 +1884,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -2315px;
+        margin-top: -2345px;
         width: 750px;
     }
 
@@ -2079,7 +2105,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1447px;
+        margin-top: -1445px;
         width: 750px;
     }
 
@@ -2106,7 +2132,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -3268px;
+        margin-top: -3273px;
         width: 750px;
     }
 
@@ -2119,7 +2145,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1538px;
+        margin-top: -1536px;
         width: 750px;
     }
 
@@ -2158,7 +2184,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -2640px;
+        margin-top: -2643px;
         width: 750px;
     }
 
@@ -2197,7 +2223,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -3117px;
+        margin-top: -3122px;
         width: 750px;
     }
 
@@ -2249,7 +2275,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1597px;
+        margin-top: -1596px;
         width: 750px;
     }
 
@@ -2288,7 +2314,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -1335px;
+        margin-top: -1333px;
         width: 750px;
     }
 
@@ -2327,7 +2353,7 @@
         color: rgb(0, 0, 0);
         position: absolute;
         left: 850px;
-        margin-top: -3038px;
+        margin-top: -3041px;
         width: 750px;
     }
 
@@ -2342,6 +2368,10 @@
         left: 850px;
         margin-top: -1365px;
         width: 750px;
+    }
+
+    .hierarquicodqsscemcinquentaquatro-container h1 {
+        color: black;
     }
 
     .hierarquicodqsscemcinquentatres-container h1 {
@@ -2381,7 +2411,7 @@
     }
 
     footer {
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: relative;
         bottom: 5px;
         background-color: #9E0000;
@@ -2397,7 +2427,7 @@
     }
 
     .footer-final {
-        font-family: Apple Chancery, cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
         bottom: -5px;
         background-color: #9E0000;
