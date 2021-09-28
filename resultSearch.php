@@ -37,8 +37,8 @@ include 'header.php';
 
       while ($row = mysqli_fetch_assoc($result)) {
         echo "ID: " . $row['idConceito'] . "<br>";
-        echo "<h5>Título do Conceito Preferêncial: </h5> <h6>" . $row['prefLabel'] . "</h6>";
-        echo "<h5>Título do conceito em Inglês: </h5> <h6>" . $row['altLabelA'] . "</h6>";
+        echo "<h5>Título do Conceito: </h5> <h6>" . $row['prefLabel'] . "</h6>";
+        echo "<h5>Título do Conceito em Inglês: </h5> <h6>" . $row['altLabelA'] . "</h6>";
         echo "<h5>Definição Acadêmica: </h5> <h6>" . $row['definitionA'] . "</h6>";
         echo "<h5>Definição Acadêmica em Inglês: </h5> <h6>" . $row['definitionB'] . "</h6>";
         echo "<h5>Definição da Comunidade: </h5> <h6>" . $row['definitionComun'] . "</h6>";
@@ -93,7 +93,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=79'>Algoritmos</a><br>
@@ -115,7 +115,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
             <hr width = “2” size = “100”>
@@ -138,7 +138,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
             <hr width = “2” size = “100”>
@@ -170,7 +170,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
             <hr width = “2” size = “100”>
@@ -199,7 +199,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
             <hr width = “2” size = “100”>
@@ -229,7 +229,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
             <hr width = “2” size = “100”>
@@ -268,7 +268,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
             <hr width = “2” size = “100”>
@@ -306,7 +306,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=11'>Eixo 1 - Resolução de Problemas</a><br>
             <hr width = “2” size = “100”>
@@ -334,7 +334,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=10'>Competências do Eixo I</a><br>
@@ -350,7 +350,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
@@ -387,7 +387,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
@@ -425,7 +425,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
@@ -452,7 +452,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
@@ -468,7 +468,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
@@ -488,7 +488,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=116'>Matemática Discreta</a><br>
@@ -515,7 +515,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=121'>Métodos Formais</a><br>
@@ -533,7 +533,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=98'>Engenharia de Software</a><br>
@@ -549,7 +549,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=98'>Engenharia de Software</a><br>
@@ -565,7 +565,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=85'>Banco de Dados</a><br>
@@ -595,7 +595,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=91'>Computação Gráfica</a><br>
@@ -624,7 +624,7 @@ include 'header.php';
             <h3>Competência Derivada  -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=24'>Eixo 2 - Desenvolvimento de Sistemas</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
@@ -661,7 +661,7 @@ include 'header.php';
             <h3>Competência Derivada  -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=23'>Competências do Eixo II</a><br>
@@ -677,7 +677,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=84'>Avaliação de Desempenho</a><br>
@@ -699,7 +699,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=92'>Comunicação Profissional</a><br>
@@ -717,7 +717,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=157'>Ética em Computação</a><br>
@@ -739,7 +739,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=108'>Inglês Instrumental</a><br>
@@ -755,7 +755,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=92'>Comunicação Profissional</a><br>
@@ -774,7 +774,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=92'>Comunicação Profissional</a><br>
@@ -794,7 +794,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=92'>Ética em Computação</a><br>
@@ -822,7 +822,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=104'>Gerenciamento de Projetos</a><br>
@@ -842,7 +842,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=36'>Engenharia de Software</a><br>
@@ -860,7 +860,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=104'>Gerenciamento de Projetos</a><br>
@@ -876,7 +876,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=36'>Competências do Eixo III</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=104'>Gerenciamento de Projetos</a><br>
@@ -892,7 +892,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=37'>Eixo 3 - Desenvolvimento de Projetos</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=25'>C.3.1 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
@@ -927,7 +927,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
 
@@ -944,7 +944,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=80'>Arquitetura e Organização de Computadores</a><br>
@@ -978,7 +978,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=122'>Métodos Quantitativos em Computação</a><br>
@@ -996,7 +996,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=122'>Engenharia de Software</a><br>
@@ -1014,7 +1014,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=84'>Avaliação de Desempenho</a><br>
@@ -1032,7 +1032,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=108'>Inglês Instrumental</a><br>
@@ -1048,7 +1048,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=92'>Comunicação Profissional</a><br>
@@ -1073,7 +1073,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=139'>Propriedade Intelectual</a><br>
@@ -1103,7 +1103,7 @@ include 'header.php';
             <h3>Competência Derivada  -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=98'>Engenharia de Software</a><br>
@@ -1119,7 +1119,7 @@ include 'header.php';
             <h3>Competência Derivada-> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=47'>Eixo 4 - Implementação de Sistemas</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=38'>C.4.1 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das carac</a><br>
@@ -1149,7 +1149,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=46'>Competências do Eixo IV</a><br>
@@ -1164,7 +1164,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=135'>Programação Imperativa</a><br>
@@ -1185,7 +1185,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=157'>Ética em Computação</a><br>
@@ -1219,7 +1219,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=126'>Probabilidade e Estatística</a><br>
@@ -1236,7 +1236,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=84'>Avaliação de Desempenho</a><br>
@@ -1255,7 +1255,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=108'>Inglês Instrumental</a><br>
@@ -1271,7 +1271,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=157'>Ética em Computação</a><br>
@@ -1295,7 +1295,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=96'>Dependabilidade</a><br>
@@ -1315,7 +1315,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=138'>Projeto de Sistemas Computacionais</a><br>
@@ -1333,7 +1333,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=148'>Sistemas Distribuídos</a><br>
@@ -1372,7 +1372,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=125'>Privacidade e Direitos Civis</a><br>
@@ -1406,7 +1406,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=150'>Sistemas Multimídia</a><br>
@@ -1434,7 +1434,7 @@ include 'header.php';
             <h3>Competência Derivada  -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=60'>Eixo 5 - Gestão de Infraestrutura</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=48'>C.5.1 - Resolver problemas usando ambientes de programação</a><br>
@@ -1471,7 +1471,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=59'>Competências do Eixo V</a><br>
@@ -1486,7 +1486,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=68'>Competências do Eixo VI</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=105'>Gestão de Carreira Profissional</a><br>
@@ -1505,7 +1505,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=68'>Competências do Eixo VI</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=92'>Comunicação Profissional</a><br>
@@ -1525,7 +1525,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=68'>Competências do Eixo VI</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=119'>Métodologia Científica</a><br>
@@ -1541,7 +1541,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=68'>Competências do Eixo VI</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=108'>Inglês Instrumental</a><br>
@@ -1557,10 +1557,10 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=68'>Competências do Eixo VI</a><br>
             <hr width = “2” size = “100”>
-            <a>Todos os conceitos aplicáveis a este Tesauro.</a><br>
+            <h3>Todos os conceitos aplicáveis a este Tesauro.</3><br>
             
 
             </div>";
@@ -1573,7 +1573,7 @@ include 'header.php';
             <h3>Competência Derivada  (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=68'>Competências do Eixo VI</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=80'>Arquitetura e Organização de Computadores</a><br>
@@ -1593,7 +1593,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=68'>Competências do Eixo VI</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=145'>Simulação de Sistemas</a><br>
@@ -1614,7 +1614,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=69'>Eixo 6 - Aprendizado Contínuo e Autônomo</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=61'>C.6.1 - Gerir a sua própria aprendizagem e desenvolvimento, incluindo a gestão de tempo e competências organizacionais</a><br>
@@ -1643,7 +1643,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=68'>Competências do Eixo VI</a><br>
@@ -1660,7 +1660,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=79'>Algoritmos</a><br>
@@ -1681,7 +1681,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=87'>Complexidade de Algoritmos</a><br>
@@ -1698,7 +1698,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=87'>Complexidade de Algoritmos</a><br>
@@ -1720,7 +1720,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=87'>Complexidade de Algoritmos</a><br>
@@ -1737,7 +1737,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=98'>Engenharia de Software</a><br>
@@ -1761,7 +1761,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=138'>Projeto de Sistemas Computacionais</a><br>
@@ -1788,7 +1788,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=80'>Arquitetura e Organização de Computadores</a><br>
@@ -1818,7 +1818,7 @@ include 'header.php';
             <h3>Competência Derivada  -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=78'>Eixo 7 - Ciência, Tecnologia e Inovação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=70'>C.7.1 - Identificar problemas que tenham solução algorítmica</a><br>
@@ -1850,7 +1850,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=2'>Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
@@ -1866,7 +1866,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=3'>C.1.1 - Identificar problemas que tenham solução algorítmica</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=3'>C.1.3 - Resolver problemas que tenham solução algorítmica</a><br>
@@ -1897,7 +1897,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching)...</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware...</a><br>
@@ -1930,7 +1930,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching)...</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realiar trabalho cooperativo e etender os benefícios que este pode produzir</a><br>
@@ -1950,7 +1950,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=17'>C.2.6 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -1966,7 +1966,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=61'>C.6.1 - Gerir a sua própria aprendizagem e desenvolvimento, incluindo a gestão de tempo e competências organizacionais</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -1981,7 +1981,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=14'>C.2.3 - Avaliar criticamente projetos de sistemas de computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=25'>C.3.1 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
@@ -2009,7 +2009,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching)...</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
@@ -2044,7 +2044,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=5'>C.1.3 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -2064,7 +2064,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=4'>C.1.2 - Conhecer os limites da computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=6'>C.1.4 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
@@ -2096,7 +2096,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=16'>C.2.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=30'>C.3.6 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -2118,7 +2118,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=7'>C.1.5 - Reconhecer a importância do pensamento computacional no cotidiano e sua aplicação em circunstâncias apropriadas e em domínios diversos</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientais decorrentes</a><br>
@@ -2146,7 +2146,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientais decorrentes</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=56'>C.5.9 - Especificar, projetar, implementar, manter e avaliar sistemas de computação, empregando teorias, práticas e ferramentas adequadas</a><br>
@@ -2166,7 +2166,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=22'>C.2.11 - Aplicar os princípios de interação humano-computador para avaliar e construir uma grande variedade de produtos incluindo interface do usuário, páginas WEB, sistemas multimídia e sistemas móveis</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -2184,7 +2184,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=16'>C.2.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=26'>C.3.2 - Preparar e apresentar seus trabalhos e problemas técnicos e suas soluções para audiências diversas, em formatos apropriados (oral e escrito)</a><br>
@@ -2209,7 +2209,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientes decorrentes</a><br>
@@ -2233,7 +2233,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=6'>C.1.4 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -2251,7 +2251,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=6'>C.1.4 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -2269,7 +2269,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=14'>C.2.3 - Avaliar criticamente projetos de sistemas de computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=54'>C.5.7 - Identificar e gerenciar os riscos que podem estar envolvidos na opração de equipamentos de computação (incluindo os aspectos de dependabilidade e segurança)</a><br>
@@ -2289,7 +2289,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=7'>C.1.5 - Reconhecer a importância do pensamento computacional no cotidiano e sua aplicação em circunstâncias apropriadas e em domínios diversos</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=29'>C.3.5 - Empreender e exercer liderança, coordenação e supervisão na sua área de atuação profissional</a><br>
@@ -2309,7 +2309,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientes decorrentes</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=14'>C.2.3 - Avaliar criticamente projetos de sistemas de computação</a><br>
@@ -2345,7 +2345,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=54'>C.5.7 - Identificar e gerenciar os riscos que podem estar envolvidos na opração de equipamentos de computação (incluindo os aspectos de dependabilidade e segurança)</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -2361,7 +2361,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=5'>C.1.3 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=7'>C.1.5 - Reconhecer a importância do pensamento computacional no cotidiano e sua aplicação em circunstâncias apropriadas e em domínios diversos</a><br>
@@ -2385,7 +2385,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=7'>C.1.5 - Reconhecer a importância do pensamento computacional no cotidiano e sua aplicação em circunstâncias apropriadas e em domínios diversos</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=43'>C.4.6 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -2406,7 +2406,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=44'>C.4.7 - Conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
@@ -2425,7 +2425,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=6'>C.1.4 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -2443,7 +2443,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=16'>C.2.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=25'>C.3.1 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
@@ -2478,7 +2478,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=61'>C.6.1 - Gerir a sua própria aprendizagem e desenvolvimento, incluindo a gestão de tempo e competências organizacionais</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -2494,7 +2494,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=61'>C.6.1 - Gerir a sua própria aprendizagem e desenvolvimento, incluindo a gestão de tempo e competências organizacionais</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -2510,7 +2510,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=44'>C.4.7 - Conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=57'>C.5.10 - Conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores envolvidos</a><br>
@@ -2532,14 +2532,14 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=5'>C.1.3 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=15'>C.2.4 - Ler textos técnicos na língua inglesa</a><br>
             <hr width = “2” size = “100”>
-            <a href='resultSearch.php?threadid=28'>C.3.4 - Ler textos técnicos na língua inlgesa</a><br>
+            <a href='resultSearch.php?threadid=28'>C.3.4 - Ler textos técnicos na língua inglesa</a><br>
             <hr width = “2” size = “100”>
-            <a href='resultSearch.php?threadid=42'>C.4.5 - Ler texxtos técnicos na língua inglesa </a><br>
+            <a href='resultSearch.php?threadid=42'>C.4.5 - Ler textos técnicos na língua inglesa </a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=52'>C.5.5 - Ler textos técnicos na língua Inglesa</a><br>
             <hr width = “2” size = “100”>
@@ -2559,7 +2559,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=26'>C.3.2 - Preparar e apresentar seus trabalhos e problemas técnicos e suas soluções para audiências diversas, em formatos apropriados (oral e escrito)</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=62'>C.6.2 - Preparar e apresentar seus trabalhos e problemas técnicos e suas soluções para audiências diversas, em formatos apropriados(oral e escrito)</a><br>
@@ -2578,7 +2578,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
@@ -2602,7 +2602,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=22'>C.2.11 - Aplicar os princípios de interação humano-computador para avaliar e construir uma grande variedade de produtos incluindo interface do usuário, páginas WEB, sistemas multímidia e sistemas móveis</a><br>
@@ -2626,7 +2626,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=22'>C.2.11 - Aplicar os princípios de interação humano-computador para avaliar e construir uma grande variedade de produtos incluindo interface do usuário, páginas WEB, sistemas multímidia e sistemas móveis</a><br>
             <hr width = “2” size = “100”>
@@ -2648,7 +2648,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
@@ -2675,7 +2675,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
@@ -2695,7 +2695,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=3'>C.1.1 - Identificar problemas que tenham solução algorítmica</a><br>
             <hr width = “2” size = “100”>
@@ -2724,7 +2724,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=3'>C.1.1 - Identificar problemas que tenham solução algorítmica</a><br>
             <hr width = “2” size = “100”>
@@ -2750,7 +2750,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientes decorrentes</a><br>
             <hr width = “2” size = “100”>
@@ -2775,7 +2775,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=3'>C.1.1 - Identificar problemas que tenham solução algorítmica</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=62'>C.6.2 - Preparar e apresentar seus trabalhos e problemas técnicos e suas soluções para audiências diversas, em formatos apropriados(oral e escrito)</a><br>
@@ -2799,7 +2799,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=41'>C.4.4 - Avaliar criticamente projetos de sistemas de computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=44'>C.4.7 - Conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
@@ -2822,7 +2822,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=18'>C.2.7 - Identificar e analisar requisitos e especificações para problemas específicos e planejar estratégias para suas soluções</a><br>
@@ -2846,7 +2846,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=6'>C.1.4 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=14'>C.2.3 - Avaliar criticamente projetos de sistemas de computação</a><br>
@@ -2874,7 +2874,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=5'>C.1.3 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
             
@@ -2893,7 +2893,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
             
@@ -2912,7 +2912,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
             
@@ -2938,7 +2938,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=6'>C.1.4 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=25'>C.3.1 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
@@ -2964,7 +2964,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=21'>C.2.10 - Aplicar os princípios de gerência, organização e recuperação da informação de vários tipos, incluindo texto imagem som e vídeo</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=58'>C.5.11 - Aplicar os princípios de gerência, organização e recuperação da informação de vários tipos, incluindo texto imagem som e vídeo</a><br>
@@ -2985,7 +2985,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -3001,7 +3001,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
@@ -3023,7 +3023,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=22'>C.2.11 - Aplicar os princípios de interação humano-computador para avaliar e construir uma grande variedade de produtos incluindo interface do usuário, páginas WEB, sistemas multímidia e sistemas móveis</a><br>
             <hr width = “2” size = “100”>
@@ -3043,7 +3043,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=22'>C.2.11 - Aplicar os princípios de interação humano-computador para avaliar e construir uma grande variedade de produtos incluindo interface do usuário, páginas WEB, sistemas multímidia e sistemas móveis</a><br>
             <hr width = “2” size = “100”>
@@ -3063,7 +3063,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=48'>C.5.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
@@ -3080,7 +3080,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=48'>C.5.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
@@ -3097,7 +3097,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=48'>C.5.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
@@ -3114,7 +3114,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=48'>C.5.1 - Resolver problemas usando ambientes de programação</a><br>
@@ -3132,7 +3132,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=48'>C.5.1 - Resolver problemas usando ambientes de programação</a><br>
@@ -3153,7 +3153,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
@@ -3170,7 +3170,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=55'>C.5.8 - Identificar e analisar requisitos e especificações para problemas específicos e planejar estratégias para suas soluções</a><br>
             <hr width = “2” size = “100”>
@@ -3193,7 +3193,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=44'>C.4.7 - Conceber soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
@@ -3215,7 +3215,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=22'>C.2.11 - Aplicar os princípios de interação humano-computador para avaliar e construir uma grande variedade de produtos incluindo interface do usuário, páginas WEB, sistemas multímidia e sistemas móveis</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=65'>C.6.5 - Ser capaz de realizar trabalho cooperativo e entender os benefícios que este pode produzir</a><br>
@@ -3233,7 +3233,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=21'>C.2.10 - Aplicar os princípios de gerência, organização e recuperação da informação de vários tipos, incluindo texto imagem som e vídeo</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=58'>C.5.11 - Aplicar os princípios de gerência, organização e recuperação da informação de vários tipos, incluindo texto imagem som e vídeo</a><br>
@@ -3251,7 +3251,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientes decorrentes</a><br>
@@ -3282,7 +3282,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientes decorrentes</a><br>
@@ -3315,7 +3315,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientes decorrentes</a><br>
@@ -3348,7 +3348,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
@@ -3369,7 +3369,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
@@ -3388,7 +3388,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=14'>C.2.3 - Avaliar criticamente projetos de sistemas de computação</a><br>
@@ -3420,7 +3420,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=12'>C.2.1 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=56'>C.5.9 - Especificar, projetar, implementar, manter e avaliar sistemas de computação, empregando teorias, práticas e ferramentas adequadas</a><br>
@@ -3440,7 +3440,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=21'>C.2.10 - Aplicar os princípios de gerência, organização e recuperação da informação de vários tipos, incluindo texto imagem som e vídeo</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=22'>C.2.11 - Aplicar os princípios de interação humano-computador para avaliar e construir uma grande variedade de produtos incluindo interface do usuário, páginas WEB, sistemas multímidia e sistemas móveis</a><br>
@@ -3460,7 +3460,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=9'>C.1.7 - Aplicar temas e princípios recorrentes, como abstração, complexidade, princípio de localidade de referência (caching), compartilhamento de recursos, segurança, concorrência, evolução de sistemas, entre outros, e reconhecer que esses temas e princípios são fundamentais à área de Ciência da Computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientes decorrentes</a><br>
@@ -3489,7 +3489,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientes decorrentes</a><br>
@@ -3511,7 +3511,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=4'>C.1.2 - Conhecer os limites da computação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
@@ -3535,7 +3535,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=5'>C.1.3 - Resolver problemas usando ambientes de programação</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=17'>C.2.6 - Compreender os fatos essenciais, os conceitos, os princípios e as teorias relacionadas à Ciência da Computação para o desenvolvimento de software e hardware e suas aplicações</a><br>
@@ -3554,7 +3554,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
@@ -3572,7 +3572,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             
             <a href='resultSearch.php?threadid=6'>C.1.4 - Compreender e explicar as dimensões quantitativas de um problema</a><br>
             <hr width = “2” size = “100”>
@@ -3590,7 +3590,7 @@ include 'header.php';
             <h3>Competência Derivada -> Conteúdos (Você está aqui)</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=8'>C.1.6 - Conhecer soluções computacionais a partir de decisões visando o equilíbrio de todos os fatores</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=13'>C.2.2 - Tomar decisões e inovar, com base no conhecimento do funcionamento e das características técnicas de hardware e da infraestrutura de software dos sistemas de computação, consciente dos aspectos éticos, legais e dos impactos ambientes decorrentes</a><br>
@@ -3628,7 +3628,7 @@ include 'header.php';
             <h3>Competência Derivada (Você está aqui) -> Conteúdos</h3>
             
             <hr width = “2” size = “100”>
-            <h1>Sinônimos/Conceitos Relacinados:</h1>
+            <h1>Sinônimos/Conceitos Relacionados:</h1>
             <a href='resultSearch.php?threadid=77'>Competências do Eixo VII</a><br>
             <hr width = “2” size = “100”>
             <a href='resultSearch.php?threadid=87'>Sistemas Operacionais</a><br>

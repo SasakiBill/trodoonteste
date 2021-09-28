@@ -33,7 +33,7 @@
   <h3>Tesauros da Computação Disponíveis:</h3>
       <ul style="list-style-type:disc">
         <li>
-          <h3>Ciência da Computação</h3>
+          <a href='resultSearch.php?threadid=2'>Ciência da Computação</a>
         </li>
       </ul>
   </div>
