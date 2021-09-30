@@ -6,7 +6,7 @@ include 'header.php';
 <body>
   <div class="topnav">
     <img src="./view/img/ultimate-removebg-preview.png" />
-    <a href="./sobre.php">Acessibilidade</a>
+    
     <a href="./sobre.php">Sobre</a>
     <a href="./contribua.php">Contribua!</a>
     <a href="./tutoriais.php">Tutoriais</a>
