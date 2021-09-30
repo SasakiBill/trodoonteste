@@ -15,7 +15,7 @@ include 'header.php';
   </div>
 
   <div class="titulo-container">
-    <h2>Trodoon - DICIONÁRIO GRATUÍTO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
+    <h2>Trodoon - DICIONÁRIO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
     <div class="search-container">
       <form action="search.php" method="POST">
         <input type="text" placeholder="Busque aqui pelo tesauro..." name="search" />
