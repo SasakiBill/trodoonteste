@@ -23,7 +23,7 @@ header('Content-Type: text/html; charset=UTF-8');
     </div>
 
     <div class="titulo-container">
-      <h2>Trodoon - DICIONÁRIO GRATUÍTO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
+      <h2>Trodoon - DICIONÁRIO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
       <div class="search-container">
         <form action="search.php" method="POST">
           <input type="text" placeholder="Busque aqui pelo tesauro..." name="search" />
@@ -60,7 +60,9 @@ header('Content-Type: text/html; charset=UTF-8');
     <div class="hierarquico-container">
       <h1>Atual Nível Hierárquico:<h1>
           <div class="nivel-container">
-            <h3>Ao pesquisar por algum conceito, aqui aparecerá em qual nível hierárquico você está!</h3>
+            <h3>Ao entrar em algum conceito, nessa caixa de texto
+aparecerá em qual nível hierárquico você está!
+Para mais informações, acesse a aba Sobre.</h3>
           </div>
     </div>
 

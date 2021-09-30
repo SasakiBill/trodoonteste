@@ -1,610 +1,694 @@
-body{
-    /*background: url("../img/back7.png") no-repeat center center fixed; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    backdrop-filter: blur(7px);
-    
-}
-
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #9E0000;
-    border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #b30000;
-}
-
-.topnav {
-    background-color: #9E0000;
-    
-    overflow: hidden;
-    color: #fff;
-    text-align: left;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 6px;
-    border-color: #9E0000;
-    
-    position: absolute;
-	width: 1920px;
-	height: 95px;
-   
-}
-
-.topnav img{
-    float: left;
-    width: 250px;
-}
-
-.topnav a {
-    font-family: Apple Chancery, cursive;
-    float: right;
-    display: block;
-    color: rgb(255, 255, 255);
-    text-align: right;
-    padding: 14px 12px;
-    text-decoration: none;
+.red{
+    color: #FF0000;
     font-size: 26px;
-    margin-right: 60px;
-    text-align: left;
-}
-
-.topnav a:hover {
-    background-color: #9E0000;
-    color: #BF1313;
-    border-radius: 8px;
-    -webkit-transition: 0.5s;
-    color: rgb(31, 30, 30);
-}
-
-.article-container {
-    background-color: transparent;
-    border-radius: 8px;
-    color: #fff;
-    height: fit-content;
-    width: 787px;
-    top: 110px;
-    position: relative;
-}
-
-.article-sobre-container {
-    background-color: transparent;
-    border-radius: 8px;
-    color: rgb(0, 0, 0);
-    height: fit-content;
-    width: 870px;
-    
-    
-}
-
-.pacman-container{
-    margin-left: 900px;
-    margin-top: -660px;
-}
-
-.pacman-container img{
-    width: 760px;
-}
-
-
-.article-container h1{
-    font-size: 28px;
-    background: #BF1313;
-    border-radius: 8px;
-    border-style: groove;
-    border-color: black;
-    border-width: 2px;
-    color: white;
-    font-weight: lighter;
-}
-
-h1 {
-    font-family: Apple Chancery, cursive;
-    font-size: 24px;
-    color: white;
-}
-
-.titulo-container h2{
-    color: rgb(255, 255, 255);
-    margin-top: 0px;
-    font-weight: lighter;
-    
-}
-
-.titulo-container {
-    background-color: #BF1313;
-    color: #fff;
-    
-	top: 100px;
-    height: 60px;
-    width: 1920px;
-    position: relative;
-    border-radius: 2px;
-    border-style: groove;
-    border-width: 4px;
-    border-color: #9E0000;
-    
-}
-
-
-
-.titulo-container .search-container {
-    margin-right: 55px;
-}
-
-.titulo-container input[type="text"] {
-    color: black;
-    background: white;
-    padding: 6px;
-    margin-top: -50px;
-    font-size: 17px;
-    border: none;
-    float: right;
-}
-
-::placeholder{
-    color:rgb(105, 92, 92);
-}
-
-.titulo-container .search-container button {
-    border-radius: 4px;
-    float: right;
-    margin-top: -50px;
-    margin-right: -48px;
-    height: 32px;
-    width: 45px;
-    border: none;
-    background-color: #2a2ddd;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 16px;
-    
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-.titulo-container .search-container button:hover {
-    background: greenyellow;
-    color: black;
-    transition-property: width;
-    transition-duration: 2s;
-    transition-timing-function: linear;
-    transition-delay: 1s;
-}
-
-h2 {
-    font-family: Apple Chancery, cursive;
-}
-
-h3 {
-    font-family: Apple Chancery, cursive;
-    font-size: 20px;
-    color: rgb(31, 30, 30);
-    text-align: justify;
-}
-
-p {
-    margin: 0;
-    text-indent: 3ch;
-}
-
-.tesauro-container{
-    position: relative;
-    background-color: #BF1313;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 6px;
-    border-color: #9E0000;
-    width: fit-content;
-    height: 150px;
-    bottom: -6px;
-}
-
-.tesauro-container h3{
-    font-size: 30px;
-    color: white;
-}
-
-.tesauro-container a{
-    color: rgb(255, 255, 255);
-    font-family: Apple Chancery, cursive;
-    font-size: 30px;
-    text-decoration-line: none;
-
-}
-
-.tesauro-container a:hover{
-    background-color: transparent;
-    color: #000000;
-    border-radius: 8px;
-    -webkit-transition: 0.5s;
-}
-
-.tesauro-hierarquico-container{
-    border-radius: 8px;
-    border-color: black;
-    background-color: #BF1313;
-    color: #fff;
-    width: fit-content;
-    position: relative;
-    left: 950px;
-    top: -170px;
-    font-weight: lighter;
-}
-
-.tesauro-hierarquico-container h1{
-   font-size: 30px;
-}
-
-.tutorial-container{
-    position: relative;
-    background-color: #BF1313;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 6px;
-    border-color: #9E0000;
-    width: fit-content;
-    height: fit-content;
-    width: 750px;
-    bottom: -6px;
-}
-
-.tutorial-container h3{
-    font-size: 30px;
-    color: white;
-}
-
-.tutorial-container a{
-    color: rgb(255, 255, 255);
-    font-family: Apple Chancery, cursive;
-    font-size: 30px;
-    text-decoration-line: none;
-
-}
-
-.tutorial-container a:hover{
-    background-color: transparent;
-    color: #000000;
-    border-radius: 8px;
-    -webkit-transition: 0.5s;
-}
-
-.tutorial-hierarquico-container{
-    
-    
-    color: #fff;
-    width: fit-content;
-    position: relative;
-    left: 950px;
-    top: -250px;
-    font-weight: lighter;
-}
-
-.tutorial-hierarquico-container h1{
-    background-color: #BF1313;
-    border-radius: 8px;
-    border-color: black;
-}
-
-.fundo-container{
-    bottom: -550px;
-}
-
-.sobre-fundo-container{
-    font-family: Apple Chancery, cursive;
-    position: absolute;
-    bottom: -5px;
-    background-color: #9E0000;
-    color: #FFF;
-    font-size: 20px;
-    width: 99%;
-    height: 50px;    
-    text-align: center;
-    line-height: 50px;
-    border-radius: 4px;
-    border-style: groove;
-    border-color: #000000;
-}
-
-.index-fundo-container{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    margin-top: auto;
-    background-color: #9E0000;
-    color: #FFF;
-    font-size: 18px;
-    width: 1920px;
-    height: 50px;    
-    text-align: center;
-    line-height: 50px;
-    border-radius: 4px;
-    border-style: groove;
-    border-color: #000000;
-}
-
-.fundo-tutorial-container{
-    bottom: -410px;
-    margin-left: 10px;
-}
-
-.fundo-contribua-container{
-    bottom: -30px;
-}
-
-.creators-container {
-    position: relative;
-    background-color: #BF1313;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 6px;
-    border-color: #9E0000;
-    width: auto;
-    height: auto;
-    top: 10px;
-    
-}
-
-.sobre-container {
-    position: relative;
-    width: auto;
-    height: auto;
-    background-color: #BF1313;
-    color: white;
-    border-color: #9E0000;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 6px;
-}
-
-.sobre-container a{
-    color: rgb(255, 255, 255);
-    font-family: Apple Chancery, cursive;
-    font-size: 30px;
-    text-decoration-line: none;
-}
-
-.sobre-container a:hover{
-    background-color: transparent;
-    color: #000000;
-    border-radius: 8px;
-    -webkit-transition: 0.5s;
-}
-
-
-.article-sobre-container h4{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 36px;
-    border-radius: 4px;
-    background-color: #BF1313;
-    color: white;
-    border-color: #9E0000;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 6px;
-}
-
-.sobre-container h2{
-    color: rgb(218, 206, 206);
-}
-
-.article-sobre-container h1{
-    font-size: 30px;
-    
-
-}
-
-.creators-container h3{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: lighter;
-    background-color: #BF1313;
-    
-    
-}
-
-.hierarquico-container {
-    color: #fff;
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    left: 950px;
-    top: -680px;
-}
-
-.sobre-hierarquico-container{
-    color: #fff;
-    width: 650px;
-    position: relative;
-    left: 950px;
-    top: -1575px;
-    font-weight: lighter;
-    
-}
-
-.sobre-hierarquico-container h1{
-    background-color: #BF1313;
-    border-radius: 8px;
-    
-    width: fit-content;
-    border-color: #9E0000;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 6px;
-}
-
-.hierarquico-container h1{
-    font-size: 28px;
-    background: #b30000;
-    border-radius: 8px;
-    border-style: groove;
-    border-color: black;
-    border-width: 2px;
-    color: white;
-    font-weight: lighter;
-}
-
-.nivel-container {
-    position: relative;
-    background-color: #BF1313;
-    border-radius: 8px;
-    border-style: groove;
-    border-color: #fff;
-    border-width: 6px;
-    border-color: #9E0000;
-    width: 600px;
-    height: 150px;
-}
-
-.nivel-container h3{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: lighter;
-}
-
-
-
-
-
-footer {
-    font-family: Apple Chancery, cursive;
-    position: relative;
-    bottom: 5px;
-    background-color: #9E0000;
-    color: #FFF;
-    font-size: 20px;
-    width: 99%;
-    height: 50px;    
-    text-align: center;
-    line-height: 50px;
-    border-radius: 4px;
-    border-style: groove;
-    border-color: #000000;
-}
-
-.formulario-container{
-    margin-left: left;
-}
-
-.resultado-container {
-    top: 3000px;
-    color: rgb(255, 255, 255);
-    background-color: beige;
-    background-color: transparent;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 6px;
-    border-color: #000000;
-    font-size: 25px;
-}
-
-
-
-.resultadores-container h3{
-    font-size: 26px;
-    color: rgb(0, 0, 0);
-    
-}
-
-.resultadores-container a{
-    font-family: Apple Chancery, cursive;
-    
-    color: rgb(0, 0, 0);
-    
-    padding: 14px 12px;
-    
-    font-size: 25px;
-    margin-right: 60px;
-    text-decoration: none;
-    
-}
-
-.resultadores-container a:hover {
-    background-color: transparent;
-    color: #BF1313;
-    border-radius: 8px;
-    -webkit-transition: 0.5s;
-    
-   
-}
-
-.cconceito-container{
-    position: inherit;
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    
-    font-size: 25px;
-    width: 750px;
-    height: fit-content;
-}
-
-.cconceito-container h3{
-    font-size: 28px;
-    color: rgb(0, 0, 0);
-
-}
-
-.conceito-container{
-    width: fit-content;
-    height: fit-content;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 2px;
-    border-color: black;
-}
-
-.conceito-container h5{
-    text-align: justify;
-    color: #9E0000;
-    font-size: 24px;
     text-decoration-line: underline;
-    background-color: transparent;
-
 }
 
-h5{
-    font-family: Apple Chancery, cursive;
-    background-color: #9E0000;
-    color: rgb(255, 255, 255);  
-}
 
-h6{
-    font-family: Apple Chancery, cursive;
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    font-size: 22px;
-}
+@media only screen and (max-width: 992px) {
 
-.hierarquicod-container {
-    background-color: transparent;
-    color: #fff;
-    position: absolute;
-    left: 755px;
-    margin-top: -1757px;
-    width: 750px;
-    height: fit-content;
-}
+    body{
+        zoom: 60%;
+    }
 
-.hierarquicod-container h1{
-    font-size: 28px;
-    color: black;
-    font-weight: lighter;
-}
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #9E0000;
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+    }
+
+    .topnav {
+        background-color: #9E0000;
+        position: relative;
+        overflow: hidden;
+        color: #fff;
+        text-align: right;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+        border-color: #9E0000;
+        height: 80px;
+        width: 1550px;
+    }
+
+    .topnav img {
+        float: left;
+        width: 200px;
+    }
+
+    .topnav a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        float: right;
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: right;
+        padding: 12px 12px;
+        text-decoration: none;
+        font-size: 22px;
+        margin-right: 60px;
+    }
+
+    .topnav a:hover {
+        background-color: #9E0000;
+        color: #BF1313;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+        color: rgb(31, 30, 30);
+    }
+
+    .article-container {
+        background-color: transparent;
+        border-radius: 8px;
+        color: #fff;
+        height: fit-content;
+        width: 870px;
+    }
+
+    .article-sobre-container {
+        background-color: transparent;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+        height: fit-content;
+        width: 870px;
+        font-size: 28px;
+
+    }
+
+    .pacman-container {
+        margin-left: 780px;
+        margin-top: -680px;
+    }
+
+    .pacman-container img {
+        width: 830px;
+    }
+
+
+    .article-container h1 {
+        font-size: 28px;
+        background: #BF1313;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: black;
+        border-width: 2px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+        color: white;
+    }
+
+    .titulo-container h2 {
+        color: rgb(255, 255, 255);
+        margin-top: 0px;
+        font-weight: lighter;
+
+    }
+
+    .titulo-container {
+        background-color: #BF1313;
+        color: #fff;
+        top: 2px;
+        height: 60px;
+        position: relative;
+        width: 1530px;
+        border-radius: 2px;
+        border-style: groove;
+        border-width: 4px;
+        border-color: #9E0000;
+    }
+
+
+
+    .titulo-container .search-container {
+        margin-right: 90px;
+    }
+
+    .titulo-container input[type="text"] {
+        color: black;
+        background: white;
+        padding: 6px;
+        margin-top: -50px;
+        font-size: 17px;
+        border: none;
+        float: right;
+    }
+
+    ::placeholder {
+        color: rgb(105, 92, 92);
+    }
+
+    .titulo-container .search-container button {
+        border-radius: 4px;
+        float: right;
+        margin-top: -50px;
+        margin-right: -48px;
+        height: 32px;
+        width: 45px;
+        border: none;
+        background-color: #2a2ddd;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 16px;
+
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .titulo-container .search-container button:hover {
+        background: greenyellow;
+        color: black;
+        transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+    }
+
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: rgb(31, 30, 30);
+        text-align: justify;
+    }
+
+    p {
+        margin: 0;
+        text-indent: 3ch;
+    }
+
+    .tesauro-container {
+        position: relative;
+        background-color: #BF1313;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+        border-color: #9E0000;
+        width: fit-content;
+        height: 150px;
+        bottom: -20px;
+    }
+
+    .tesauro-container h3 {
+        font-size: 28px;
+        
+        
+        color: white;
+        font-weight: lighter;
+    }
+
+    .tesauro-container a {
+        color: rgb(255, 255, 255);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        text-decoration-line: none;
+
+    }
+
+    .tesauro-container a:hover {
+        background-color: transparent;
+        color: #000000;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+    }
+
+    .tesauro-hierarquico-container {
+        border-radius: 8px;
+        border-color: black;
+        
+        color: #fff;
+        width: fit-content;
+        position: relative;
+        left: 950px;
+        top: -163px;
+        font-weight: lighter;
+    }
+
+    .tesauro-hierarquico-container h1 {
+        font-size: 28px;
+        background: #b30000;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: black;
+        border-width: 2px;
+        color: white;
+        font-weight: lighter;
+        
+    }
+
+    .tutorial-container {
+        position: relative;
+        background-color: #BF1313;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+        border-color: #9E0000;
+        width: fit-content;
+        height: fit-content;
+        width: 750px;
+        bottom: -6px;
+    }
+
+    .tutorial-container h3 {
+        font-size: 30px;
+        color: white;
+    }
+
+    .tutorial-container a {
+        color: rgb(255, 255, 255);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        text-decoration-line: none;
+
+    }
+
+    .tutorial-container a:hover {
+        background-color: transparent;
+        color: #000000;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+    }
+
+    .tutorial-hierarquico-container {
+        color: #fff;
+        width: fit-content;
+        position: relative;
+        left: 950px;
+        top: -246px;
+        font-weight: lighter;
+    }
+
+    .tutorial-hierarquico-container h1 {
+        font-size: 28px;
+        background: #b30000;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: black;
+        border-width: 2px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .fundo-container {
+        width: 99%;
+        bottom: -330px;
+    }
+
+    .sobre-fundo-container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: relative;
+        bottom: 25px;
+        background-color: #9E0000;
+        color: #FFF;
+        font-size: 20px;
+        width: 213%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+
+    .index-fundo-container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 0;
+        background-color: #9E0000;
+        color: #FFF;
+        font-size: 14px;
+        width: 1575px;
+        height: 50px;    
+        text-align: center;
+        line-height: 50px;
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+
+    .fundo-tutorial-container {
+        bottom: -230px;
+        margin-left: 10px;
+    }
+
+    .fundo-contribua-container {
+        bottom: -30px;
+    }
+
+    .creators-container {
+        position: relative;
+        background-color: #BF1313;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+        border-color: #9E0000;
+        width: auto;
+        height: auto;
+
+    }
+
+    .sobre-container {
+        position: relative;
+        width: auto;
+        height: auto;
+        background-color: #BF1313;
+        color: white;
+        border-color: #9E0000;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+    }
+
+    .sobre-container a {
+        color: rgb(19, 193, 241);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 28px;
+        text-decoration-line: none;
+    }
+
+    .sobre-container a:hover {
+        background-color: transparent;
+        color: #000000;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+    }
+
+
+    .article-sobre-container h4 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 28px;
+        border-radius: 4px;
+        background-color: #BF1313;
+        color: white;
+        border-color: #9E0000;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+    }
+
+    .sobre-container h2 {
+        color: rgb(218, 206, 206);
+        font-size: 28px;
+    }
+
+    .article-sobre-container h1 {
+        font-size: 28px;
+
+
+    }
+
+    .creators-container h3 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: lighter;
+        background-color: #BF1313;
+
+
+    }
+
+    .hierarquico-container {
+        color: #fff;
+        width: fit-content;
+        height: 200px;
+        position: relative;
+        float: left;
+        bottom: 0;
+    }
+
+    .sobre-hierarquico-container {
+        color: #fff;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        left: 950px;
+        top: -1880px;
+
+    }
+
+    .sobre-hierarquico-container h1 {
+        font-size: 28px;
+        background: #b30000;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: black;
+        border-width: 2px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .hierarquico-container h1 {
+        font-size: 28px;
+        background: #b30000;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: black;
+        border-width: 2px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .nivel-container {
+        position: relative;
+        background-color: #BF1313;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: #fff;
+        border-width: 6px;
+        border-color: #9E0000;
+        width: 867px;
+        height: 140px;
+    }
+
+    .nivel-container h3 {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+    .formulario-container {
+        margin-left: left;
+    }
+
+    .resultado-container {
+        border-style: groove;
+        display: flex;
+        grid-template-columns: repeat(3,minmax(0,1fr));
+        grid-column-gap: 20px;
+    }
+
+
+
+    .resultadores-container h3 {
+        font-size: 26px;
+        color: rgb(0, 0, 0);
+
+    }
+
+    .resultadores-container a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        color: rgb(0, 0, 0);
+
+        padding: 14px 12px;
+
+        font-size: 25px;
+        margin-right: 60px;
+        text-decoration: none;
+
+    }
+
+    .resultadores-container a:hover {
+        background-color: transparent;
+        color: #BF1313;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+
+
+    }
+
+    .cconceito-container {
+        position: inherit;
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        font-size: 25px;
+        width: 750px;
+        height: fit-content;
+    }
+
+    .cconceito-container h3 {
+        font-size: 28px;
+        color: rgb(0, 0, 0);
+
+    }
+
+    .conceito-container {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 2px;
+        border-color: black;
+        zoom: 125%;
+    }
+
+    .conceito-container h5 {
+        text-align: justify;
+        color: #9E0000;
+        font-size: 24px;
+        text-decoration-line: underline;
+        background-color: transparent;
+
+    }
+
+    h5 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #9E0000;
+        color: rgb(255, 255, 255);
+    }
+
+    h6 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+    }
+
+    .hierarquicod-container {
+        background-color: transparent;
+        color: #fff;
+        position: absolute;
+        margin-left: 760px;
+        margin-top: -1860px;
+        width: 750px;
+        height: fit-content;
+    }
+
+    .hierarquicod-container h1 {
+        font-size: 28px;
+        color: black;
+        font-weight: lighter;
+    }
+
+    .hierarquicodtres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-left: 800px;
+        margin-top: -1310px;
+        width: 750px;
+        height: fit-content;
+    }
+
+    .hierarquicodtres-container h1 {
+        font-size: 28px;
+        color: black;
+        font-weight: lighter;
+    }
+
+
+    .hierarquicodquatro-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-left: 800px;
+        margin-top: -1273px;
+        width: 750px;
+    }
+
+    .hierarquicodquatro-container h1 {
+        color: black;
+    }
+
+    .hierarquicodquinto-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-left: 800px;
+        margin-top: -1770px;
+        width: 750px;
+    }
+
+    .hierarquicodquinto-container h1 {
+        color: black;
+    }
+
+    .hierarquicodseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-left: 800px;
+        margin-top: -1326px;
+        width: 750px;
+    }
+
+    .hierarquicodseis-container h1 {
+        color: black;
+    }
+
+    .hierarquicodsete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-left: 800px;
+        margin-top: -1380px;
+        width: 750px;
+    }
+
+    .hierarquicodsete-container h1 {
+        color: black;
+    }
+
+    .hierarquicodoito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-left: 800px;
+        margin-top: -1395px;
+        width: 750px;
+    }
+
+    .hierarquicodoito-container h1 {
+        color: black;
+    }
+
+
+    .hierarquicodnove-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        margin-left: 800px;
+        margin-top: -1571px;
+        width: 750px;
+    }
+
+    .hierarquicodnove-container h1 {
+        color: black;
+    }
+
+    
+
     .hierarquicoddez-container {
         background-color: transparent;
         color: rgb(0, 0, 0);
@@ -2373,1822 +2457,8 @@ h6{
         border-color: #000000;
     }
 
-.hierarquicod-container h3{
-    font-size: 24px;
-    color: black;
     
-}
-
-.hierarquicodtres-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1350px;
-    width: 750px;
-    height: fit-content;
-}
-
-.hierarquicodtres-container h1{
-    font-size: 28px;
-    color: black;
-    font-weight: lighter;
-}
-
-
-.hierarquicodquatro-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1335px;
-    width: 750px;
-}
-
-.hierarquicodquatro-container h1{
-    color: black;
-}
-
-.hierarquicodquinto-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1770px;
-    width: 750px;
-}
-
-.hierarquicodquinto-container h1{
-    color: black;
-}
-
-.hierarquicodseis-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1395px;
-    width: 750px;
-}
-
-.hierarquicodseis-container h1{
-    color: black;
-}
-
-.hierarquicodsete-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1425px;
-    width: 750px;
-}
-
-.hierarquicodsete-container h1{
-    color: black;
-}
-
-.hierarquicodoito-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1395px;
-    width: 750px;
-}
-
-.hierarquicodoito-container h1{
-    color: black;
-}
-
-
-.hierarquicodnove-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1565px;
-    width: 750px;
-}
-
-.hierarquicodnove-container h1{
-    color: black;
-}
-
-.hierarquicodonze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1537px;
-    width: 750px;
-}
-
-.hierarquicodonze-container h1{
-    color: black;
-}
-
-.hierarquicodoze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1338px;
-    width: 750px;
-}
-
-.hierarquicodoze-container h1{
-    color: black;
-}
-
-.hierarquicodtreze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1515px;
-    width: 750px;
-}
-
-.hierarquicodtreze-container h1{
-    color: black;
-}
-
-.hierarquicodqtz-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1335px;
-    width: 750px;
-}
-
-.hierarquicodqtz-container h1{
-    color: black;
-}
-
-.hierarquicoddzs-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1399px;
-    width: 750px;
-}
-
-.hierarquicoddzs-container h1{
-    color: black;
-}
-
-.hierarquicoddzt-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1455px;
-    width: 750px;
-}
-
-.hierarquicoddzt-container h1{
-    color: black;
-}
-
-.hierarquicoddztt-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1395px;
-    width: 750px;
-}
-
-.hierarquicoddztt-container h1{
-    color: black;
-}
-
-.hierarquicoddzn-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1425px;
-    width: 750px;
-}
-
-.hierarquicoddzn-container h1{
-    color: black;
-}
-
-.hierarquicodvin-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1453px;
-    width: 750px;
-}
-
-.hierarquicodvin-container h1{
-    color: black;
-}
-
-.hierarquicodvini-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1485px;
-    width: 750px;
-}
-
-.hierarquicodvini-container h1{
-    color: black;
-}
-
-.hierarquicodvint-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1715px;
-    width: 750px;
-}
-
-.hierarquicodvint-container h1{
-    color: black;
-}
-
-.hierarquicodvind-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1835px;
-    width: 750px;
-}
-
-.hierarquicodvind-container h1{
-    color: black;
-}
-
-.hierarquicodvinc-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1395px;
-    width: 750px;
-}
-
-.hierarquicodvinc-container h1{
-    color: black;
-}
-
-.hierarquicodvseis-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1455px;
-    width: 750px;
-}
-
-.hierarquicodvseis-container h1{
-    color: black;
-}
-
-.hierarquicodvsete-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1338px;
-    width: 750px;
-}
-
-.hierarquicodvsete-container h1{
-    color: black;
-}
-
-.hierarquicodvnove-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1367px;
-    width: 750px;
-}
-
-.hierarquicodvnove-container h1{
-    color: black;
-}
-
-.hierarquicodtrinta-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1395px;
-    width: 750px;
-}
-
-.hierarquicodtrinta-container h1{
-    color: black;
-}
-
-.hierarquicodtri-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1452px;
-    width: 750px;
-}
-
-.hierarquicodtri-container h1{
-    color: black;
-}
-
-.hierarquicodtrd-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1397px;
-    width: 750px;
-}
-
-.hierarquicodtrd-container h1{
-    color: black;
-}
-
-.hierarquicodtrt-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1425px;
-    width: 750px;
-}
-
-.hierarquicodtrt-container h1{
-    color: black;
-}
-
-.hierarquicodtrq-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1365px;
-    width: 750px;
-}
-
-.hierarquicodtrq-container h1{
-    color: black;
-}
-
-.hierarquicodtrc-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1483px;
-    width: 750px;
-}
-
-.hierarquicodtrc-container h1{
-    color: black;
-}
-
-.hierarquicodtseis-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1893px;
-    width: 750px;
-}
-
-.hierarquicodtseis-container h1{
-    color: black;
-}
-
-.hierarquicodtsete-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2400px;
-    width: 750px;
-}
-
-.hierarquicodtsete-container h1{
-    color: black;
-}
-
-.hierarquicodtoito-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1515px;
-    width: 750px;
-}
-
-.hierarquicodtoito-container h1{
-    color: black;
-}
-
-.hierarquicodtnove-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1396px;
-    width: 750px;
-}
-
-.hierarquicodtnove-container h1{
-    color: black;
-}
-
-.hierarquicodqum-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1455px;
-    width: 750px;
-}
-
-.hierarquicodqum-container h1{
-    color: black;
-}
-
-.hierarquicodqdois-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1335px;
-    width: 750px;
-}
-
-.hierarquicodqdois-container h1{
-    color: black;
-}
-
-.hierarquicodqtres-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1395px;
-    width: 750px;
-}
-
-.hierarquicodqtres-container h1{
-    color: black;
-}
-
-.hierarquicodqdquatro-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1435px;
-    width: 750px;
-}
-
-.hierarquicodqdquatro-container h1{
-    color: black;
-}
-
-.hierarquicodqdcinco-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1620px;
-    width: 750px;
-}
-
-.hierarquicodqdcinco-container h1{
-    color: black;
-}
-
-.hierarquicodqdsete-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1595px;
-    width: 750px;
-}
-
-.hierarquicodqdsete-container h1{
-    color: black;
-}
-
-.hierarquicodqdoito-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1336px;
-    width: 750px;
-}
-
-.hierarquicodqdoito-container h1{
-    color: black;
-}
-
-.hierarquicodcm-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1515px;
-    width: 750px;
-}
-
-.hierarquicodcm-container h1{
-    color: black;
-}
-
-.hierarquicodcdois-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1395px;
-    width: 750px;
-}
-
-.hierarquicodcdois-container h1{
-    color: black;
-}
-
-.hierarquicodctres-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1335px;
-    width: 750px;
-}
-
-.hierarquicodctres-container h1{
-    color: black;
-}
-
-.hierarquicodcquatro-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1395px;
-    width: 750px;
-}
-
-.hierarquicodcquatro-container h1{
-    color: black;
-}
-
-.hierarquicodcquinto-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1455px;
-    width: 750px;
-}
-
-.hierarquicodcquinto-container h1{
-    color: black;
-}
-
-.hierarquicodcseis-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1425px;
-    width: 750px;
-}
-
-.hierarquicodcseis-container h1{
-    color: black;
-}
-
-.hierarquicodcsete-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1396px;
-    width: 750px;
-}
-
-.hierarquicodcsete-container h1{
-    color: black;
-}
-
-.hierarquicodcoito-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1455px;
-    width: 750px;
-}
-
-.hierarquicodcoito-container h1{
-    color: black;
-}
-
-.hierarquicodcnove-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1955px;
-    width: 750px;
-}
-
-.hierarquicodcnove-container h1{
-    color: black;
-}
-
-.hierarquicodqcdez-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1865px;
-    width: 750px;
-}
-
-.hierarquicodqcdez-container h1{
-    color: black;
-}
-
-.hierarquicodqsum-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1396px;
-    width: 750px;
-}
-
-.hierarquicodqsum-container h1{
-    color: black;
-}
-
-.hierarquicodqsdois-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1455px;
-    width: 750px;
-}
-
-.hierarquicodqsdois-container h1{
-    color: black;
-}
-
-.hierarquicodqstres-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1335px;
-    width: 750px;
-}
-
-.hierarquicodqstres-container h1{
-    color: black;
-}
-
-.hierarquicodqsquatro-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1396px;
-    width: 750px;
-}
-
-.hierarquicodqsquatro-container h1{
-    color: black;
-}
-
-.hierarquicodqsquinto-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1455px;
-    width: 750px;
-}
-
-.hierarquicodqsquinto-container h1{
-    color: black;
-}
-
-.hierarquicodqsseis-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1425px;
-    width: 750px;
-}
-
-.hierarquicodqsseis-container h1{
-    color: black;
-}
-
-.hierarquicodqssete-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2193px;
-    width: 750px;
-}
-
-.hierarquicodqssete-container h1{
-    color: black;
-}
-
-.hierarquicodqsoito-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1625px;
-    width: 750px;
-}
-
-.hierarquicodqsoito-container h1{
-    color: black;
-}
-
-.hierarquicodqsnove-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1335px;
-    width: 750px;
-}
-
-.hierarquicodqsnove-container h1{
-    color: black;
-}
-
-.hierarquicodzum-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1395px;
-    width: 750px;
-}
-
-.hierarquicodzum-container h1{
-    color: black;
-}
-
-.hierarquiumcincooito-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1513px;
-    width: 750px;
-}
-
-.hierarquiumcincooito-container h1{
-    color: black;
-}
-
-.hierarquicodqsdez-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1395px;
-    width: 750px;
-}
-
-.hierarquicodqsdez-container h1{
-    color: black;
-}
-
-.hierarquicodqsonze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1455px;
-    width: 750px;
-}
-
-.hierarquicodqsonze-container h1{
-    color: black;
-}
-
-.hierarquicodqsdoze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1400px;
-    width: 750px;
-}
-
-.hierarquicodqsdoze-container h1{
-    color: black;
-}
-
-.hierarquicodqstreze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1397px;
-    width: 750px;
-}
-
-.hierarquicodqstreze-container h1{
-    color: black;
-}
-
-.hierarquicodqsqtz-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1574px;
-    width: 750px;
-}
-
-.hierarquicodqsqtz-container h1{
-    color: black;
-}
-
-.hierarquicodqsquinze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2105px;
-    width: 750px;
-}
-
-.hierarquicodqsquinze-container h1{
-    color: black;
-}
-
-.hierarquicodqsdzs-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2105px;
-    width: 750px;
-}
-
-.hierarquicodqsdzs-container h1{
-    color: black;
-}
-
-.hierarquicodqsseteoito-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1412px;
-    width: 750px;
-}
-
-.hierarquicodqsseteoito-container h1{
-    color: black;
-}
-
-.hierarquicodqssetenove-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1508px;
-    width: 750px;
-}
-
-.hierarquicodqssetenove-container h1{
-    color: black;
-}
-
-.hierarquicodqssoitenta-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1566px;
-    width: 750px;
-}
-
-.hierarquicodqssoitenta-container h1{
-    color: black;
-}
-
-.hierarquicodqssoitenta-container h5{
-    left: 1000px;
-}
-
-.hierarquicodauto-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 455px;
-    margin-top: -1057px;
-    width: 750px;
-}
-
-.hierarquicodauto-container h1{
-    color: black;
-}
-
-.hierarquicodqssoitentatres-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1445px;
-    width: 750px;
-}
-
-.hierarquicodqssoitentatres-container h1{
-    color: black;
-}
-
-.hierarquicodqssoitentaquatro-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1685px;
-    width: 750px;
-}
-
-.hierarquicodqssoitentaquatro-container h1{
-    color: black;
-}
-
-.hierarquicodqssoitentacinco-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1625px;
-    width: 750px;
-}
-
-.hierarquicodqssoitentacinco-container h1{
-    color: black;
-}
-
-.hierarquicodqssoitentaseis-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1686px;
-    width: 750px;
-}
-
-.hierarquicodqssoitentaseis-container h1{
-    color: black;
-}
-
-.hierarquicodqssoitentasete-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1775px;
-    width: 750px;
-}
-
-.hierarquicodqssoitentasete-container h1{
-    color: black;
-}
-
-.hierarquicodqssoitentatrinta-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1605px;
-    width: 750px;
-}
-
-.hierarquicodqssoitentatrinta-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventa-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1625px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventa-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventaum-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1686px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventaum-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventadois-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1625px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventadois-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventatres-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1538px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventatres-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventaquatro-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1835px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventaquatro-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventacinco-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1625px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventacinco-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventaseis-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1565px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventaseis-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventasete-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2491px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventasete-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventaoito-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1565px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventaoito-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventanove-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1625px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventanove-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventadez-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1745px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventadez-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventaonze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1537px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventaonze-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventadoze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2015px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventadoze-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventatreze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1565px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventatreze-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventaqtz-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1955px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventaqtz-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventaquinze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2700px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventaquinze-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventadzs-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1597px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventadzs-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventadzt-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1455px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventadzt-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventadztt-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1925px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventadztt-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventadznn-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2315px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventadznn-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventadznt-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1535px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventadznt-container h1{
-    color: black;
-}
-
-.hierarquicodqssnoventadzntt-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1575px;
-    width: 750px;
-}
-
-.hierarquicodqssnoventadzntt-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemum-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1445px;
-    width: 750px;
-}
-
-.hierarquicodqsscemum-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemdois-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1775px;
-    width: 750px;
-}
-
-.hierarquicodqsscemdois-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtreszes-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1625px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtreszes-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemqt-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2072px;
-    width: 750px;
-}
-
-.hierarquicodqsscemqt-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtres-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1805px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtres-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemseis-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -3178px;
-    width: 750px;
-}
-
-.hierarquicodqsscemseis-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemdez-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2135px;
-    width: 750px;
-}
-
-.hierarquicodqsscemdez-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemonze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1595px;
-    width: 750px;
-}
-
-.hierarquicodqsscemonze-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemdoze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2042px;
-    width: 750px;
-}
-
-.hierarquicodqsscemdoze-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtreze-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2165px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtreze-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtrezeweb-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2077px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrezeweb-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtrinta-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1955px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrinta-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtrintaum-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1596px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrintaum-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtrintadois-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1625px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrintadois-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtrintatres-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1447px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrintatres-container h1{
-    color: black;
-}
-
-
-.hierarquicodqsscemtrintadoisprop-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1655px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrintadoisprop-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtrintaquatro-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -3268px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrintaquatro-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtrintaseis-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1538px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrintaseis-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtrintasete-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1777px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrintasete-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtrintaoito-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2133px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrintaoito-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemtrintanove-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2640px;
-    width: 750px;
-}
-
-.hierarquicodqsscemtrintanove-container h1{
-    color: black;
-}
 
-.hierarquicodqsscemquarenta-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2253px;
-    width: 750px;
-}
-
-.hierarquicodqsscemquarenta-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemquarentaum-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2040px;
-    width: 750px;
-}
-
-.hierarquicodqsscemquarentaum-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemquarentatres-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -3117px;
-    width: 750px;
-}
-
-.hierarquicodqsscemquarentatres-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemquarentaquinto-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1953px;
-    width: 750px;
-}
-
-.hierarquicodqsscemquarentaquinto-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemquarentaseis-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2462px;
-    width: 750px;
-}
-
-.hierarquicodqsscemquarentaseis-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemquarentasete-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1655px;
-    width: 750px;
-}
-
-.hierarquicodqsscemquarentasete-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemquarentaoito-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1597px;
-    width: 750px;
-}
-
-.hierarquicodqsscemquarentaoito-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemquarentanove-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -2015px;
-    width: 750px;
-}
-
-.hierarquicodqsscemquarentanove-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemcinquenta-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1685px;
-    width: 750px;
-}
-
-.hierarquicodqsscemcinquenta-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemcinquentaum-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1335px;
-    width: 750px;
-}
-
-.hierarquicodqsscemcinquentaum-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemcinquentaum-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1335px;
-    width: 750px;
-}
-
-.hierarquicodqsscemcinquentaum-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemcinquentadois-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1424px;
-    width: 750px;
-}
-
-.hierarquicodqsscemcinquentadois-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemcinquentatres-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -3038px;
-    width: 750px;
-}
-
-.hierarquicodqsscemcinquentatres-container h1{
-    color: black;
-}
-
-.hierarquicodqsscemcinquentaquatro-container {
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    left: 755px;
-    margin-top: -1365px;
-    width: 750px;
-}
-
-.hierarquicodqsscemcinquentatres-container h1{
-    color: black;
-}
-
-.niveld-container {
-    background-color: #fff;
-    border-radius: 8px;
-    border-style: groove;
-    border-width: 2px;
-    border-color: #000000;
-    height: fit-content;
-    color: black;
-}
-
-.niveld-container h1{
-    color: black;
-    font-size: 23px;
-}
-
-.niveld-container h3{
-    font-size: 23px;
-}
-
-.niveld-container a{
-    color: rgb(0, 0, 0);
-    font-size: 23px;
-    text-decoration: none;
-}
 
-.niveld-container a:hover{
-    background-color: #fff;
-    border-radius: 8px;
-    -webkit-transition: 0.5s;
-    color: #BF1313;
-}
 
-.footer-final{
-    font-family: Apple Chancery, cursive;
-    position: absolute;
-    bottom: -5px;
-    background-color: #9E0000;
-    color: #FFF;
-    font-size: 20px;
-    width: 99%;
-    height: 50px;    
-    text-align: center;
-    line-height: 50px;
-    border-radius: 4px;
-    border-style: groove;
-    border-color: #000000;
 }
-
