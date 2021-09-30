@@ -43,7 +43,8 @@ include 'header.php';
         echo "<h5>Definição da Comunidade: </h5> <h6>" . $row['definitionComun'] . "</h6>";
         echo "<h5>Conceito do tipo: </h5> <h6>" . $row['tipoConceito'] . ".</h6>";
         echo "<h5>Pertence ao Tesauro de: </h5> <h6>" . $row['pertenceTesauro'] . ".</h6>";
-
+        
+  
         switch ($id) {
           case 2:
             echo "<div class='hierarquicod-container'>
@@ -3645,6 +3646,7 @@ include 'header.php';
             <hr width = “2” size = “100”>
             </div>";
             break;
+            
         }
       }
 
@@ -3656,3 +3658,4 @@ include 'header.php';
     </div>
   </div>
 </body>
+

@@ -43,7 +43,7 @@
         <div class="nivel-container">
         <h3>Ao entrar em algum conceito, nessa caixa de texto
 aparecerá em qual nível hierárquico você está!
-Para mais informações, acesse a aba Sobre.</h3>
+Para mais informações, acesse a aba <a href="./sobre.php">Sobre</a></h3>
         </div>
   </div>
 
