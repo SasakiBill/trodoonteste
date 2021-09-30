@@ -41,7 +41,9 @@
   <div class="tesauro-hierarquico-container">
     <h1>Atual Nível Hierárquico:<h1>
         <div class="nivel-container">
-          <h3>Ao pesquisar por algum conceito, aqui aparecerá em qual nível hierárquico você está!</h3>
+        <h3>Ao entrar em algum conceito, nessa caixa de texto
+aparecerá em qual nível hierárquico você está!
+Para mais informações, acesse a aba Sobre.</h3>
         </div>
   </div>
 
