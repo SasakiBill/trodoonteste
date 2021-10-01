@@ -13,13 +13,13 @@
     <a href="./sobre.php">Sobre</a>
     <a href="./contribua.php">Contribua!</a>
     <a href="./tutoriais.php">Tutoriais</a>
-    <a href="./tesauros.php">Tesauros da Computação</a>
+    <a href="./tesauros.php">Tesauros</a>
     <a href="./index.php">Página Inicial</a>
 
   </div>
 
   <div class="titulo-container">
-    <h2>Trodoon - DICIONÁRIO GRATUÍTO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
+    <h2>Trodoon - DICIONÁRIO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
     <div class="search-container">
       <form action="search.php" method="POST">
         <input type="text" placeholder="Busque aqui pelo tesauro..." name="search" />
@@ -41,9 +41,9 @@
   <div class="tesauro-hierarquico-container">
     <h1>Atual Nível Hierárquico:<h1>
         <div class="nivel-container">
-        <h3>Ao entrar em algum conceito, nessa caixa de texto
+        <h1>Ao entrar em algum conceito, nessa caixa de texto
 aparecerá em qual nível hierárquico você está!
-Para mais informações, acesse a aba <a href="./sobre.php">Sobre</a></h3>
+Para mais informações, acesse a aba <a href="./sobre.php"><span class="red">Sobre.</a></span></h1>
         </div>
   </div>
 

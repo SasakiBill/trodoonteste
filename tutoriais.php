@@ -13,13 +13,13 @@
     <a href="./sobre.php">Sobre</a>
     <a href="./contribua.php">Contribua!</a>
     <a href="./tutoriais.php">Tutoriais</a>
-    <a href="./tesauros.php">Tesauros da Computação</a>
+    <a href="./tesauros.php">Tesauros</a>
     <a href="./index.php">Página Inicial</a>
 
   </div>
 
   <div class="titulo-container">
-    <h2>Trodoon - DICIONÁRIO GRATUÍTO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
+    <h2>Trodoon - DICIONÁRIO DE SINÔNIMOS DA COMPUTAÇÃO</h2>
     <div class="search-container">
       <form action="search.php" method="POST">
         <input type="text" placeholder="Busque aqui pelo tesauro..." name="search" />
@@ -47,11 +47,11 @@
         <div class="nivel-container">
         <h3>Ao entrar em algum conceito, nessa caixa de texto
 aparecerá em qual nível hierárquico você está!
-Para mais informações, acesse a aba <a href="./sobre.php">Sobre</a></h3>
+Para mais informações, acesse a aba <a href="./sobre.php"><span class="red">Sobre.</a></span></h3>
         </div>
   </div>
-
-  <footer class="fundo-tutorial-container">
-    Sistema web desenvolvido como objetivo de obtenção de nota na disciplina de Trabalho de Conclusão de Curso 2021 no curso de Ciência da Computação - Universidade Estadual do Centro-Oeste.
-  </footer>
 </body>
+
+<footer class="fundo-tutorial-container">
+    Sistema web desenvolvido como objetivo de obtenção de nota na disciplina de Trabalho de Conclusão de Curso 2021 no curso de Ciência da Computação - Universidade Estadual do Centro-Oeste.
+</footer>

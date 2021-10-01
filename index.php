@@ -17,7 +17,7 @@ header('Content-Type: text/html; charset=UTF-8');
       <a href="./sobre.php">Sobre</a>
       <a href="./contribua.php">Contribua!</a>
       <a href="./tutoriais.php">Tutoriais</a>
-      <a href="./tesauros.php">Tesauros da Computação</a>
+      <a href="./tesauros.php">Tesauros</a>
       <a href="./index.php">Página Inicial</a>
 
     </div>
@@ -62,7 +62,7 @@ header('Content-Type: text/html; charset=UTF-8');
           <div class="nivel-container">
             <h3>Ao entrar em algum conceito, nessa caixa de texto
 aparecerá em qual nível hierárquico você está!
-Para mais informações, acesse a aba <a href="./sobre.php">Sobre</a></h3>
+Para mais informações, acesse a aba <a href="./sobre.php"><span class="red">Sobre.</a></span></h3>
           </div>
     </div>
 
@@ -70,8 +70,10 @@ Para mais informações, acesse a aba <a href="./sobre.php">Sobre</a></h3>
       <img src="./view/img/wordcloud4.png"/>
     </div>
 
-    <footer class="index-fundo-container">
+    
+  </body>
+  <footer class="index-fundonovo-container">
       Sistema web desenvolvido como objetivo de obtenção de nota na disciplina de Trabalho de Conclusão de Curso 2021 no curso de Ciência da Computação - Universidade Estadual do Centro-Oeste.
     </footer>
-  </body>
+  
 </div>
