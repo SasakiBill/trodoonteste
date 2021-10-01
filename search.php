@@ -9,7 +9,7 @@
     <a href="./sobre.php">Sobre</a>
     <a href="./contribua.php">Contribua!</a>
     <a href="./tutoriais.php">Tutoriais</a>
-    <a href="./tesauros.php">Tesauros da Computação</a>
+    <a href="./tesauros.php">Tesauros</a>
     <a href="./index.php">Página Inicial</a>
   
 </div>

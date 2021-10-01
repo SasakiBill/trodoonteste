@@ -13,7 +13,7 @@ header('Content-Type: text/html; charset=UTF-8');
     <a href="./sobre.php">Sobre</a>
     <a href="./contribua.php">Contribua!</a>
     <a href="./tutoriais.php">Tutoriais</a>
-    <a href="./tesauros.php">Tesauros da Computação</a>
+    <a href="./tesauros.php">Tesauros</a>
     <a href="./index.php">Página Inicial</a>
 
   </div>
@@ -53,8 +53,7 @@ header('Content-Type: text/html; charset=UTF-8');
     <h1>Atual Nível Hierárquico:<h1>
         <div class="nivel-container">
         <h3>Ao entrar em algum conceito, nessa caixa de texto
-aparecerá em qual nível hierárquico você está!
-Para mais informações, acesse a aba <a href="./sobre.php">Sobre</a></h3>
+aparecerá em qual nível hierárquico você está!</h3>
         </div>
   </div>
 

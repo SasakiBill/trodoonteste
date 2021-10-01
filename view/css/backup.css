@@ -3,17 +3,35 @@
     font-size: 22px;
     text-decoration-line: underline;
 }
-
-
-
+@media (max-height: 812px){
+    .index-fundo-container{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: relative;
+        margin-top: -300px;
+        background-color: #4f1eb1;
+        color: #FFF;
+        font-size: 16.33px;
+        text-align: left;
+        width: 1920px;
+        height: 40px;    
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+}
 
 @media only screen and (max-width: 992px) {
 
-    body{
-        zoom: 60%;
-        
+    #paginaInicial{
+        zoom: 59%;
+        /*overflow-x: hidden;*/
     }
 
+    body{
+        background-color: #3A3C44;
+        
+    }
+    
     /* width */
     ::-webkit-scrollbar {
         width: 10px;
@@ -28,7 +46,7 @@
 
     /* Handle */
     ::-webkit-scrollbar-thumb {
-        background: #9E0000;
+        background: #46484F;
         border-radius: 10px;
     }
 
@@ -38,7 +56,7 @@
     }
 
     .topnav {
-        background-color: #9E0000;
+        background-color: #0F0E11;
         position: relative;
         overflow: hidden;
         color: #fff;
@@ -46,9 +64,9 @@
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
-        border-color: #9E0000;
+        border-color: transparent;
         height: 80px;
-        width: 1845px;
+        width: 1960px;
     }
 
     .topnav img {
@@ -64,28 +82,28 @@
         text-align: right;
         padding: 12px 12px;
         text-decoration: none;
-        font-size: 22px;
+        font-size: 32px;
         margin-right: 60px;
     }
 
     .topnav a:hover {
-        background-color: #9E0000;
-        color: #BF1313;
+        background-color: #0F0E11;
+        color: white;
         border-radius: 8px;
         -webkit-transition: 0.5s;
         color: rgb(31, 30, 30);
     }
 
     .topnavIndex-container {
-        background-color: #9E0000;
+        background-color: #0F0E11;
         position: relative;
         overflow: hidden;
         color: #fff;
         text-align: right;
-        border-radius: 8px;
+        
         border-style: groove;
         border-width: 6px;
-        border-color: #9E0000;
+        border-color: transparent;
         height: 80px;
         width: 1653px;
     }
@@ -100,15 +118,15 @@
         float: right;
         display: block;
         color: rgb(255, 255, 255);
-        text-align: right;
-        padding: 12px 12px;
+        text-align: left;
+        padding: 12px 0px;
         text-decoration: none;
-        font-size: 22px;
+        font-size: 28px;
         margin-right: 60px;
     }
 
     .topnavIndex-container a:hover {
-        background-color: #9E0000;
+        background-color: #3A3C44;
         color: #BF1313;
         border-radius: 8px;
         -webkit-transition: 0.5s;
@@ -131,7 +149,7 @@
         color: rgb(0, 0, 0);
         height: fit-content;
         width: 870px;
-        font-size: 28px;
+    
 
     }
 
@@ -147,10 +165,10 @@
 
     .article-container h1 {
         font-size: 28px;
-        background: #BF1313;
+        background: #46484F;
         border-radius: 8px;
         border-style: groove;
-        border-color: black;
+        border-color: transparent;
         border-width: 2px;
         color: white;
         font-weight: lighter;
@@ -167,13 +185,13 @@
     .tituloIndex-container h2 {
         color: rgb(255, 255, 255);
         margin-top: 0px;
-        font-weight: lighter;
+        
         
 
     }
 
     .tituloIndex-container {
-        background-color: #BF1313;
+        background-color: #0F0E11;
         color: #fff;
         top: 2px;
         height: 60px;
@@ -182,7 +200,7 @@
         border-radius: 2px;
         border-style: groove;
         border-width: 4px;
-        border-color: #9E0000;
+        border-color: transparent;
     }
 
    
@@ -193,7 +211,7 @@
     }
 
     .tituloIndex-container input[type="text"] {
-        color: black;
+        color: #ca5252;
         background: white;
         padding: 6px;
         margin-top: -50px;
@@ -225,7 +243,7 @@
 
     .tituloIndex-container .search-container button:hover {
         background: greenyellow;
-        color: black;
+        color: #ca5252;
         transition-property: width;
         transition-duration: 2s;
         transition-timing-function: linear;
@@ -236,29 +254,27 @@
     .titulo-container h2 {
         color: #F9F6F2;
         margin-top: 0px;
-        font-size: 22px;
+        font-size: 32px;
         padding: 10px;
 
     }
 
     .titulo-container {
         background-color: #0F0E11;
-        top: 0px;
-        height: 60px;
+        color: #fff;
+        top: 2px;
+        height: 70px;
         position: relative;
-        width: auto;
+        width: 1960px;
         border-radius: 2px;
         border-style: groove;
         border-width: 4px;
         border-color: transparent;
-    }
-
-   
-
+      }
 
     .titulo-container .search-container {
         margin-right: 90px;
-        margin-top: -5px;
+        margin-top: -25px;
     }
 
     .titulo-container input[type="text"] {
@@ -294,7 +310,7 @@
 
     .titulo-container .search-container button:hover {
         background: white;
-        color: black;
+        color: #ca5252;
         transition-property: width;
         transition-duration: 2s;
         transition-timing-function: linear;
@@ -319,11 +335,11 @@
 
     .tesauro-container {
         position: relative;
-        background-color: #BF1313;
+        background-color: #46484F;
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
-        border-color: #9E0000;
+        border-color: transparent;
         width: fit-content;
         height: 150px;
         bottom: -20px;
@@ -354,7 +370,7 @@
 
     .tesauro-hierarquico-container {
         border-radius: 8px;
-        border-color: black;
+        border-color: transparent;
         
         color: #fff;
         width: fit-content;
@@ -365,11 +381,11 @@
     }
 
     .tesauro-hierarquico-container h1 {
-        font-size: 28px;
-        background: #b30000;
+        font-size: 34px;
+        background:  #46484F;
         border-radius: 8px;
         border-style: groove;
-        border-color: black;
+        border-color: transparent;
         border-width: 2px;
         color: white;
         font-weight: lighter;
@@ -378,11 +394,11 @@
 
     .tutorial-container {
         position: relative;
-        background-color: #BF1313;
+        background-color: #46484F;
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
-        border-color: #9E0000;
+        border-color: transparent;
         width: fit-content;
         height: fit-content;
         width: 750px;
@@ -419,11 +435,11 @@
     }
 
     .tutorial-hierarquico-container h1 {
-        font-size: 28px;
-        background: #b30000;
+        font-size: 34px;
+        background: #46484F;
         border-radius: 8px;
         border-style: groove;
-        border-color: black;
+        border-color: transparent;
         border-width: 2px;
         color: white;
         font-weight: lighter;
@@ -433,14 +449,12 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
         bottom: 0;
-        background-color: #9E0000;
+        background-color: #0F0E11;
         color: #FFF;
-        font-size: 14px;
-        
-        width: 1860px;
+        font-size: 19px;
+        text-align: left;
+        width: 1960px;
         height: 50px;    
-        text-align: center;
-        line-height: 50px;
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -467,31 +481,29 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
         bottom: 0;
-        background-color: #9E0000;
+        background-color: #0F0E11;
         color: #FFF;
-        font-size: 14px;
-        
+        font-size: 18px;
+        text-align: left;
         width: 1860px;
-        height: 50px;    
-        text-align: center;
-        line-height: 50px;
+        height: 30px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
     }
 
-    .index-fundo-container {
+    
+
+    .index-fundonovo-container {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
         bottom: 0;
         background-color: #0F0E11;
         color: #FFF;
-        font-size: 14px;
-        
-        width: auto;
-        height: 50px;    
-        text-align: center;
-        line-height: 50px;
+        font-size: 16.33px;
+        text-align: left;
+        width: 1920px;
+        height: 40px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -501,31 +513,28 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
         bottom: 0;
-        background-color: #9E0000;
+        background-color: #0F0E11;
         color: #FFF;
-        font-size: 14px;
-        
-        width: 1857px;
-        height: 50px;    
-        text-align: center;
-        line-height: 50px;
+        font-size: 18px;
+        text-align: left;
+        width: 1860px;
+        height: 40px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
     }
+    
 
     .fundo-contribua-container {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
         bottom: 0;
-        background-color: #9E0000;
+        background-color: #0F0E11;
         color: #FFF;
-        font-size: 14px;
-        
+        font-size: 18px;
+        text-align: left;
         width: 1860px;
-        height: 50px;    
-        text-align: center;
-        line-height: 50px;
+        height: 40px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -533,11 +542,11 @@
 
     .creators-container {
         position: relative;
-        background-color: #BF1313;
+        background-color: #46484F;
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
-        border-color: #9E0000;
+        border-color: transparent;
         width: auto;
         height: auto;
 
@@ -545,11 +554,11 @@
 
     .sobre-container {
         position: relative;
-        width: auto;
+        width: 1050px;
         height: auto;
-        background-color: #BF1313;
+        background-color: #46484F;
         color: white;
-        border-color: #9E0000;
+        border-color: transparent;
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
@@ -571,12 +580,12 @@
 
 
     .article-sobre-container h4 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 28px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32px;
         border-radius: 4px;
-        background-color: #BF1313;
+        background-color: #46484F;
         color: white;
-        border-color: #9E0000;
+        border-color: transparent;
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
@@ -584,12 +593,12 @@
 
     .sobre-container h2 {
         color: rgb(218, 206, 206);
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .article-sobre-container h1 {
-        font-size: 28px;
-
+        font-size: 32px;
+        color: #ca5252;
 
     }
 
@@ -597,7 +606,7 @@
         color: rgb(255, 255, 255);
         font-size: 30px;
         font-weight: lighter;
-        background-color: #BF1313;
+        background-color: #46484F;
 
 
     }
@@ -623,10 +632,10 @@
 
     .sobre-hierarquico-container h1 {
         font-size: 28px;
-        background: #b30000;
+        background: #46484F;
         border-radius: 8px;
         border-style: groove;
-        border-color: black;
+        border-color: transparent;
         border-width: 2px;
         color: white;
         font-weight: lighter;
@@ -634,10 +643,10 @@
 
     .hierarquico-container h1 {
         font-size: 28px;
-        background: #b30000;
+        background: #46484F;
         border-radius: 8px;
         border-style: groove;
-        border-color: black;
+        border-color: transparent;
         border-width: 2px;
         color: white;
         font-weight: lighter;
@@ -645,20 +654,20 @@
 
     .nivel-container {
         position: relative;
-        background-color: #BF1313;
+        background-color: #46484F;
         border-radius: 8px;
         border-style: groove;
         border-color: #fff;
         border-width: 6px;
-        border-color: #9E0000;
+        border-color:transparent;
         width: 867px;
-        height: 140px;
+        height: fit-content;
     }
 
     .nivel-container h3 {
         color: rgb(255, 255, 255);
-        font-size: 25px;
-        font-weight: lighter;
+        font-size: 20px;
+        
     }
 
     .formulario-container {
@@ -670,32 +679,33 @@
         display: flex;
         grid-template-columns: repeat(3,minmax(0,1fr));
         grid-column-gap: 20px;
+        background-color: #46484F;
     }
 
 
 
     .resultadores-container h3 {
-        font-size: 26px;
-        color: rgb(0, 0, 0);
+        font-size: 34px;
+        color: white;
 
     }
 
     .resultadores-container a {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-        color: rgb(0, 0, 0);
+        color: #ca5252;
 
         padding: 14px 12px;
 
-        font-size: 25px;
+        font-size: 28px;
         margin-right: 60px;
         text-decoration: none;
 
     }
 
     .resultadores-container a:hover {
-        background-color: transparent;
-        color: #BF1313;
+        background-color: #0F0E11;
+        color: white;
         border-radius: 8px;
         -webkit-transition: 0.5s;
 
@@ -712,28 +722,33 @@
     }
 
     .cconceito-container h3 {
-        font-size: 28px;
-        color: rgb(0, 0, 0);
+        font-size: 34px;
+        color: white;
 
     }
 
     .conceito-container {
-        width: fit-content;
+        width: 950px;
         height: fit-content;
         border-radius: 8px;
         border-style: groove;
         border-width: 2px;
-        border-color: black;
+        border-color: #ca5252;
         zoom: 125%;
+        background-color: #46484F;
     }
 
     .conceito-container h5 {
         text-align: justify;
-        color: #9E0000;
-        font-size: 24px;
+        color: #ca5252;
+        font-size: 30px;
         text-decoration-line: underline;
         background-color: transparent;
 
+    }
+
+    .conceito-container h6{
+        font-size: 3px;
     }
 
     h5 {
@@ -745,8 +760,8 @@
     h6 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: transparent;
-        color: rgb(0, 0, 0);
-        font-size: 28px;
+        color: white;
+        font-size: 30px;
     }
 
     .hierarquicod-container {
@@ -760,7 +775,7 @@
 
     .hierarquicod-container h1 {
         font-size: 24px;
-        color: black;
+        color: #ca5252;
         font-weight: lighter;
     }
 
@@ -779,7 +794,7 @@
 
     .hierarquicodtres-container h1 {
         font-size: 28px;
-        color: black;
+        color: #ca5252;
         font-weight: lighter;
     }
 
@@ -793,7 +808,7 @@
     }
 
     .hierarquicodquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodquinto-container {
@@ -805,7 +820,7 @@
     }
 
     .hierarquicodquinto-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodseis-container {
@@ -817,7 +832,7 @@
     }
 
     .hierarquicodseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodsete-container {
@@ -829,7 +844,7 @@
     }
 
     .hierarquicodsete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodoito-container {
@@ -841,7 +856,7 @@
     }
 
     .hierarquicodoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
 
@@ -854,7 +869,7 @@
     }
 
     .hierarquicodnove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     
@@ -868,7 +883,7 @@
     }
 
     .hierarquicoddez-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
 
@@ -881,7 +896,7 @@
     }
 
     .hierarquicodonze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodoze-container {
@@ -893,7 +908,7 @@
     }
 
     .hierarquicodoze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtreze-container {
@@ -905,7 +920,7 @@
     }
 
     .hierarquicodtreze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqtz-container {
@@ -917,7 +932,7 @@
     }
 
     .hierarquicodqtz-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicoddzs-container {
@@ -929,7 +944,7 @@
     }
 
     .hierarquicoddzs-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicoddzt-container {
@@ -941,7 +956,7 @@
     }
 
     .hierarquicoddzt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicoddztt-container {
@@ -953,7 +968,7 @@
     }
 
     .hierarquicoddztt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicoddzn-container {
@@ -965,7 +980,7 @@
     }
 
     .hierarquicoddzn-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvin-container {
@@ -977,7 +992,7 @@
     }
 
     .hierarquicodvin-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvini-container {
@@ -989,7 +1004,7 @@
     }
 
     .hierarquicodvini-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvint-container {
@@ -1001,7 +1016,7 @@
     }
 
     .hierarquicodvint-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvind-container {
@@ -1013,7 +1028,7 @@
     }
 
     .hierarquicodvind-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvinc-container {
@@ -1025,7 +1040,7 @@
     }
 
     .hierarquicodvinc-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvseis-container {
@@ -1037,7 +1052,7 @@
     }
 
     .hierarquicodvseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvsete-container {
@@ -1049,7 +1064,7 @@
     }
 
     .hierarquicodvsete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvnove-container {
@@ -1061,7 +1076,7 @@
     }
 
     .hierarquicodvnove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtrinta-container {
@@ -1073,7 +1088,7 @@
     }
 
     .hierarquicodtrinta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtri-container {
@@ -1085,7 +1100,7 @@
     }
 
     .hierarquicodtri-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtrd-container {
@@ -1097,7 +1112,7 @@
     }
 
     .hierarquicodtrd-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtrt-container {
@@ -1109,7 +1124,7 @@
     }
 
     .hierarquicodtrt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtrq-container {
@@ -1121,7 +1136,7 @@
     }
 
     .hierarquicodtrq-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtrc-container {
@@ -1133,7 +1148,7 @@
     }
 
     .hierarquicodtrc-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtseis-container {
@@ -1145,7 +1160,7 @@
     }
 
     .hierarquicodtseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtsete-container {
@@ -1157,7 +1172,7 @@
     }
 
     .hierarquicodtsete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtoito-container {
@@ -1169,7 +1184,7 @@
     }
 
     .hierarquicodtoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtnove-container {
@@ -1181,7 +1196,7 @@
     }
 
     .hierarquicodtnove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqum-container {
@@ -1193,7 +1208,7 @@
     }
 
     .hierarquicodqum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqdois-container {
@@ -1205,7 +1220,7 @@
     }
 
     .hierarquicodqdois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqtres-container {
@@ -1217,7 +1232,7 @@
     }
 
     .hierarquicodqtres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqdquatro-container {
@@ -1229,7 +1244,7 @@
     }
 
     .hierarquicodqdquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqdcinco-container {
@@ -1241,7 +1256,7 @@
     }
 
     .hierarquicodqdcinco-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqdsete-container {
@@ -1253,7 +1268,7 @@
     }
 
     .hierarquicodqdsete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqdoito-container {
@@ -1265,7 +1280,7 @@
     }
 
     .hierarquicodqdoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcm-container {
@@ -1277,7 +1292,7 @@
     }
 
     .hierarquicodcm-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcdois-container {
@@ -1289,7 +1304,7 @@
     }
 
     .hierarquicodcdois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodctres-container {
@@ -1301,7 +1316,7 @@
     }
 
     .hierarquicodctres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcquatro-container {
@@ -1313,7 +1328,7 @@
     }
 
     .hierarquicodcquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcquinto-container {
@@ -1325,7 +1340,7 @@
     }
 
     .hierarquicodcquinto-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcseis-container {
@@ -1337,7 +1352,7 @@
     }
 
     .hierarquicodcseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcsete-container {
@@ -1349,7 +1364,7 @@
     }
 
     .hierarquicodcsete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcoito-container {
@@ -1361,7 +1376,7 @@
     }
 
     .hierarquicodcoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcnove-container {
@@ -1373,7 +1388,7 @@
     }
 
     .hierarquicodcnove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqcdez-container {
@@ -1385,7 +1400,7 @@
     }
 
     .hierarquicodqcdez-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsum-container {
@@ -1397,7 +1412,7 @@
     }
 
     .hierarquicodqsum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsdois-container {
@@ -1409,7 +1424,7 @@
     }
 
     .hierarquicodqsdois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqstres-container {
@@ -1421,7 +1436,7 @@
     }
 
     .hierarquicodqstres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsquatro-container {
@@ -1433,7 +1448,7 @@
     }
 
     .hierarquicodqsquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsquinto-container {
@@ -1445,7 +1460,7 @@
     }
 
     .hierarquicodqsquinto-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsseis-container {
@@ -1457,7 +1472,7 @@
     }
 
     .hierarquicodqsseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssete-container {
@@ -1469,7 +1484,7 @@
     }
 
     .hierarquicodqssete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsoito-container {
@@ -1481,7 +1496,7 @@
     }
 
     .hierarquicodqsoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsnove-container {
@@ -1493,7 +1508,7 @@
     }
 
     .hierarquicodqsnove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodzum-container {
@@ -1505,7 +1520,7 @@
     }
 
     .hierarquicodzum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquiumcincooito-container {
@@ -1517,7 +1532,7 @@
     }
 
     .hierarquiumcincooito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsdez-container {
@@ -1529,7 +1544,7 @@
     }
 
     .hierarquicodqsdez-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsonze-container {
@@ -1541,7 +1556,7 @@
     }
 
     .hierarquicodqsonze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsdoze-container {
@@ -1553,7 +1568,7 @@
     }
 
     .hierarquicodqsdoze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqstreze-container {
@@ -1565,7 +1580,7 @@
     }
 
     .hierarquicodqstreze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsqtz-container {
@@ -1577,7 +1592,7 @@
     }
 
     .hierarquicodqsqtz-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsquinze-container {
@@ -1589,7 +1604,7 @@
     }
 
     .hierarquicodqsquinze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsdzs-container {
@@ -1601,7 +1616,7 @@
     }
 
     .hierarquicodqsdzs-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsseteoito-container {
@@ -1613,7 +1628,7 @@
     }
 
     .hierarquicodqsseteoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssetenove-container {
@@ -1625,7 +1640,7 @@
     }
 
     .hierarquicodqssetenove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitenta-container {
@@ -1637,7 +1652,7 @@
     }
 
     .hierarquicodqssoitenta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitenta-container h5 {
@@ -1653,7 +1668,7 @@
     }
 
     .hierarquicodqssoitentateste-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentateste-container h5 {
@@ -1669,7 +1684,7 @@
     }
 
     .hierarquicodauto-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentatres-container {
@@ -1681,7 +1696,7 @@
     }
 
     .hierarquicodqssoitentatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentaquatro-container {
@@ -1693,7 +1708,7 @@
     }
 
     .hierarquicodqssoitentaquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentacinco-container {
@@ -1705,7 +1720,7 @@
     }
 
     .hierarquicodqssoitentacinco-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentaseis-container {
@@ -1717,7 +1732,7 @@
     }
 
     .hierarquicodqssoitentaseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentasete-container {
@@ -1729,7 +1744,7 @@
     }
 
     .hierarquicodqssoitentasete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentatrinta-container {
@@ -1741,7 +1756,7 @@
     }
 
     .hierarquicodqssoitentatrinta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventa-container {
@@ -1753,7 +1768,7 @@
     }
 
     .hierarquicodqssnoventa-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaum-container {
@@ -1765,7 +1780,7 @@
     }
 
     .hierarquicodqssnoventaum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadois-container {
@@ -1777,7 +1792,7 @@
     }
 
     .hierarquicodqssnoventadois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventatres-container {
@@ -1789,7 +1804,7 @@
     }
 
     .hierarquicodqssnoventatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaquatro-container {
@@ -1801,7 +1816,7 @@
     }
 
     .hierarquicodqssnoventaquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventacinco-container {
@@ -1813,7 +1828,7 @@
     }
 
     .hierarquicodqssnoventacinco-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaseis-container {
@@ -1825,7 +1840,7 @@
     }
 
     .hierarquicodqssnoventaseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventasete-container {
@@ -1837,7 +1852,7 @@
     }
 
     .hierarquicodqssnoventasete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaoito-container {
@@ -1849,7 +1864,7 @@
     }
 
     .hierarquicodqssnoventaoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventanove-container {
@@ -1861,7 +1876,7 @@
     }
 
     .hierarquicodqssnoventanove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadez-container {
@@ -1873,7 +1888,7 @@
     }
 
     .hierarquicodqssnoventadez-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaonze-container {
@@ -1885,7 +1900,7 @@
     }
 
     .hierarquicodqssnoventaonze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadoze-container {
@@ -1897,7 +1912,7 @@
     }
 
     .hierarquicodqssnoventadoze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventatreze-container {
@@ -1909,7 +1924,7 @@
     }
 
     .hierarquicodqssnoventatreze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaqtz-container {
@@ -1921,7 +1936,7 @@
     }
 
     .hierarquicodqssnoventaqtz-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaquinze-container {
@@ -1933,7 +1948,7 @@
     }
 
     .hierarquicodqssnoventaquinze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadzs-container {
@@ -1945,7 +1960,7 @@
     }
 
     .hierarquicodqssnoventadzs-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadzt-container {
@@ -1957,7 +1972,7 @@
     }
 
     .hierarquicodqssnoventadzt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadztt-container {
@@ -1969,7 +1984,7 @@
     }
 
     .hierarquicodqssnoventadztt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadznn-container {
@@ -1981,7 +1996,7 @@
     }
 
     .hierarquicodqssnoventadznn-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadznt-container {
@@ -1993,7 +2008,7 @@
     }
 
     .hierarquicodqssnoventadznt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadzntt-container {
@@ -2005,7 +2020,7 @@
     }
 
     .hierarquicodqssnoventadzntt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemum-container {
@@ -2017,7 +2032,7 @@
     }
 
     .hierarquicodqsscemum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemdois-container {
@@ -2029,7 +2044,7 @@
     }
 
     .hierarquicodqsscemdois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtreszes-container {
@@ -2041,7 +2056,7 @@
     }
 
     .hierarquicodqsscemtreszes-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemqt-container {
@@ -2053,7 +2068,7 @@
     }
 
     .hierarquicodqsscemqt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtres-container {
@@ -2065,7 +2080,7 @@
     }
 
     .hierarquicodqsscemtres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemseis-container {
@@ -2077,7 +2092,7 @@
     }
 
     .hierarquicodqsscemseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemdez-container {
@@ -2089,7 +2104,7 @@
     }
 
     .hierarquicodqsscemdez-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemonze-container {
@@ -2101,7 +2116,7 @@
     }
 
     .hierarquicodqsscemonze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemdoze-container {
@@ -2113,7 +2128,7 @@
     }
 
     .hierarquicodqsscemdoze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtreze-container {
@@ -2125,7 +2140,7 @@
     }
 
     .hierarquicodqsscemtreze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrezeweb-container {
@@ -2137,7 +2152,7 @@
     }
 
     .hierarquicodqsscemtrezeweb-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrinta-container {
@@ -2149,7 +2164,7 @@
     }
 
     .hierarquicodqsscemtrinta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintaum-container {
@@ -2161,7 +2176,7 @@
     }
 
     .hierarquicodqsscemtrintaum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintadois-container {
@@ -2173,7 +2188,7 @@
     }
 
     .hierarquicodqsscemtrintadois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintatres-container {
@@ -2185,7 +2200,7 @@
     }
 
     .hierarquicodqsscemtrintatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
 
@@ -2198,7 +2213,7 @@
     }
 
     .hierarquicodqsscemtrintadoisprop-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintaquatro-container {
@@ -2210,7 +2225,7 @@
     }
 
     .hierarquicodqsscemtrintaquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintaseis-container {
@@ -2222,7 +2237,7 @@
     }
 
     .hierarquicodqsscemtrintaseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintasete-container {
@@ -2234,7 +2249,7 @@
     }
 
     .hierarquicodqsscemtrintasete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintaoito-container {
@@ -2246,7 +2261,7 @@
     }
 
     .hierarquicodqsscemtrintaoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintanove-container {
@@ -2258,7 +2273,7 @@
     }
 
     .hierarquicodqsscemtrintanove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarenta-container {
@@ -2270,7 +2285,7 @@
     }
 
     .hierarquicodqsscemquarenta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentaum-container {
@@ -2282,7 +2297,7 @@
     }
 
     .hierarquicodqsscemquarentaum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentatres-container {
@@ -2294,7 +2309,7 @@
     }
 
     .hierarquicodqsscemquarentatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentaquinto-container {
@@ -2306,7 +2321,7 @@
     }
 
     .hierarquicodqsscemquarentaquinto-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentaseis-container {
@@ -2318,7 +2333,7 @@
     }
 
     .hierarquicodqsscemquarentaseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentasete-container {
@@ -2330,7 +2345,7 @@
     }
 
     .hierarquicodqsscemquarentasete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentaoito-container {
@@ -2342,7 +2357,7 @@
     }
 
     .hierarquicodqsscemquarentaoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentanove-container {
@@ -2354,7 +2369,7 @@
     }
 
     .hierarquicodqsscemquarentanove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquenta-container {
@@ -2366,7 +2381,7 @@
     }
 
     .hierarquicodqsscemcinquenta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentaum-container {
@@ -2378,7 +2393,7 @@
     }
 
     .hierarquicodqsscemcinquentaum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentaum-container {
@@ -2390,7 +2405,7 @@
     }
 
     .hierarquicodqsscemcinquentaum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentadois-container {
@@ -2402,7 +2417,7 @@
     }
 
     .hierarquicodqsscemcinquentadois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentatres-container {
@@ -2414,7 +2429,7 @@
     }
 
     .hierarquicodqsscemcinquentatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentaquatro-container {
@@ -2426,60 +2441,47 @@
     }
 
     .hierarquicodqsscemcinquentaquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .niveld-container {
-        background-color: #fff;
+        background-color: transparent;
         border-radius: 8px;
         border-style: groove;
         border-width: 2px;
-        border-color: #000000;
+       
         height: fit-content;
-        color: black;
+        color: #ca5252;
     }
 
     .niveld-container h1 {
-        color: black;
-        font-size: 23px;
+        color: #ca5252;
+        font-size: 26px;
     }
 
     .niveld-container h3 {
         font-size: 23px;
+        color: white;
     }
 
     .niveld-container a {
-        color: rgb(0, 0, 0);
+        color: white;
         font-size: 23px;
         text-decoration: none;
     }
 
     .niveld-container a:hover {
-        background-color: #fff;
+        background-color: transparent;
         border-radius: 8px;
         -webkit-transition: 0.5s;
         color: #BF1313;
     }
 
-    footer {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        position: relative;
-        bottom: 5px;
-        background-color: #9E0000;
-        color: #FFF;
-        font-size: 20px;
-        width: 99%;
-        height: 50px;    
-        text-align: center;
-        line-height: 50px;
-        border-radius: 4px;
-        border-style: groove;
-        border-color: #000000;
-    }
+   
 
     .footer-final {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -2507,7 +2509,7 @@
     body{
         
         background-color: #3A3C44;
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
         overflow-y: hidden;
     }
 
@@ -2559,9 +2561,9 @@
         display: block;
         color:  #F9F6F2;
         text-align: right;
-        padding: 12px 12px;
+        padding: 12px 0px;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 18px;
         margin-right: 60px;
     }
 
@@ -2638,7 +2640,7 @@
     }
 
     .pacman-container img {
-        width: 110%;
+        width: 95%;
     }
 
 
@@ -2689,7 +2691,7 @@
     }
 
     .tituloIndex-container input[type="text"] {
-        color: black;
+        color: #ca5252;
         background: white;
         padding: 6px;
         margin-top: -50px;
@@ -2721,7 +2723,7 @@
 
     .tituloIndex-container .search-container button:hover {
         background: white;
-        color: black;
+        color: #ca5252;
         transition-property: width;
         transition-duration: 2s;
         transition-timing-function: linear;
@@ -2758,7 +2760,7 @@
     }
 
     .titulo-container input[type="text"] {
-        color: black;
+        color: #ca5252;
         background: white;
         padding: 6px;
         margin-top: -50px;
@@ -2790,7 +2792,7 @@
 
     .titulo-container .search-container button:hover {
         background: white;
-        color: black;
+        color: #ca5252;
         transition-property: width;
         transition-duration: 2s;
         transition-timing-function: linear;
@@ -2815,18 +2817,18 @@
 
     .tesauro-container {
         position: relative;
-        background-color: #BF1313;
+        background-color:  #46484F;
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
-        border-color: #9E0000;
+        border-color: transparent;
         width: fit-content;
         height: 150px;
         bottom: -20px;
     }
 
     .tesauro-container h3 {
-        font-size: 28px;
+        font-size: 24px;
         
         
         color: white;
@@ -2836,13 +2838,13 @@
     .tesauro-container a {
         color: rgb(255, 255, 255);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30px;
+        font-size: 22px;
         text-decoration-line: none;
 
     }
 
     .tesauro-container a:hover {
-        background-color: transparent;
+        background-color: white;
         color: #000000;
         border-radius: 8px;
         -webkit-transition: 0.5s;
@@ -2850,7 +2852,7 @@
 
     .tesauro-hierarquico-container {
         border-radius: 8px;
-        border-color: black;
+        border-color: #ca5252;
         
         color: #fff;
         width: fit-content;
@@ -2861,11 +2863,11 @@
     }
 
     .tesauro-hierarquico-container h1 {
-        font-size: 28px;
-        background: #b30000;
+        font-size: 22px;
+        background:  #46484F;
         border-radius: 8px;
         border-style: groove;
-        border-color: black;
+        border-color: transparent;
         border-width: 2px;
         color: white;
         font-weight: lighter;
@@ -2874,34 +2876,34 @@
 
     .tutorial-container {
         position: relative;
-        background-color: #BF1313;
+        background-color:  #46484F;
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
-        border-color: #9E0000;
-        width: fit-content;
+        border-color: transparent;
+        width: auto;
         height: fit-content;
         width: 750px;
         bottom: -6px;
     }
 
     .tutorial-container h3 {
-        font-size: 30px;
+        font-size: 24px;
         color: white;
     }
 
     .tutorial-container a {
         color: rgb(255, 255, 255);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30px;
+        font-size: 22px;
         text-decoration-line: none;
 
     }
 
     .tutorial-container a:hover {
-        background-color: transparent;
-        color: #000000;
-        border-radius: 8px;
+        background-color: #0F0E11;
+        color: white;
+        border-radius: 4px;
         -webkit-transition: 0.5s;
     }
 
@@ -2916,10 +2918,10 @@
 
     .tutorial-hierarquico-container h1 {
         font-size: 28px;
-        background: #b30000;
+        background: #46484F;
         border-radius: 8px;
         border-style: groove;
-        border-color: black;
+        border-color: transparent;
         border-width: 2px;
         color: white;
         font-weight: lighter;
@@ -2929,14 +2931,12 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
         bottom: 0;
-        background-color: #9E0000;
+        background-color: #0F0E11;
         color: #FFF;
-        font-size: 14px;
-        
+        font-size: 12.63px;
+        text-align: left;
         width: 1860px;
-        height: 50px;    
-        text-align: center;
-        line-height: 50px;
+        height: 40px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -2963,14 +2963,12 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
         bottom: 0;
-        background-color: #9E0000;
+        background-color: #0F0E11;
         color: #FFF;
-        font-size: 14px;
-        
+        font-size: 12.63px;
+        text-align: left;
         width: 1860px;
-        height: 50px;    
-        text-align: center;
-        line-height: 50px;
+        height: 30px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -2982,10 +2980,25 @@
         bottom: 0;
         background-color: #0F0E11;
         color: #FFF;
-        font-size: 15px;
+        font-size: 12.5px;
         text-align: left;
         width: 1860px;
-        height: 50px;    
+        height: 80px;    
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+
+    .index-fundonovo-container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 0;
+        background-color: #0F0E11;
+        color: #FFF;
+        font-size: 12.63px;
+        text-align: left;
+        width: 1860px;
+        height: 40px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -2995,14 +3008,27 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
         bottom: 0;
-        background-color: #9E0000;
+        background-color: #0F0E11;
         color: #FFF;
-        font-size: 14px;
-        
-        width: 1857px;
+        font-size: 12.63px;
+        text-align: left;
+        width: 1860px;
+        height: 40px;    
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+
+    .fundo-tuto-container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 0;
+        background-color: #0F0E11;
+        color: #FFF;
+        font-size: 12.5px;
+        text-align: left;
+        width: 1860px;
         height: 50px;    
-        text-align: center;
-        line-height: 50px;
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -3012,14 +3038,12 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
         bottom: 0;
-        background-color: #9E0000;
+        background-color: #0F0E11;
         color: #FFF;
-        font-size: 14px;
-        
+        font-size: 12.63px;
+        text-align: left;
         width: 1860px;
-        height: 50px;    
-        text-align: center;
-        line-height: 50px;
+        height: 40px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -3041,24 +3065,24 @@
         position: relative;
         width: auto;
         height: auto;
-        background-color: #BF1313;
+        background-color: #46484F;
         color: white;
-        border-color: #9E0000;
+        border-color: transparent;
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
     }
 
     .sobre-container a {
-        color: rgb(19, 193, 241);
+        color: rgb(189, 11, 11);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 28px;
         text-decoration-line: none;
     }
 
     .sobre-container a:hover {
-        background-color: transparent;
-        color: #000000;
+        background-color: #0F0E11;
+        color: white;
         border-radius: 8px;
         -webkit-transition: 0.5s;
     }
@@ -3068,9 +3092,9 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 28px;
         border-radius: 4px;
-        background-color: #BF1313;
+        background-color: #46484F;
         color: white;
-        border-color: #9E0000;
+        border-color: transparent;
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
@@ -3078,7 +3102,7 @@
 
     .sobre-container h2 {
         color: rgb(218, 206, 206);
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .article-sobre-container h1 {
@@ -3117,10 +3141,10 @@
 
     .sobre-hierarquico-container h1 {
         font-size: 28px;
-        background: #b30000;
+        background: #46484F;
         border-radius: 8px;
         border-style: groove;
-        border-color: black;
+        border-color: transparent;
         border-width: 2px;
         color: white;
         font-weight: lighter;
@@ -3156,7 +3180,7 @@
     }
 
     .formulario-container {
-        margin-left: 455px;
+        margin-left: 260px;
     }
 
     .resultado-container {
@@ -3164,20 +3188,21 @@
         display: flex;
         grid-template-columns: repeat(3,minmax(0,1fr));
         grid-column-gap: 20px;
+        background-color: #46484F;
     }
 
 
 
     .resultadores-container h3 {
         font-size: 26px;
-        color: rgb(0, 0, 0);
+        color: white;
 
     }
 
     .resultadores-container a {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-        color: rgb(0, 0, 0);
+        color: #ca5252;;
 
         padding: 14px 12px;
 
@@ -3188,9 +3213,9 @@
     }
 
     .resultadores-container a:hover {
-        background-color: transparent;
-        color: #BF1313;
-        border-radius: 8px;
+        background-color: #0F0E11;
+        color: white;
+        
         -webkit-transition: 0.5s;
 
 
@@ -3207,7 +3232,7 @@
 
     .cconceito-container h3 {
         font-size: 28px;
-        color: rgb(0, 0, 0);
+        color: white;
 
     }
 
@@ -3217,17 +3242,22 @@
         border-radius: 8px;
         border-style: groove;
         border-width: 2px;
-        border-color: black;
+        border-color: #ca5252;
         zoom: 125%;
+        background-color: #46484F;
     }
 
     .conceito-container h5 {
         text-align: justify;
-        color: #9E0000;
+        color: #ca5252;
         font-size: 24px;
         text-decoration-line: underline;
         background-color: transparent;
 
+    }
+
+    .conceito-containher h6{
+        font-size: 40px;
     }
 
     h5 {
@@ -3239,13 +3269,13 @@
     h6 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: transparent;
-        color: rgb(0, 0, 0);
-        font-size: 28px;
+        color: white;
+        font-size: 30px;
     }
 
     .hierarquicod-container {
         background-color: transparent;
-        color: #fff;
+        color: #ca5252;
         position: absolute;
         float: left;
         width: 750px;
@@ -3254,8 +3284,8 @@
 
     .hierarquicod-container h1 {
         font-size: 24px;
-        color: black;
-        font-weight: lighter;
+        color: #ca5252;
+        
     }
 
     .hierarquicod-container a{
@@ -3273,8 +3303,8 @@
 
     .hierarquicodtres-container h1 {
         font-size: 28px;
-        color: black;
-        font-weight: lighter;
+        color: #ca5252;
+        
     }
 
 
@@ -3287,7 +3317,8 @@
     }
 
     .hierarquicodquatro-container h1 {
-        color: black;
+        color: #ca5252;
+        
     }
 
     .hierarquicodquinto-container {
@@ -3299,7 +3330,8 @@
     }
 
     .hierarquicodquinto-container h1 {
-        color: black;
+        color: #ca5252;
+        
     }
 
     .hierarquicodseis-container {
@@ -3311,7 +3343,8 @@
     }
 
     .hierarquicodseis-container h1 {
-        color: black;
+        color: #ca5252;
+        
     }
 
     .hierarquicodsete-container {
@@ -3323,7 +3356,8 @@
     }
 
     .hierarquicodsete-container h1 {
-        color: black;
+        color: #ca5252;
+        
     }
 
     .hierarquicodoito-container {
@@ -3335,7 +3369,8 @@
     }
 
     .hierarquicodoito-container h1 {
-        color: black;
+        color: #ca5252;
+        
     }
 
 
@@ -3348,7 +3383,8 @@
     }
 
     .hierarquicodnove-container h1 {
-        color: black;
+        color: #ca5252;
+        
     }
 
     
@@ -3362,7 +3398,8 @@
     }
 
     .hierarquicoddez-container h1 {
-        color: black;
+        color: #ca5252;
+        
     }
 
 
@@ -3375,7 +3412,8 @@
     }
 
     .hierarquicodonze-container h1 {
-        color: black;
+        color: #ca5252;
+        
     }
 
     .hierarquicodoze-container {
@@ -3387,7 +3425,7 @@
     }
 
     .hierarquicodoze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtreze-container {
@@ -3399,7 +3437,7 @@
     }
 
     .hierarquicodtreze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqtz-container {
@@ -3411,7 +3449,7 @@
     }
 
     .hierarquicodqtz-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicoddzs-container {
@@ -3423,7 +3461,7 @@
     }
 
     .hierarquicoddzs-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicoddzt-container {
@@ -3435,7 +3473,7 @@
     }
 
     .hierarquicoddzt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicoddztt-container {
@@ -3447,7 +3485,7 @@
     }
 
     .hierarquicoddztt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicoddzn-container {
@@ -3459,7 +3497,7 @@
     }
 
     .hierarquicoddzn-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvin-container {
@@ -3471,7 +3509,7 @@
     }
 
     .hierarquicodvin-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvini-container {
@@ -3483,7 +3521,7 @@
     }
 
     .hierarquicodvini-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvint-container {
@@ -3495,7 +3533,7 @@
     }
 
     .hierarquicodvint-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvind-container {
@@ -3507,7 +3545,7 @@
     }
 
     .hierarquicodvind-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvinc-container {
@@ -3519,7 +3557,7 @@
     }
 
     .hierarquicodvinc-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvseis-container {
@@ -3531,7 +3569,7 @@
     }
 
     .hierarquicodvseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvsete-container {
@@ -3543,7 +3581,7 @@
     }
 
     .hierarquicodvsete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodvnove-container {
@@ -3555,7 +3593,7 @@
     }
 
     .hierarquicodvnove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtrinta-container {
@@ -3567,7 +3605,7 @@
     }
 
     .hierarquicodtrinta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtri-container {
@@ -3579,7 +3617,7 @@
     }
 
     .hierarquicodtri-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtrd-container {
@@ -3591,7 +3629,7 @@
     }
 
     .hierarquicodtrd-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtrt-container {
@@ -3603,7 +3641,7 @@
     }
 
     .hierarquicodtrt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtrq-container {
@@ -3615,7 +3653,7 @@
     }
 
     .hierarquicodtrq-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtrc-container {
@@ -3627,7 +3665,7 @@
     }
 
     .hierarquicodtrc-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtseis-container {
@@ -3639,7 +3677,7 @@
     }
 
     .hierarquicodtseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtsete-container {
@@ -3651,7 +3689,7 @@
     }
 
     .hierarquicodtsete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtoito-container {
@@ -3663,7 +3701,7 @@
     }
 
     .hierarquicodtoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodtnove-container {
@@ -3675,7 +3713,7 @@
     }
 
     .hierarquicodtnove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqum-container {
@@ -3687,7 +3725,7 @@
     }
 
     .hierarquicodqum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqdois-container {
@@ -3699,7 +3737,7 @@
     }
 
     .hierarquicodqdois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqtres-container {
@@ -3711,7 +3749,7 @@
     }
 
     .hierarquicodqtres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqdquatro-container {
@@ -3723,7 +3761,7 @@
     }
 
     .hierarquicodqdquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqdcinco-container {
@@ -3735,7 +3773,7 @@
     }
 
     .hierarquicodqdcinco-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqdsete-container {
@@ -3747,7 +3785,7 @@
     }
 
     .hierarquicodqdsete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqdoito-container {
@@ -3759,7 +3797,7 @@
     }
 
     .hierarquicodqdoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcm-container {
@@ -3771,7 +3809,7 @@
     }
 
     .hierarquicodcm-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcdois-container {
@@ -3783,7 +3821,7 @@
     }
 
     .hierarquicodcdois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodctres-container {
@@ -3795,7 +3833,7 @@
     }
 
     .hierarquicodctres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcquatro-container {
@@ -3807,7 +3845,7 @@
     }
 
     .hierarquicodcquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcquinto-container {
@@ -3819,7 +3857,7 @@
     }
 
     .hierarquicodcquinto-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcseis-container {
@@ -3831,7 +3869,7 @@
     }
 
     .hierarquicodcseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcsete-container {
@@ -3843,7 +3881,7 @@
     }
 
     .hierarquicodcsete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcoito-container {
@@ -3855,7 +3893,7 @@
     }
 
     .hierarquicodcoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodcnove-container {
@@ -3867,7 +3905,7 @@
     }
 
     .hierarquicodcnove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqcdez-container {
@@ -3879,7 +3917,7 @@
     }
 
     .hierarquicodqcdez-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsum-container {
@@ -3891,7 +3929,7 @@
     }
 
     .hierarquicodqsum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsdois-container {
@@ -3903,7 +3941,7 @@
     }
 
     .hierarquicodqsdois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqstres-container {
@@ -3915,7 +3953,7 @@
     }
 
     .hierarquicodqstres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsquatro-container {
@@ -3927,7 +3965,7 @@
     }
 
     .hierarquicodqsquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsquinto-container {
@@ -3939,7 +3977,7 @@
     }
 
     .hierarquicodqsquinto-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsseis-container {
@@ -3951,7 +3989,7 @@
     }
 
     .hierarquicodqsseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssete-container {
@@ -3963,7 +4001,7 @@
     }
 
     .hierarquicodqssete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsoito-container {
@@ -3975,7 +4013,7 @@
     }
 
     .hierarquicodqsoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsnove-container {
@@ -3987,7 +4025,7 @@
     }
 
     .hierarquicodqsnove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodzum-container {
@@ -3999,7 +4037,7 @@
     }
 
     .hierarquicodzum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquiumcincooito-container {
@@ -4011,7 +4049,7 @@
     }
 
     .hierarquiumcincooito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsdez-container {
@@ -4023,7 +4061,7 @@
     }
 
     .hierarquicodqsdez-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsonze-container {
@@ -4035,7 +4073,7 @@
     }
 
     .hierarquicodqsonze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsdoze-container {
@@ -4047,7 +4085,7 @@
     }
 
     .hierarquicodqsdoze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqstreze-container {
@@ -4059,7 +4097,7 @@
     }
 
     .hierarquicodqstreze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsqtz-container {
@@ -4071,7 +4109,7 @@
     }
 
     .hierarquicodqsqtz-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsquinze-container {
@@ -4083,7 +4121,7 @@
     }
 
     .hierarquicodqsquinze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsdzs-container {
@@ -4095,7 +4133,7 @@
     }
 
     .hierarquicodqsdzs-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsseteoito-container {
@@ -4107,7 +4145,7 @@
     }
 
     .hierarquicodqsseteoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssetenove-container {
@@ -4119,7 +4157,7 @@
     }
 
     .hierarquicodqssetenove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitenta-container {
@@ -4131,7 +4169,7 @@
     }
 
     .hierarquicodqssoitenta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitenta-container h5 {
@@ -4147,7 +4185,7 @@
     }
 
     .hierarquicodqssoitentateste-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentateste-container h5 {
@@ -4163,7 +4201,7 @@
     }
 
     .hierarquicodauto-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentatres-container {
@@ -4175,7 +4213,7 @@
     }
 
     .hierarquicodqssoitentatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentaquatro-container {
@@ -4187,7 +4225,7 @@
     }
 
     .hierarquicodqssoitentaquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentacinco-container {
@@ -4199,7 +4237,7 @@
     }
 
     .hierarquicodqssoitentacinco-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentaseis-container {
@@ -4211,7 +4249,7 @@
     }
 
     .hierarquicodqssoitentaseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentasete-container {
@@ -4223,7 +4261,7 @@
     }
 
     .hierarquicodqssoitentasete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssoitentatrinta-container {
@@ -4235,7 +4273,7 @@
     }
 
     .hierarquicodqssoitentatrinta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventa-container {
@@ -4247,7 +4285,7 @@
     }
 
     .hierarquicodqssnoventa-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaum-container {
@@ -4259,7 +4297,7 @@
     }
 
     .hierarquicodqssnoventaum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadois-container {
@@ -4271,7 +4309,7 @@
     }
 
     .hierarquicodqssnoventadois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventatres-container {
@@ -4283,7 +4321,7 @@
     }
 
     .hierarquicodqssnoventatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaquatro-container {
@@ -4295,7 +4333,7 @@
     }
 
     .hierarquicodqssnoventaquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventacinco-container {
@@ -4307,7 +4345,7 @@
     }
 
     .hierarquicodqssnoventacinco-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaseis-container {
@@ -4319,7 +4357,7 @@
     }
 
     .hierarquicodqssnoventaseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventasete-container {
@@ -4331,7 +4369,7 @@
     }
 
     .hierarquicodqssnoventasete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaoito-container {
@@ -4343,7 +4381,7 @@
     }
 
     .hierarquicodqssnoventaoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventanove-container {
@@ -4355,7 +4393,7 @@
     }
 
     .hierarquicodqssnoventanove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadez-container {
@@ -4367,7 +4405,7 @@
     }
 
     .hierarquicodqssnoventadez-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaonze-container {
@@ -4379,7 +4417,7 @@
     }
 
     .hierarquicodqssnoventaonze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadoze-container {
@@ -4391,7 +4429,7 @@
     }
 
     .hierarquicodqssnoventadoze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventatreze-container {
@@ -4403,7 +4441,7 @@
     }
 
     .hierarquicodqssnoventatreze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaqtz-container {
@@ -4415,7 +4453,7 @@
     }
 
     .hierarquicodqssnoventaqtz-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventaquinze-container {
@@ -4427,7 +4465,7 @@
     }
 
     .hierarquicodqssnoventaquinze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadzs-container {
@@ -4439,7 +4477,7 @@
     }
 
     .hierarquicodqssnoventadzs-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadzt-container {
@@ -4451,7 +4489,7 @@
     }
 
     .hierarquicodqssnoventadzt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadztt-container {
@@ -4463,7 +4501,7 @@
     }
 
     .hierarquicodqssnoventadztt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadznn-container {
@@ -4475,7 +4513,7 @@
     }
 
     .hierarquicodqssnoventadznn-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadznt-container {
@@ -4487,7 +4525,7 @@
     }
 
     .hierarquicodqssnoventadznt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqssnoventadzntt-container {
@@ -4499,7 +4537,7 @@
     }
 
     .hierarquicodqssnoventadzntt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemum-container {
@@ -4511,7 +4549,7 @@
     }
 
     .hierarquicodqsscemum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemdois-container {
@@ -4523,7 +4561,7 @@
     }
 
     .hierarquicodqsscemdois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtreszes-container {
@@ -4535,7 +4573,7 @@
     }
 
     .hierarquicodqsscemtreszes-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemqt-container {
@@ -4547,7 +4585,7 @@
     }
 
     .hierarquicodqsscemqt-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtres-container {
@@ -4559,7 +4597,7 @@
     }
 
     .hierarquicodqsscemtres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemseis-container {
@@ -4571,7 +4609,7 @@
     }
 
     .hierarquicodqsscemseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemdez-container {
@@ -4583,7 +4621,7 @@
     }
 
     .hierarquicodqsscemdez-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemonze-container {
@@ -4595,7 +4633,7 @@
     }
 
     .hierarquicodqsscemonze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemdoze-container {
@@ -4607,7 +4645,7 @@
     }
 
     .hierarquicodqsscemdoze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtreze-container {
@@ -4619,7 +4657,7 @@
     }
 
     .hierarquicodqsscemtreze-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrezeweb-container {
@@ -4631,7 +4669,7 @@
     }
 
     .hierarquicodqsscemtrezeweb-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrinta-container {
@@ -4643,7 +4681,7 @@
     }
 
     .hierarquicodqsscemtrinta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintaum-container {
@@ -4655,7 +4693,7 @@
     }
 
     .hierarquicodqsscemtrintaum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintadois-container {
@@ -4667,7 +4705,7 @@
     }
 
     .hierarquicodqsscemtrintadois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintatres-container {
@@ -4679,7 +4717,7 @@
     }
 
     .hierarquicodqsscemtrintatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
 
@@ -4692,7 +4730,7 @@
     }
 
     .hierarquicodqsscemtrintadoisprop-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintaquatro-container {
@@ -4704,7 +4742,7 @@
     }
 
     .hierarquicodqsscemtrintaquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintaseis-container {
@@ -4716,7 +4754,7 @@
     }
 
     .hierarquicodqsscemtrintaseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintasete-container {
@@ -4728,7 +4766,7 @@
     }
 
     .hierarquicodqsscemtrintasete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintaoito-container {
@@ -4740,7 +4778,7 @@
     }
 
     .hierarquicodqsscemtrintaoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemtrintanove-container {
@@ -4752,7 +4790,7 @@
     }
 
     .hierarquicodqsscemtrintanove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarenta-container {
@@ -4764,7 +4802,7 @@
     }
 
     .hierarquicodqsscemquarenta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentaum-container {
@@ -4776,7 +4814,7 @@
     }
 
     .hierarquicodqsscemquarentaum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentatres-container {
@@ -4788,7 +4826,7 @@
     }
 
     .hierarquicodqsscemquarentatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentaquinto-container {
@@ -4800,7 +4838,7 @@
     }
 
     .hierarquicodqsscemquarentaquinto-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentaseis-container {
@@ -4812,7 +4850,7 @@
     }
 
     .hierarquicodqsscemquarentaseis-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentasete-container {
@@ -4824,7 +4862,7 @@
     }
 
     .hierarquicodqsscemquarentasete-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentaoito-container {
@@ -4836,7 +4874,7 @@
     }
 
     .hierarquicodqsscemquarentaoito-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemquarentanove-container {
@@ -4848,7 +4886,7 @@
     }
 
     .hierarquicodqsscemquarentanove-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquenta-container {
@@ -4860,7 +4898,7 @@
     }
 
     .hierarquicodqsscemcinquenta-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentaum-container {
@@ -4872,7 +4910,7 @@
     }
 
     .hierarquicodqsscemcinquentaum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentaum-container {
@@ -4884,7 +4922,7 @@
     }
 
     .hierarquicodqsscemcinquentaum-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentadois-container {
@@ -4896,7 +4934,7 @@
     }
 
     .hierarquicodqsscemcinquentadois-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentatres-container {
@@ -4908,7 +4946,7 @@
     }
 
     .hierarquicodqsscemcinquentatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentaquatro-container {
@@ -4920,35 +4958,36 @@
     }
 
     .hierarquicodqsscemcinquentaquatro-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .hierarquicodqsscemcinquentatres-container h1 {
-        color: black;
+        color: #ca5252;
     }
 
     .niveld-container {
-        background-color: #fff;
+        background-color: #46484F;
         border-radius: 8px;
         border-style: groove;
         border-width: 2px;
-        border-color: #000000;
+        border-color: #ca5252;;
         height: fit-content;
-        color: black;
+        width: 600px;
     }
 
     .niveld-container h1 {
-        color: black;
+        color: white;
         font-size: 23px;
     }
 
     .niveld-container h3 {
         font-size: 23px;
+        color: #ca5252;
     }
 
     .niveld-container a {
-        color: rgb(0, 0, 0);
-        font-size: 23px;
+        color:white;
+        font-size: 20px;
         text-decoration: none;
     }
 
@@ -4959,21 +4998,7 @@
         color: #BF1313;
     }
 
-    footer {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        position: relative;
-        bottom: 5px;
-        background-color: #9E0000;
-        color: #FFF;
-        font-size: 20px;
-        width: 99%;
-        height: 50px;    
-        text-align: center;
-        line-height: 50px;
-        border-radius: 4px;
-        border-style: groove;
-        border-color: #000000;
-    }
+    
 
     .footer-final {
         font-family: Verdana, Geneva, Tahoma, sans-serif;

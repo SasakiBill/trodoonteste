@@ -9,7 +9,7 @@ include 'header.php';
     <a href="./sobre.php">Sobre</a>
     <a href="./contribua.php">Contribua!</a>
     <a href="./tutoriais.php">Tutoriais</a>
-    <a href="./tesauros.php">Tesauros da Computação</a>
+    <a href="./tesauros.php">Tesauros</a>
     <a href="./index.php">Página Inicial</a>
 
   </div>
@@ -35,7 +35,7 @@ include 'header.php';
       $result = mysqli_query($conn, $sql);
 
       while ($row = mysqli_fetch_assoc($result)) {
-        echo "ID: " . $row['idConceito'] . "<br>";
+        /*echo "ID: " . $row['idConceito'] . "<br>";*/
         echo "<h5>Título do Conceito: </h5> <h6>" . $row['prefLabel'] . "</h6>";
         echo "<h5>Título do Conceito em Inglês: </h5> <h6>" . $row['altLabelA'] . "</h6>";
         echo "<h5>Definição Acadêmica: </h5> <h6>" . $row['definitionA'] . "</h6>";
