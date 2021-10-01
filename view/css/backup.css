@@ -46,33 +46,33 @@
     }
 
     .topnav {
+        display: flex;
         background-color: #0F0E11;
         position: relative;
         overflow: hidden;
         color: #fff;
         text-align: right;
-        border-radius: 8px;
         border-style: groove;
         border-width: 6px;
         border-color: transparent;
-        height: 80px;
-        width: 1960px;
+        height: 250px;
+        width: 1653px;
     }
 
     .topnav img {
         float: left;
-        width: 200px;
+        width: 600px;
     }
 
     .topnav a {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         float: right;
-        display: block;
+        
         color: rgb(255, 255, 255);
-        text-align: right;
-        padding: 12px 12px;
+        text-align: left;
+        padding: 12px 0px;
         text-decoration: none;
-        font-size: 32px;
+        font-size: 55px;
         margin-right: 60px;
     }
 
@@ -98,6 +98,8 @@
         width: 1653px;
     }
 
+    
+
     .topnavIndex-container img {
         float: left;
         width: 600px;
@@ -106,7 +108,7 @@
     .topnavIndex-container a {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         float: right;
-        display: block;
+        
         color: rgb(255, 255, 255);
         text-align: left;
         padding: 12px 0px;
@@ -328,19 +330,20 @@
     }
 
     .tesauro-container {
+        
         position: relative;
         background-color: #46484F;
         border-radius: 8px;
         border-style: groove;
         border-width: 6px;
         border-color: transparent;
-        width: fit-content;
-        height: 150px;
-        bottom: -20px;
+        width: 1450px;
+        height: 1000px;
+        bottom: -50px;
     }
 
     .tesauro-container h3 {
-        font-size: 28px;
+        font-size: 60px;
         
         
         color: white;
@@ -348,9 +351,10 @@
     }
 
     .tesauro-container a {
+        
         color: rgb(255, 255, 255);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30px;
+        font-size: 65px;
         text-decoration-line: none;
 
     }
@@ -375,7 +379,7 @@
     }
 
     .tesauro-hierarquico-container h1 {
-        font-size: 34px;
+        font-size: 36px;
         background:  #46484F;
         border-radius: 8px;
         border-style: groove;
@@ -491,7 +495,7 @@
     .index-fundonovo-container {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: absolute;
-        bottom: -550px;
+        bottom: -590px;
         background-color: #0F0E11;
         color: #FFF;
         font-size: 50px;
@@ -549,7 +553,7 @@
 
     .sobre-container {
         position: relative;
-        width: 1050px;
+        width: 1200px;
         height: auto;
         background-color: #46484F;
         color: white;
@@ -2811,6 +2815,7 @@
     }
 
     .tesauro-container {
+        display: grid;
         position: relative;
         background-color: #46484F;
         border-radius: 8px;
@@ -2823,7 +2828,7 @@
     }
 
     .tesauro-container h3 {
-        font-size: 28px;
+        font-size: 60px;
         
         
         color: white;
@@ -2850,15 +2855,15 @@
         border-color: transparent;
         
         color: #fff;
-        width: fit-content;
+        width: 1450px;
         position: relative;
         float: left;
-        top: 20px;
+        top: 300px;
         font-weight: lighter;
     }
 
     .tesauro-hierarquico-container h1 {
-        font-size: 34px;
+        font-size: 75px;
         background:  #46484F;
         border-radius: 8px;
         border-style: groove;
