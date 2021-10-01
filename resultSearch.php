@@ -3,6 +3,8 @@ include 'header.php';
 
 ?>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <body>
   <div class="topnav">
     <img src="./view/img/ultimate-removebg-preview.png" />

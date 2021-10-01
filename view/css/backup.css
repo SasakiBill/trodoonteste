@@ -12,14 +12,9 @@
         text-decoration-line: underline;
     }
 
-    #paginaInicial{
-        zoom: 23%;
-        /*overflow-x: hidden;*/
-    }
-
     body{
         background-color: #3A3C44;
-        
+        zoom: 23%;
     }
     
     /* width */
@@ -46,12 +41,12 @@
     }
 
     .topnav {
-        display: flex;
         background-color: #0F0E11;
         position: relative;
         overflow: hidden;
         color: #fff;
         text-align: right;
+        
         border-style: groove;
         border-width: 6px;
         border-color: transparent;
@@ -77,8 +72,8 @@
     }
 
     .topnav a:hover {
-        background-color: #0F0E11;
-        color: white;
+        background-color: #3A3C44;
+        color: #BF1313;
         border-radius: 8px;
         -webkit-transition: 0.5s;
         color: rgb(31, 30, 30);
@@ -248,20 +243,19 @@
 
 
     .titulo-container h2 {
-        color: #F9F6F2;
-        margin-top: 0px;
-        font-size: 32px;
-        padding: 10px;
+        color: rgb(255, 255, 255);
+        margin-top: 5px;
+        font-size: 65px;
 
     }
 
     .titulo-container {
         background-color: #0F0E11;
         color: #fff;
-        top: 2px;
-        height: 70px;
+        top: 0px;
+        height: 200px;
         position: relative;
-        width: 1960px;
+        width: 1653px;
         border-radius: 2px;
         border-style: groove;
         border-width: 4px;
@@ -269,33 +263,35 @@
       }
 
     .titulo-container .search-container {
-        margin-right: 90px;
-        margin-top: -25px;
+        margin-right: 130px;
+        margin-top: -130px;
     }
 
     .titulo-container input[type="text"] {
-        color: black;
+        color: #ca5252;
         background: white;
         padding: 6px;
         margin-top: -50px;
         font-size: 17px;
         border: none;
         float: right;
+        height: 100px;
     }
 
     ::placeholder {
         color: rgb(105, 92, 92);
+        font-size: 25px;
     }
 
     .titulo-container .search-container button {
         border-radius: 4px;
         float: right;
-        margin-top: -50px;
-        margin-right: -48px;
-        height: 38px;
-        width: 45px;
+        margin-top: -52px;
+        margin-right: -320px;
+        height: 100px;
+        width: 70px;
         border: none;
-        background-color: #b30000;
+        background-color: #2a2ddd;
         color: #FFFFFF;
         text-align: center;
         font-size: 16px;
@@ -305,7 +301,7 @@
     }
 
     .titulo-container .search-container button:hover {
-        background: white;
+        background: greenyellow;
         color: #ca5252;
         transition-property: width;
         transition-duration: 2s;
@@ -338,8 +334,9 @@
         border-width: 6px;
         border-color: transparent;
         width: 1450px;
-        height: 1000px;
+        height: 200px;
         bottom: -50px;
+        top: 60px;
     }
 
     .tesauro-container h3 {
@@ -347,16 +344,15 @@
         
         
         color: white;
-        font-weight: lighter;
+        
     }
 
     .tesauro-container a {
         
         color: rgb(255, 255, 255);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 65px;
+        font-size: 60px;
         text-decoration-line: none;
-
     }
 
     .tesauro-container a:hover {
@@ -374,12 +370,12 @@
         width: fit-content;
         position: relative;
         float: left;
-        top: 20px;
+        top: 130px;
         font-weight: lighter;
     }
 
     .tesauro-hierarquico-container h1 {
-        font-size: 36px;
+        font-size: 75px;
         background:  #46484F;
         border-radius: 8px;
         border-style: groove;
@@ -445,14 +441,14 @@
 
     .fundo-container {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        position: fixed;
-        bottom: 0;
+        position: absolute;
+        bottom: -10px;
         background-color: #0F0E11;
         color: #FFF;
-        font-size: 19px;
-        text-align: left;
-        width: 1960px;
-        height: 50px;    
+        font-size: 50px;
+        text-align: justify;
+        width: 1595px;
+        height: 310px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -495,7 +491,7 @@
     .index-fundonovo-container {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: absolute;
-        bottom: -590px;
+        bottom: -550px;
         background-color: #0F0E11;
         color: #FFF;
         font-size: 50px;
@@ -2641,6 +2637,7 @@
 
     .pacman-container img {
         width: 830px;
+        display: none;
     }
 
 
@@ -5040,7 +5037,7 @@
     .topnav a {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         float: right;
-        display: block;
+        display: grid;
         color:  #F9F6F2;
         text-align: right;
         padding: 12px 0px;
