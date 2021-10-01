@@ -3,24 +3,2501 @@
     font-size: 22px;
     text-decoration-line: underline;
 }
-@media (max-height: 812px){
-    .index-fundo-container{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+@media (max-width: 600px){
+
+    .red{
+        color: #FF0000;
+        font-size: 50px;
+        text-decoration-line: underline;
+    }
+
+    #paginaInicial{
+        zoom: 23%;
+        /*overflow-x: hidden;*/
+    }
+
+    body{
+        background-color: #3A3C44;
+        
+    }
+    
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+        
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #46484F;
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+    }
+
+    .topnav {
+        background-color: #0F0E11;
         position: relative;
-        margin-top: -300px;
-        background-color: #4f1eb1;
-        color: #FFF;
-        font-size: 16.33px;
+        overflow: hidden;
+        color: #fff;
+        text-align: right;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+        border-color: transparent;
+        height: 80px;
+        width: 1960px;
+    }
+
+    .topnav img {
+        float: left;
+        width: 200px;
+    }
+
+    .topnav a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        float: right;
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: right;
+        padding: 12px 12px;
+        text-decoration: none;
+        font-size: 32px;
+        margin-right: 60px;
+    }
+
+    .topnav a:hover {
+        background-color: #0F0E11;
+        color: white;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+        color: rgb(31, 30, 30);
+    }
+
+    .topnavIndex-container {
+        background-color: #0F0E11;
+        position: relative;
+        overflow: hidden;
+        color: #fff;
+        text-align: right;
+        
+        border-style: groove;
+        border-width: 6px;
+        border-color: transparent;
+        height: 250px;
+        width: 1653px;
+    }
+
+    .topnavIndex-container img {
+        float: left;
+        width: 600px;
+    }
+
+    .topnavIndex-container a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        float: right;
+        display: block;
+        color: rgb(255, 255, 255);
         text-align: left;
-        width: 1920px;
+        padding: 12px 0px;
+        text-decoration: none;
+        font-size: 55px;
+        margin-right: 60px;
+    }
+
+    .topnavIndex-container a:hover {
+        background-color: #3A3C44;
+        color: #BF1313;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+        color: rgb(31, 30, 30);
+    }
+
+
+
+    .article-container {
+        background-color: transparent;
+        border-radius: 8px;
+        color: #fff;
+        height: fit-content;
+        width: 870px;
+    }
+
+    .article-sobre-container {
+        background-color: transparent;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+        height: fit-content;
+        width: 870px;
+    
+
+    }
+
+    .pacman-container {
+        margin-left: 780px;
+        margin-top: -680px;
+    }
+
+    .pacman-container img {
+        width: 830px;
+    }
+
+
+    .article-container h1 {
+        font-size: 70px;
+        background: #46484F;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: transparent;
+        border-width: 2px;
+        color: white;
+        font-weight: lighter;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+        color: white;
+    }
+
+    
+
+    .tituloIndex-container h2 {
+        color: rgb(255, 255, 255);
+        margin-top: 5px;
+        font-size: 65px;
+        
+
+    }
+
+    .tituloIndex-container {
+        background-color: #0F0E11;
+        color: #fff;
+        top: 0px;
+        height: 200px;
+        position: relative;
+        width: 1653px;
+        border-radius: 2px;
+        border-style: groove;
+        border-width: 4px;
+        border-color: transparent;
+    }
+
+   
+
+
+    .tituloIndex-container .search-container {
+        margin-right: 130px;
+        margin-top: -130px;
+    }
+
+    .tituloIndex-container input[type="text"] {
+        color: #ca5252;
+        background: white;
+        padding: 6px;
+        margin-top: -50px;
+        font-size: 17px;
+        border: none;
+        float: right;
+        height: 100px;
+    }
+
+    ::placeholder {
+        color: rgb(105, 92, 92);
+        font-size: 25px;
+    }
+
+    .tituloIndex-container .search-container button {
+        border-radius: 4px;
+        float: right;
+        margin-top: -52px;
+        margin-right: -320px;
+        height: 100px;
+        width: 70px;
+        border: none;
+        background-color: #2a2ddd;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 16px;
+
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .tituloIndex-container .search-container button:hover {
+        background: greenyellow;
+        color: #ca5252;
+        transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+    }
+
+
+    .titulo-container h2 {
+        color: #F9F6F2;
+        margin-top: 0px;
+        font-size: 32px;
+        padding: 10px;
+
+    }
+
+    .titulo-container {
+        background-color: #0F0E11;
+        color: #fff;
+        top: 2px;
+        height: 70px;
+        position: relative;
+        width: 1960px;
+        border-radius: 2px;
+        border-style: groove;
+        border-width: 4px;
+        border-color: transparent;
+      }
+
+    .titulo-container .search-container {
+        margin-right: 90px;
+        margin-top: -25px;
+    }
+
+    .titulo-container input[type="text"] {
+        color: black;
+        background: white;
+        padding: 6px;
+        margin-top: -50px;
+        font-size: 17px;
+        border: none;
+        float: right;
+    }
+
+    ::placeholder {
+        color: rgb(105, 92, 92);
+    }
+
+    .titulo-container .search-container button {
+        border-radius: 4px;
+        float: right;
+        margin-top: -50px;
+        margin-right: -48px;
+        height: 38px;
+        width: 45px;
+        border: none;
+        background-color: #b30000;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 16px;
+
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .titulo-container .search-container button:hover {
+        background: white;
+        color: #ca5252;
+        transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+    }
+
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: rgb(31, 30, 30);
+        text-align: justify;
+    }
+
+    p {
+        margin: 0;
+        text-indent: 3ch;
+    }
+
+    .tesauro-container {
+        position: relative;
+        background-color: #46484F;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+        border-color: transparent;
+        width: fit-content;
+        height: 150px;
+        bottom: -20px;
+    }
+
+    .tesauro-container h3 {
+        font-size: 28px;
+        
+        
+        color: white;
+        font-weight: lighter;
+    }
+
+    .tesauro-container a {
+        color: rgb(255, 255, 255);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        text-decoration-line: none;
+
+    }
+
+    .tesauro-container a:hover {
+        background-color: transparent;
+        color: #000000;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+    }
+
+    .tesauro-hierarquico-container {
+        border-radius: 8px;
+        border-color: transparent;
+        
+        color: #fff;
+        width: fit-content;
+        position: relative;
+        float: left;
+        top: 20px;
+        font-weight: lighter;
+    }
+
+    .tesauro-hierarquico-container h1 {
+        font-size: 34px;
+        background:  #46484F;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: transparent;
+        border-width: 2px;
+        color: white;
+        font-weight: lighter;
+        
+    }
+
+    .tutorial-container {
+        position: relative;
+        background-color: #46484F;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+        border-color: transparent;
+        width: fit-content;
+        height: fit-content;
+        width: 750px;
+        bottom: -6px;
+    }
+
+    .tutorial-container h3 {
+        font-size: 30px;
+        color: white;
+    }
+
+    .tutorial-container a {
+        color: rgb(255, 255, 255);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        text-decoration-line: none;
+
+    }
+
+    .tutorial-container a:hover {
+        background-color: transparent;
+        color: #000000;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+    }
+
+    .tutorial-hierarquico-container {
+        color: #fff;
+        width: fit-content;
+        position: relative;
+        float: left;
+        top: 20px;
+        font-weight: lighter;
+    }
+
+    .tutorial-hierarquico-container h1 {
+        font-size: 34px;
+        background: #46484F;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: transparent;
+        border-width: 2px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .fundo-container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 0;
+        background-color: #0F0E11;
+        color: #FFF;
+        font-size: 19px;
+        text-align: left;
+        width: 1960px;
+        height: 50px;    
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+
+    .result-fundo-container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 0;
+        background-color: #9E0000;
+        color: #FFF;
+        font-size: 14px;
+        
+        width: 1830px;
+        height: 50px;    
+        text-align: center;
+        line-height: 50px;
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+
+    .sobre-fundo-container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 0;
+        background-color: #0F0E11;
+        color: #FFF;
+        font-size: 18px;
+        text-align: left;
+        width: 1860px;
+        height: 30px;    
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+
+    
+
+    .index-fundonovo-container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        bottom: -550px;
+        background-color: #0F0E11;
+        color: #FFF;
+        font-size: 50px;
+        text-align: justify;
+        width: 1595px;
+        height: 310px;    
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+
+    .fundo-tutorial-container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 0;
+        background-color: #0F0E11;
+        color: #FFF;
+        font-size: 18px;
+        text-align: left;
+        width: 1860px;
         height: 40px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
     }
+    
+
+    .fundo-contribua-container {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 0;
+        background-color: #0F0E11;
+        color: #FFF;
+        font-size: 18px;
+        text-align: left;
+        width: 1860px;
+        height: 40px;    
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+
+    .creators-container {
+        position: relative;
+        background-color: #46484F;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+        border-color: transparent;
+        width: 1580px;
+        height: auto;
+        margin-top: 50px;
+
+    }
+
+    .sobre-container {
+        position: relative;
+        width: 1050px;
+        height: auto;
+        background-color: #46484F;
+        color: white;
+        border-color: transparent;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+    }
+
+    .sobre-container a {
+        color: rgb(19, 193, 241);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 28px;
+        text-decoration-line: none;
+    }
+
+    .sobre-container a:hover {
+        background-color: transparent;
+        color: #000000;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+    }
+
+
+    .article-sobre-container h4 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32px;
+        border-radius: 4px;
+        background-color: #46484F;
+        color: white;
+        border-color: transparent;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 6px;
+    }
+
+    .sobre-container h2 {
+        color: rgb(218, 206, 206);
+        font-size: 32px;
+    }
+
+    .article-sobre-container h1 {
+        font-size: 32px;
+        color: #ca5252;
+
+    }
+
+    .creators-container h3 {
+        color: rgb(255, 255, 255);
+        font-size: 90px;
+        font-weight: lighter;
+        background-color: #46484F;
+
+
+    }
+
+    .hierarquico-container {
+        color: #fff;
+        width: 1580px;
+        height: 200px;
+        position: relative;
+        float: left;
+        margin-top: 100px;
+    }
+
+    .sobre-hierarquico-container {
+        color: #fff;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        float: left;
+        top: 20px;
+
+    }
+
+    .sobre-hierarquico-container h1 {
+        font-size: 28px;
+        background: #46484F;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: transparent;
+        border-width: 2px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .hierarquico-container h1 {
+        font-size: 85px;
+        background: #46484F;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: transparent;
+        border-width: 2px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    .nivel-container {
+        position: relative;
+        background-color: #46484F;
+        border-radius: 8px;
+        border-style: groove;
+        border-color: #fff;
+        border-width: 6px;
+        border-color:transparent;
+        width: 1580px;
+        height: fit-content;
+    }
+
+    .nivel-container h3 {
+        color: rgb(255, 255, 255);
+        font-size: 65px;
+        
+    }
+
+    .formulario-container {
+        margin-left: 455px;
+    }
+
+    .resultado-container {
+        border-style: groove;
+        display: flex;
+        grid-template-columns: repeat(3,minmax(0,1fr));
+        grid-column-gap: 20px;
+        background-color: #46484F;
+    }
+
+
+
+    .resultadores-container h3 {
+        font-size: 34px;
+        color: white;
+
+    }
+
+    .resultadores-container a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        color: #ca5252;
+
+        padding: 14px 12px;
+
+        font-size: 28px;
+        margin-right: 60px;
+        text-decoration: none;
+
+    }
+
+    .resultadores-container a:hover {
+        background-color: #0F0E11;
+        color: white;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+
+
+    }
+
+    .cconceito-container {
+        position: inherit;
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        font-size: 25px;
+        width: 750px;
+        height: fit-content;
+    }
+
+    .cconceito-container h3 {
+        font-size: 34px;
+        color: white;
+
+    }
+
+    .conceito-container {
+        width: 950px;
+        height: fit-content;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 2px;
+        border-color: #ca5252;
+        zoom: 125%;
+        background-color: #46484F;
+    }
+
+    .conceito-container h5 {
+        text-align: justify;
+        color: #ca5252;
+        font-size: 30px;
+        text-decoration-line: underline;
+        background-color: transparent;
+
+    }
+
+    .conceito-container h6{
+        font-size: 3px;
+    }
+
+    h5 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #9E0000;
+        color: rgb(255, 255, 255);
+    }
+
+    h6 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+    }
+
+    .hierarquicod-container {
+        background-color: transparent;
+        color: #fff;
+        position: absolute;
+        float: left;
+        width: 750px;
+        height: fit-content;
+    }
+
+    .hierarquicod-container h1 {
+        font-size: 24px;
+        color: #ca5252;
+        font-weight: lighter;
+    }
+
+    .hierarquicod-container a{
+        font-size: 22px;
+    }
+
+    .hierarquicodtres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+        height: fit-content;
+    }
+
+    .hierarquicodtres-container h1 {
+        font-size: 28px;
+        color: #ca5252;
+        font-weight: lighter;
+    }
+
+
+    .hierarquicodquatro-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodquatro-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodquinto-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodquinto-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodseis-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodsete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodsete-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodoito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodoito-container h1 {
+        color: #ca5252;
+    }
+
+
+    .hierarquicodnove-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodnove-container h1 {
+        color: #ca5252;
+    }
+
+    
+
+    .hierarquicoddez-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicoddez-container h1 {
+        color: #ca5252;
+    }
+
+
+    .hierarquicodonze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodonze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodoze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodoze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtreze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtreze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqtz-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqtz-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicoddzs-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicoddzs-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicoddzt-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicoddzt-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicoddztt-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicoddztt-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicoddzn-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicoddzn-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodvin-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodvin-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodvini-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodvini-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodvint-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodvint-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodvind-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodvind-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodvinc-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodvinc-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodvseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodvseis-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodvsete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodvsete-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodvnove-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodvnove-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtrinta-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtrinta-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtri-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtri-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtrd-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtrd-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtrt-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtrt-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtrq-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtrq-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtrc-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtrc-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtseis-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtsete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtsete-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtoito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtoito-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodtnove-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodtnove-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqum-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqum-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqdois-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqdois-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqtres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqtres-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqdquatro-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqdquatro-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqdcinco-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqdcinco-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqdsete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqdsete-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqdoito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqdoito-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodcm-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodcm-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodcdois-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodcdois-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodctres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodctres-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodcquatro-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodcquatro-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodcquinto-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodcquinto-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodcseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodcseis-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodcsete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodcsete-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodcoito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodcoito-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodcnove-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodcnove-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqcdez-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqcdez-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsum-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsum-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsdois-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsdois-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqstres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqstres-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsquatro-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsquatro-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsquinto-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsquinto-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsseis-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssete-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsoito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsoito-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsnove-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsnove-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodzum-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodzum-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquiumcincooito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquiumcincooito-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsdez-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsdez-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsonze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsonze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsdoze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsdoze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqstreze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqstreze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsqtz-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsqtz-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsquinze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsquinze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsdzs-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsdzs-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsseteoito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsseteoito-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssetenove-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssetenove-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssoitenta-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssoitenta-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssoitenta-container h5 {
+        left: 1000px;
+    }
+
+    .hierarquicodqssoitentateste-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssoitentateste-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssoitentateste-container h5 {
+        left: 1000px;
+    }
+
+    .hierarquicodauto-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodauto-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssoitentatres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssoitentatres-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssoitentaquatro-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssoitentaquatro-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssoitentacinco-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssoitentacinco-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssoitentaseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssoitentaseis-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssoitentasete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssoitentasete-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssoitentatrinta-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssoitentatrinta-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventa-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventa-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventaum-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventaum-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventadois-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventadois-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventatres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventatres-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventaquatro-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventaquatro-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventacinco-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventacinco-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventaseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventaseis-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventasete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventasete-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventaoito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventaoito-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventanove-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventanove-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventadez-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventadez-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventaonze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventaonze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventadoze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventadoze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventatreze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventatreze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventaqtz-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventaqtz-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventaquinze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventaquinze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventadzs-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventadzs-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventadzt-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventadzt-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventadztt-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventadztt-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventadznn-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventadznn-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventadznt-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventadznt-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqssnoventadzntt-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqssnoventadzntt-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemum-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemum-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemdois-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemdois-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtreszes-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtreszes-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemqt-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemqt-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtres-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemseis-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemdez-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemdez-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemonze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemonze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemdoze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemdoze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtreze-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtreze-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtrezeweb-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrezeweb-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtrinta-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrinta-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtrintaum-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrintaum-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtrintadois-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrintadois-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtrintatres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrintatres-container h1 {
+        color: #ca5252;
+    }
+
+
+    .hierarquicodqsscemtrintadoisprop-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrintadoisprop-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtrintaquatro-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrintaquatro-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtrintaseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrintaseis-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtrintasete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrintasete-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtrintaoito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrintaoito-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemtrintanove-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemtrintanove-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemquarenta-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemquarenta-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemquarentaum-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemquarentaum-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemquarentatres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemquarentatres-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemquarentaquinto-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemquarentaquinto-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemquarentaseis-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemquarentaseis-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemquarentasete-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemquarentasete-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemquarentaoito-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemquarentaoito-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemquarentanove-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemquarentanove-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemcinquenta-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemcinquenta-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemcinquentaum-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemcinquentaum-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemcinquentaum-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemcinquentaum-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemcinquentadois-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemcinquentadois-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemcinquentatres-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemcinquentatres-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemcinquentaquatro-container {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        float: left;
+        width: 750px;
+    }
+
+    .hierarquicodqsscemcinquentaquatro-container h1 {
+        color: #ca5252;
+    }
+
+    .hierarquicodqsscemcinquentatres-container h1 {
+        color: #ca5252;
+    }
+
+    .niveld-container {
+        background-color: transparent;
+        border-radius: 8px;
+        border-style: groove;
+        border-width: 2px;
+       
+        height: fit-content;
+        color: #ca5252;
+    }
+
+    .niveld-container h1 {
+        color: #ca5252;
+        font-size: 26px;
+    }
+
+    .niveld-container h3 {
+        font-size: 23px;
+        color: white;
+    }
+
+    .niveld-container a {
+        color: white;
+        font-size: 23px;
+        text-decoration: none;
+    }
+
+    .niveld-container a:hover {
+        background-color: transparent;
+        border-radius: 8px;
+        -webkit-transition: 0.5s;
+        color: #BF1313;
+    }
+
+   
+
+    .footer-final {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        bottom: -5px;
+        background-color: #9E0000;
+        color: #FFF;
+        font-size: 20px;
+        width: 99%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 4px;
+        border-style: groove;
+        border-color: #000000;
+    }
+
+    
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 602px) and (max-width: 992px) {
 
     #paginaInicial{
         zoom: 59%;
