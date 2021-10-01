@@ -395,19 +395,19 @@
         border-color: transparent;
         width: fit-content;
         height: fit-content;
-        width: 750px;
+        width: 1450px;
         bottom: -6px;
     }
 
     .tutorial-container h3 {
-        font-size: 30px;
+        font-size: 75px;
         color: white;
     }
 
     .tutorial-container a {
         color: rgb(255, 255, 255);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30px;
+        font-size: 60px;
         text-decoration-line: none;
 
     }
@@ -425,18 +425,18 @@
         position: relative;
         float: left;
         top: 20px;
-        font-weight: lighter;
+        
     }
 
     .tutorial-hierarquico-container h1 {
-        font-size: 34px;
+        font-size: 60px;
         background: #46484F;
         border-radius: 8px;
         border-style: groove;
         border-color: transparent;
         border-width: 2px;
         color: white;
-        font-weight: lighter;
+        
     }
 
     .fundo-container {
@@ -474,12 +474,12 @@
     .sobre-fundo-container {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: absolute;
-        bottom: -2550px;
+        bottom: -3150px;
         background-color: #0F0E11;
         color: #FFF;
         font-size: 50px;
         text-align: justify;
-        width: 1600px;
+        width: auto;
         height: 310px;    
         border-radius: 4px;
         border-style: groove;
@@ -505,14 +505,14 @@
 
     .fundo-tutorial-container {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        position: fixed;
-        bottom: 0;
+        position: absolute;
+        bottom: -10px;
         background-color: #0F0E11;
         color: #FFF;
-        font-size: 18px;
-        text-align: left;
-        width: 1860px;
-        height: 40px;    
+        font-size: 50px;
+        text-align: justify;
+        width: auto;
+        height: 310px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -522,13 +522,13 @@
     .fundo-contribua-container {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: fixed;
-        bottom: 0;
+        margin-top: 1550px;
         background-color: #0F0E11;
         color: #FFF;
-        font-size: 18px;
+        font-size: 50px;
         text-align: left;
-        width: 1860px;
-        height: 40px;    
+        width: auto;
+        height: fit-content;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -682,7 +682,7 @@
 
 
     .resultadores-container h3 {
-        font-size: 34px;
+        font-size: 70px;
         color: white;
 
     }
@@ -694,7 +694,7 @@
 
         padding: 14px 12px;
 
-        font-size: 28px;
+        font-size: 65px;
         margin-right: 60px;
         text-decoration: none;
 
@@ -719,13 +719,13 @@
     }
 
     .cconceito-container h3 {
-        font-size: 34px;
+        font-size: 65px;
         color: white;
 
     }
 
     .conceito-container {
-        width: 950px;
+        width:1250px;
         height: fit-content;
         border-radius: 8px;
         border-style: groove;
@@ -738,14 +738,14 @@
     .conceito-container h5 {
         text-align: justify;
         color: #ca5252;
-        font-size: 30px;
+        font-size: 65px;
         text-decoration-line: underline;
         background-color: transparent;
 
     }
 
     .conceito-container h6{
-        font-size: 3px;
+        font-size: 65px;
     }
 
     h5 {
@@ -2453,21 +2453,22 @@
        
         height: fit-content;
         color: #ca5252;
+        width: 1250px;
     }
 
     .niveld-container h1 {
         color: #ca5252;
-        font-size: 26px;
+        font-size: 65px;
     }
 
     .niveld-container h3 {
-        font-size: 23px;
+        font-size: 65px;
         color: white;
     }
 
     .niveld-container a {
         color: white;
-        font-size: 23px;
+        font-size: 65px;
         text-decoration: none;
     }
 
