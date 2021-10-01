@@ -51,7 +51,7 @@
         border-width: 6px;
         border-color: transparent;
         height: 250px;
-        width: 1653px;
+        width: auto;
     }
 
     .topnav img {
@@ -90,7 +90,7 @@
         border-width: 6px;
         border-color: transparent;
         height: 250px;
-        width: 1653px;
+        width: auto;
     }
 
     
@@ -135,7 +135,7 @@
         border-radius: 8px;
         color: rgb(0, 0, 0);
         height: fit-content;
-        width: 870px;
+        width: 1450px;
     
 
     }
@@ -173,7 +173,7 @@
     .tituloIndex-container h2 {
         color: rgb(255, 255, 255);
         margin-top: 5px;
-        font-size: 65px;
+        font-size: 50px;
         
 
     }
@@ -184,7 +184,7 @@
         top: 0px;
         height: 200px;
         position: relative;
-        width: 1653px;
+        width: auto;
         border-radius: 2px;
         border-style: groove;
         border-width: 4px;
@@ -196,7 +196,7 @@
 
     .tituloIndex-container .search-container {
         margin-right: 130px;
-        margin-top: -130px;
+        margin-top: -50px;
     }
 
     .tituloIndex-container input[type="text"] {
@@ -245,7 +245,7 @@
     .titulo-container h2 {
         color: rgb(255, 255, 255);
         margin-top: 5px;
-        font-size: 65px;
+        font-size: 50px;
 
     }
 
@@ -255,7 +255,7 @@
         top: 0px;
         height: 200px;
         position: relative;
-        width: 1653px;
+        width: auto;
         border-radius: 2px;
         border-style: groove;
         border-width: 4px;
@@ -264,7 +264,7 @@
 
     .titulo-container .search-container {
         margin-right: 130px;
-        margin-top: -130px;
+        margin-top: -50px;
     }
 
     .titulo-container input[type="text"] {
@@ -473,14 +473,14 @@
 
     .sobre-fundo-container {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        position: fixed;
-        bottom: 0;
+        position: absolute;
+        bottom: -2550px;
         background-color: #0F0E11;
         color: #FFF;
-        font-size: 18px;
-        text-align: left;
-        width: 1860px;
-        height: 30px;    
+        font-size: 50px;
+        text-align: justify;
+        width: 1600px;
+        height: 310px;    
         border-radius: 4px;
         border-style: groove;
         border-color: #000000;
@@ -491,12 +491,12 @@
     .index-fundonovo-container {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: absolute;
-        bottom: -550px;
+        bottom: -1050px;
         background-color: #0F0E11;
         color: #FFF;
         font-size: 50px;
         text-align: justify;
-        width: 1595px;
+        width: auto;
         height: 310px;    
         border-radius: 4px;
         border-style: groove;
@@ -549,7 +549,7 @@
 
     .sobre-container {
         position: relative;
-        width: 1200px;
+        width: 1450px;
         height: auto;
         background-color: #46484F;
         color: white;
@@ -562,7 +562,7 @@
     .sobre-container a {
         color: rgb(19, 193, 241);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 28px;
+        font-size: 65px;
         text-decoration-line: none;
     }
 
@@ -576,7 +576,7 @@
 
     .article-sobre-container h4 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 32px;
+        font-size: 75px;
         border-radius: 4px;
         background-color: #46484F;
         color: white;
@@ -588,11 +588,11 @@
 
     .sobre-container h2 {
         color: rgb(218, 206, 206);
-        font-size: 32px;
+        font-size: 70px;
     }
 
     .article-sobre-container h1 {
-        font-size: 32px;
+        font-size: 75px;
         color: #ca5252;
 
     }
@@ -617,7 +617,7 @@
 
     .sobre-hierarquico-container {
         color: #fff;
-        width: fit-content;
+        width: 1450px;
         height: fit-content;
         position: relative;
         float: left;
@@ -626,7 +626,7 @@
     }
 
     .sobre-hierarquico-container h1 {
-        font-size: 28px;
+        font-size: 75px;
         background: #46484F;
         border-radius: 8px;
         border-style: groove;
@@ -655,7 +655,7 @@
         border-color: #fff;
         border-width: 6px;
         border-color:transparent;
-        width: 1580px;
+        width: 1450px;
         height: fit-content;
     }
 
@@ -667,6 +667,8 @@
 
     .formulario-container {
         margin-left: 455px;
+        width: 200px;
+        height: 500px;
     }
 
     .resultado-container {
