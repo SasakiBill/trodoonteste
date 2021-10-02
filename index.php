@@ -35,7 +35,7 @@ header('Content-Type: text/html; charset=UTF-8');
 
 
     <div class="article-container">
-      <h1 >Trodoon - Página Inicial</h1>
+      <h1 >Trodoon - Alpha Site Version</h1>
       <div class="creators-container">
         <h3>Criadores do Dicionário:</h3>
         <ul style="list-style-type:disc">
