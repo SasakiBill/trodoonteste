@@ -67,7 +67,7 @@ Para mais informações, acesse a aba <a href="./sobre.php"><span class="red">So
     </div>
 
     <div class="pacman-container">
-      <img src="./view/img/wordcloud4.png"/>
+      <img src="./view/img/imagemnova.png"/>
     </div>
 
     
