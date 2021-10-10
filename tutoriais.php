@@ -39,7 +39,9 @@
         <li>
           <a href="http://www.editora.ufpb.br/sistema/press5/index.php/UFPB/catalog/book/355">O que é organização e representação da informação e do conhecimento?</a>
         </li>
-        
+        <li>
+          <a href="https://www.youtube.com/watch?v=27yq30q-g1o">Protégé - Instalação e Funcionalidades Básicas | Introdução a Ontologias e à Web Semântica</a>
+        </li>
       </ul>
   </div>
 
